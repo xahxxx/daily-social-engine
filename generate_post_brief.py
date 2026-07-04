@@ -21,14 +21,8 @@ Create a polished daily post brief from this news/trend concept.
 Concept:
 {json.dumps(top_concept, indent=2)}
 
-Return ONLY valid JSON with these keys:
-- selected_topic
-- source_url
-- image_prompt
-- easter_eggs
-- caption
-- hashtags
-- risk_notes
+Return a JSON object with:
+selected_topic, source_url, image_prompt, easter_eggs, caption, hashtags, risk_notes.
 
 Rules:
 - Make the image prompt extremely detailed and visually dense.
@@ -43,11 +37,14 @@ Rules:
     response = client.responses.create(
         model="gpt-4.1-mini",
         input=prompt,
+        text={
+            "format": {
+                "type": "json_object"
+            }
+        },
     )
 
-    text = response.output_text
-    brief = json.loads(text)
-
+    brief = json.loads(response.output_text)
     print(json.dumps(brief, indent=2))
 
 
