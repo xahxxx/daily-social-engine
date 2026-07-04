@@ -1,0 +1,66 @@
+name: Daily Instagram Post
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 8:00 AM Pacific = 15:00 UTC during PDT
+    # If daylight savings changes, adjust to 16:00 UTC for PST.
+    - cron: "0 15 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  daily-post:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install openai requests
+
+      - name: Generate post brief
+        env:
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python generate_post_brief.py
+
+      - name: Generate Hunk Mao image
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python generate_image.py
+
+      - name: Copy image and brief to published folder
+        run: |
+          mkdir -p published
+          cp generated_post.png published/latest.png
+          cp post_brief.json published/latest.json
+
+      - name: Commit published files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Daily Hunk Mao post"
+          file_pattern: published/latest.png published/latest.json
+
+      - name: Wait for GitHub Pages
+        run: sleep 90
+
+      - name: Publish to Instagram
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python publish_test_instagram.py
+
+      - name: Upload daily artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-post
+          path: |
+            generated_post.png
+            post_brief.json
+            published/latest.png
+            published/latest.json
