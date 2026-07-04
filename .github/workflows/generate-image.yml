@@ -1,0 +1,36 @@
+name: Generate Image
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-image:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install openai
+
+      - name: Generate post brief
+        env:
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python generate_post_brief.py
+
+      - name: Generate image
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python generate_image.py
+
+      - name: Upload generated image and brief
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-post
+          path: |
+            generated_post.png
+            post_brief.json
