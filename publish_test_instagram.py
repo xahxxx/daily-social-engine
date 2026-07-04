@@ -1,53 +1,85 @@
+import json
 import os
 import time
 import requests
 
-token = os.getenv("IG_ACCESS_TOKEN")
+IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN")
 
-image_url = "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba"
-caption = "Test post from our daily social engine 🚀🐾 #test #socialengine"
+PUBLIC_IMAGE_URL = "https://xahxxx.github.io/daily-social-engine/published/latest.png"
+PUBLIC_BRIEF_URL = "https://xahxxx.github.io/daily-social-engine/published/latest.json"
 
-if not token:
+if not IG_ACCESS_TOKEN:
     raise RuntimeError("IG_ACCESS_TOKEN is missing")
 
-# 1. Get IG user id
-me = requests.get(
-    "https://graph.instagram.com/me",
-    params={"fields": "user_id,username", "access_token": token},
-    timeout=30,
-)
-print(me.status_code, me.text)
-me.raise_for_status()
 
-ig_user_id = me.json()["user_id"]
+def get_caption():
+    response = requests.get(PUBLIC_BRIEF_URL, timeout=30)
+    response.raise_for_status()
+    brief = response.json()
 
-# 2. Create media container
-container = requests.post(
-    f"https://graph.instagram.com/{ig_user_id}/media",
-    data={
-        "image_url": image_url,
-        "caption": caption,
-        "access_token": token,
-    },
-    timeout=30,
-)
-print(container.status_code, container.text)
-container.raise_for_status()
+    caption = brief.get("caption", "").strip()
+    hashtags = brief.get("hashtags", [])
 
-creation_id = container.json()["id"]
+    hashtag_text = " ".join(hashtags)
 
-time.sleep(10)
+    return f"{caption}\n\n{hashtag_text}".strip()
 
-# 3. Publish media
-publish = requests.post(
-    f"https://graph.instagram.com/{ig_user_id}/media_publish",
-    data={
-        "creation_id": creation_id,
-        "access_token": token,
-    },
-    timeout=30,
-)
-print(publish.status_code, publish.text)
-publish.raise_for_status()
 
-print("Published successfully")
+def get_instagram_user_id():
+    response = requests.get(
+        "https://graph.instagram.com/me",
+        params={
+            "fields": "user_id,username",
+            "access_token": IG_ACCESS_TOKEN,
+        },
+        timeout=30,
+    )
+    print(response.status_code, response.text)
+    response.raise_for_status()
+    return response.json()["user_id"]
+
+
+def create_media_container(ig_user_id, caption):
+    response = requests.post(
+        f"https://graph.instagram.com/{ig_user_id}/media",
+        data={
+            "image_url": PUBLIC_IMAGE_URL,
+            "caption": caption,
+            "access_token": IG_ACCESS_TOKEN,
+        },
+        timeout=30,
+    )
+    print(response.status_code, response.text)
+    response.raise_for_status()
+    return response.json()["id"]
+
+
+def publish_media(ig_user_id, creation_id):
+    time.sleep(15)
+
+    response = requests.post(
+        f"https://graph.instagram.com/{ig_user_id}/media_publish",
+        data={
+            "creation_id": creation_id,
+            "access_token": IG_ACCESS_TOKEN,
+        },
+        timeout=30,
+    )
+    print(response.status_code, response.text)
+    response.raise_for_status()
+
+
+def main():
+    caption = get_caption()
+    print("Caption:")
+    print(caption)
+
+    ig_user_id = get_instagram_user_id()
+    creation_id = create_media_container(ig_user_id, caption)
+    publish_media(ig_user_id, creation_id)
+
+    print("Published latest Hunk Mao post successfully.")
+
+
+if name == "__main__":
+    main()
