@@ -65,7 +65,7 @@ IMAGE PROMPT REQUIREMENTS:
 
 TYPOGRAPHY RULES:
 Use very little written text in the image.
-
+The image_prompt must include a REQUIRED TEXT section with no more than 3 phrases.
 Only include text that is explicitly listed in the prompt as REQUIRED TEXT.
 Do not invent additional words, signs, labels, headlines, ticker symbols, newspaper text, product labels, or background writing.
 
