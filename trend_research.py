@@ -7,9 +7,11 @@ if not BRAVE_API_KEY:
     raise RuntimeError("BRAVE_SEARCH_API_KEY is missing")
 
 queries = [
-    "today global news major events",
-    "today crypto news bitcoin ethereum",
-    "today unusual animal pet news",
+    "breaking global news today specific event site:reuters.com OR site:apnews.com",
+    "bitcoin ethereum crypto regulation ETF today news",
+    "viral animal pet story today unusual news",
+    "today holiday observance national day social media",
+    "technology AI science breakthrough today news",
 ]
 
 headers = {
@@ -27,7 +29,7 @@ for query in queries:
         headers=headers,
         params={
             "q": query,
-            "count": 5,
+            "count": 8,
             "freshness": "pd",
             "text_decorations": False,
         },
