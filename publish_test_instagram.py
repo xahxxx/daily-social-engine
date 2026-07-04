@@ -81,5 +81,5 @@ def main():
     print("Published latest Hunk Mao post successfully.")
 
 
-if name == "__main__":
+if __name__ == "__main__":
     main()
