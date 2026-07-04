@@ -2,12 +2,7 @@ name: Daily Instagram Post
 
 on:
   workflow_dispatch:
-  schedule:
-    # 8:00 AM Pacific = 15:00 UTC during PDT
-    # If daylight savings changes, adjust to 16:00 UTC for PST.
-    - cron: "20 16 * * *"
-    # 4:00 PM Pacific during PDT
-    - cron: "0 23 * * *"
+  
 
 permissions:
   contents: write
