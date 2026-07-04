@@ -1,0 +1,22 @@
+name: Trend Research Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  trend-research:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests
+
+      - name: Run Brave trend research
+        env:
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+        run: python trend_research.py
