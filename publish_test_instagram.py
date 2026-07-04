@@ -26,7 +26,16 @@ def get_caption():
     caption = brief.get("caption", "").strip()
     hashtags = brief.get("hashtags", [])
 
-    hashtag_text = " ".join(hashtags)
+    clean_hashtags = []
+
+for tag in hashtags:
+    tag = str(tag).strip()
+    tag = tag.replace(" ", "")
+    if not tag.startswith("#"):
+        tag = "#" + tag
+    clean_hashtags.append(tag)
+
+hashtag_text = " ".join(clean_hashtags)
 
     return f"{caption}\n\n{hashtag_text}".strip()
 
