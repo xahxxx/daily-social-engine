@@ -48,7 +48,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Daily Hunk Mao post"
-          file_pattern: published/latest.png published/latest.json
+          file_pattern: published/*.png published/*.json
 
       - name: Wait for GitHub Pages
         run: sleep 90
