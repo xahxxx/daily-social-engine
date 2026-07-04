@@ -35,8 +35,14 @@ jobs:
       - name: Copy image and brief to published folder
         run: |
           mkdir -p published
+          STAMP=$(date -u +"%Y%m%d-%H%M%S")
+          echo "POST_STAMP=$STAMP" >> $GITHUB_ENV
+          cp generated_post.png published/hunk-mao-$STAMP.png
+          cp post_brief.json published/hunk-mao-$STAMP.json
           cp generated_post.png published/latest.png
           cp post_brief.json published/latest.json
+      
+  
 
       - name: Commit published files
         uses: stefanzweifel/git-auto-commit-action@v5
