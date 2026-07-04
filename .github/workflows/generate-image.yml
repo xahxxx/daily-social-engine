@@ -3,6 +3,9 @@ name: Generate Image
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   generate-image:
     runs-on: ubuntu-latest
@@ -27,10 +30,24 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generate_image.py
 
-      - name: Upload generated image and brief
+      - name: Copy image and brief to published folder
+        run: |
+          mkdir -p published
+          cp generated_post.png published/latest.png
+          cp post_brief.json published/latest.json
+
+      - name: Commit published files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Publish latest generated Hunk Mao post"
+          file_pattern: published/latest.png published/latest.json
+
+      - name: Upload generated image and brief artifact
         uses: actions/upload-artifact@v4
         with:
           name: generated-post
           path: |
             generated_post.png
             post_brief.json
+            published/latest.png
+            published/latest.json
