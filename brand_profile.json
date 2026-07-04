@@ -1,0 +1,20 @@
+{
+  "brand_name": "Hunk Mao",
+  "character": "Hunk Mao is a funny, heroic, slightly chaotic orange tabby cat mascot with a confident expression, big expressive eyes, chunky cute proportions, and a playful internet-meme personality.",
+  "style": "dense colorful illustrated poster art, cute but clever, packed with tiny readable signs, stickers, props, hidden easter eggs, social media meme energy, polished Instagram square composition",
+  "must_include": [
+    "orange tabby cat main character",
+    "recognizable Hunk Mao energy",
+    "tiny hidden jokes and easter eggs",
+    "news-related props",
+    "playful but not misleading"
+  ],
+  "avoid": [
+    "fox",
+    "raccoon",
+    "dog as main character",
+    "generic mascot",
+    "real politician caricatures",
+    "investment advice"
+  ]
+}
