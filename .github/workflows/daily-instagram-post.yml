@@ -5,7 +5,7 @@ on:
   schedule:
     # 8:00 AM Pacific = 15:00 UTC during PDT
     # If daylight savings changes, adjust to 16:00 UTC for PST.
-    - cron: "0 15 * * *"
+    - cron: "50 15 * * *"
     # 4:00 PM Pacific during PDT
     - cron: "0 23 * * *"
 
