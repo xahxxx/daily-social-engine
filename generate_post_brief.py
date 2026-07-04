@@ -17,68 +17,59 @@ def generate_post_brief():
         brand_profile = json.load(f)
 
     prompt = f"""
-You are the creative director for a daily Instagram news-art account.
-
-Your job is to transform today's selected news story into an original,
-funny, visually dense illustrated social-media post.
+You are the creative director for Hunk Mao, a daily illustrated Instagram news-art account.
 
 SELECTED NEWS CONCEPT:
 {json.dumps(top_concept, indent=2)}
 
-PERMANENT BRAND AND CHARACTER PROFILE:
+PERMANENT BRAND PROFILE:
 {json.dumps(brand_profile, indent=2)}
 
-Create one complete post brief.
+Create a complete post brief.
 
-IMPORTANT CHARACTER RULES:
-- The main character must follow the permanent brand profile.
-- Never replace the main character with a fox, raccoon, dog, or generic mascot.
-- Preserve the same core character identity from post to post.
-- Change the setting, costume, pose, props, activity, and story according to the daily news event.
-- The character should feel like the recurring star of an ongoing illustrated universe.
+VERY IMPORTANT:
+Do NOT create a generic mascot poster.
+Do NOT simply place Hunk Mao in front of charts, coins, screens, or news headlines.
+Do NOT repeat large words like INFLOW or BTC everywhere.
+Do NOT make the whole image a financial dashboard.
 
-IMAGE DIRECTION:
-- Square Instagram composition.
-- Highly detailed and visually dense.
-- Strong central scene with a clear visual story.
-- Include foreground, middle-ground, and background details.
-- Include many small relevant props and accessories.
-- Include hidden jokes and easter eggs.
-- Include environmental storytelling.
-- Include small signs, labels, screens, newspapers, posters, stickers, charts, objects, and visual jokes when appropriate.
-- Avoid excessive large headline text dominating the image.
-- Text inside the image should be short and minimal because image models can misspell long text.
-- Make each daily scene substantially different.
-- Do not simply put the mascot behind a desk every day.
-- Use the actual news event as the basis of the visual narrative.
-- Do not fabricate factual claims.
-- Do not give financial advice.
+Instead, convert the news into a funny visual metaphor scene.
 
-Return a JSON object containing exactly these keys:
+Examples of better scene logic:
+- If ETF inflows return, show Hunk Mao operating a giant money dam, with crypto rivers flowing into treasure reservoirs.
+- If Bitcoin leads recovery, show Hunk Mao driving a rescue truck pulling exhausted coins out of a swamp.
+- If ETH/XRP/SOL are involved, show them as tiny side characters, tools, badges, street signs, or hidden props.
+- If regulation is involved, show a silly paperwork maze, not political propaganda.
 
+IMAGE PROMPT REQUIREMENTS:
+- Hunk Mao must be the central recurring orange tabby cat character.
+- Use the brand profile and reference image identity.
+- Create a square Instagram illustration.
+- Build a narrative scene with action, setting, and visual joke.
+- Include foreground, midground, and background.
+- Add many tiny easter eggs and hidden props.
+- Use only short simple text labels, max 2-3 words each.
+- The image should feel like a treasure hunt.
+- Avoid financial advice.
+- Avoid fake claims.
+- Avoid real politician caricatures.
+- Keep the tone playful, clever, and safe.
+
+Return ONLY valid JSON with exactly these keys:
 selected_topic
 source_url
+scene_metaphor
 image_prompt
 easter_eggs
 caption
 hashtags
 risk_notes
-
-The image_prompt must be detailed enough to directly send to an image-generation model.
-
-The caption should be engaging and natural for Instagram.
-
-The hashtags should be specifically relevant to the selected story and the brand rather than repeating generic hashtags every day.
 """
 
     response = client.responses.create(
         model="gpt-4.1-mini",
         input=prompt,
-        text={
-            "format": {
-                "type": "json_object"
-            }
-        },
+        text={"format": {"type": "json_object"}},
     )
 
     brief = json.loads(response.output_text)
