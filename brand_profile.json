@@ -1,20 +1,29 @@
 {
-  "brand_name": "Hunk Mao",
-  "character": "Hunk Mao is a funny, heroic, slightly chaotic orange tabby cat mascot with a confident expression, big expressive eyes, chunky cute proportions, and a playful internet-meme personality.",
-  "style": "dense colorful illustrated poster art, cute but clever, packed with tiny readable signs, stickers, props, hidden easter eggs, social media meme energy, polished Instagram square composition",
-  "must_include": [
-    "orange tabby cat main character",
-    "recognizable Hunk Mao energy",
-    "tiny hidden jokes and easter eggs",
-    "news-related props",
-    "playful but not misleading"
+  "character_name": "Hunk Mao",
+  "character_identity": "A charismatic young adult orange tabby cat with an athletic, compact build, expressive oversized eyes, sharp orange tabby markings, fluffy cheek fur, and a mischievous confident smile. Hunk Mao is cool, clever, energetic, adventurous, and slightly chaotic. He should look like a stylish internet culture icon and adventurous young hero, never obese, elderly, babyish, or shaped like a generic round prosperity cat.",
+
+  "character_style": [
+    "youthful and energetic",
+    "compact athletic cat proportions",
+    "expressive face and large lively eyes",
+    "mischievous confident grin",
+    "strong orange tabby markings",
+    "stylish streetwear when appropriate",
+    "black hoodie, cap, sunglasses, sneakers, chains, or themed costumes when appropriate to the scene",
+    "cool internet-native personality",
+    "dynamic poses and active body language",
+    "recognizably the same recurring character in every image"
   ],
-  "avoid": [
-    "fox",
-    "raccoon",
-    "dog as main character",
-    "generic mascot",
-    "real politician caricatures",
-    "investment advice"
+
+  "avoid_character_traits": [
+    "obese body",
+    "extremely round belly",
+    "sumo-like proportions",
+    "elderly appearance",
+    "generic fat orange cat",
+    "static seated pose in every image",
+    "prosperity statue appearance",
+    "different animal species",
+    "realistic photographic cat"
   ]
 }
