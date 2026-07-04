@@ -75,6 +75,11 @@ Spell every required phrase exactly as provided.
 Render required text in large, clear, simple block lettering.
 Never render small text or partially obscured text.
 
+Hashtags must be normal Instagram hashtags with no spaces inside them.
+Correct: #hunkmao
+Wrong: # h u n k m a o
+Return hashtags as a JSON array of strings.
+
 For all other storytelling, use recognizable visual symbols, objects, character expressions, icons, charts without labels, and visual easter eggs instead of words.
 
 If accurate spelling cannot be rendered, omit the text rather than misspell it.
