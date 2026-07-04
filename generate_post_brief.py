@@ -53,13 +53,31 @@ IMAGE PROMPT REQUIREMENTS:
 - Create a square Instagram illustration.
 - Build a narrative scene with action, setting, and visual joke.
 - Include foreground, midground, and background.
-- Add many tiny easter eggs and hidden props.
-- Use only short simple text labels, max 2-3 words each.
+- Add many tiny easter eggs and hidden props 
+- Packed with visual easter eggs, tiny characters, symbolic props, funny background actions, hidden objects, visual references, and environmental storytelling.
+- Avoid unnecessary written language.
+- Use images and symbols for easter eggs instead of text.
 - The image should feel like a treasure hunt.
 - Avoid financial advice.
 - Avoid fake claims.
 - Avoid real politician caricatures.
 - Keep the tone playful, clever, and safe.
+
+TYPOGRAPHY RULES:
+Use very little written text in the image.
+
+Only include text that is explicitly listed in the prompt as REQUIRED TEXT.
+Do not invent additional words, signs, labels, headlines, ticker symbols, newspaper text, product labels, or background writing.
+
+Maximum 3 visible text phrases in the entire image.
+Each phrase must contain no more than 3 words.
+Spell every required phrase exactly as provided.
+Render required text in large, clear, simple block lettering.
+Never render small text or partially obscured text.
+
+For all other storytelling, use recognizable visual symbols, objects, character expressions, icons, charts without labels, and visual easter eggs instead of words.
+
+If accurate spelling cannot be rendered, omit the text rather than misspell it.
 
 CAPTION REQUIREMENTS:
 - 1-2 short sentences.
