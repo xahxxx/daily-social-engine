@@ -45,7 +45,11 @@ Rules:
     )
 
     brief = json.loads(response.output_text)
-    print(json.dumps(brief, indent=2))
+
+with open("post_brief.json", "w", encoding="utf-8") as f:
+    json.dump(brief, f, indent=2)
+
+print(json.dumps(brief, indent=2))
 
 
 if __name__ == "__main__":
