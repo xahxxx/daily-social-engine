@@ -28,14 +28,14 @@ def get_caption():
 
     clean_hashtags = []
 
-for tag in hashtags:
+    for tag in hashtags:
     tag = str(tag).strip()
     tag = tag.replace(" ", "")
     if not tag.startswith("#"):
         tag = "#" + tag
     clean_hashtags.append(tag)
 
-hashtag_text = " ".join(clean_hashtags)
+    hashtag_text = " ".join(clean_hashtags)
 
     return f"{caption}\n\n{hashtag_text}".strip()
 
