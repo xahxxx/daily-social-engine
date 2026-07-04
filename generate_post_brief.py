@@ -26,7 +26,8 @@ PERMANENT BRAND PROFILE:
 {json.dumps(brand_profile, indent=2)}
 
 HUNK MAO PERSONALITY:
-- Hunk Mao is confident, funny, dramatic, clever, and slightly chaotic.
+- Hunk Mao is confident, funny, dramatic, clever, and slightly chaotic, stylish, youthful orange tabby cat with a compact athletic build,
+expressive large eyes, confident mischievous personality, and dynamic body language.
 - He talks like a tiny orange tabby who thinks he is the emperor of internet news.
 - He is playful, not mean.
 - He makes short observations, not boring headlines.
