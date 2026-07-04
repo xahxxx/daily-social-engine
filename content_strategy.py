@@ -1,5 +1,38 @@
 import json
+import random
+from datetime import datetime
 from trend_research import collect_trends
+
+
+CATEGORY_ORDER = [
+    "animals_pets",
+    "crypto_markets",
+    "ai_technology",
+    "holidays_seasonal",
+    "weird_global",
+    "major_world",
+]
+
+
+def detect_category(item):
+    text = f"{item.get('title', '')} {item.get('description', '')}".lower()
+
+    if any(w in text for w in ["dog", "cat", "pet", "animal", "wildlife", "elephant", "eagle"]):
+        return "animals_pets"
+
+    if any(w in text for w in ["bitcoin", "ethereum", "crypto", "etf", "xrp", "solana", "btc"]):
+        return "crypto_markets"
+
+    if any(w in text for w in ["ai", "artificial intelligence", "technology", "science", "breakthrough", "robot"]):
+        return "ai_technology"
+
+    if any(w in text for w in ["holiday", "national day", "observance", "season", "july", "christmas", "halloween"]):
+        return "holidays_seasonal"
+
+    if any(w in text for w in ["unusual", "strange", "weird", "viral", "mystery", "found", "rescued"]):
+        return "weird_global"
+
+    return "major_world"
 
 
 def score_result(item):
@@ -9,98 +42,86 @@ def score_result(item):
     score = 0
     reasons = []
 
-    bad_homepage_terms = [
+    bad_terms = [
         "latest news",
         "top stories",
         "home",
         "world news",
         "animals |",
+        "news today",
+        "live updates",
     ]
 
-    crypto_terms = [
-        "bitcoin",
-        "ethereum",
-        "crypto",
-        "etf",
-        "inflow",
-        "clarity act",
-        "regulation",
-        "xrp",
-        "solana",
-    ]
-
-    pet_terms = [
-        "dog",
-        "cat",
-        "pet",
-        "animal",
-        "elephant",
-        "eagle",
-        "wildlife",
-    ]
-
-    visual_terms = [
-        "viral",
-        "unusual",
-        "rescued",
-        "found",
-        "mystery",
-        "breakthrough",
-        "record",
-        "surge",
-        "recovery",
-        "reclaims",
-        "robotic",
+    strong_visual_terms = [
+        "unusual", "strange", "viral", "rescued", "found", "mystery",
+        "breakthrough", "record", "surge", "recovery", "robotic",
+        "giant", "tiny", "rare", "first", "historic"
     ]
 
     risky_terms = [
-        "death",
-        "war",
-        "burns",
-        "killed",
-        "funeral",
-        "disease",
-        "fatal",
+        "death", "war", "burns", "killed", "funeral", "disease",
+        "fatal", "shooting", "attack", "tragedy"
     ]
 
-    for term in bad_homepage_terms:
+    category = detect_category(item)
+
+    for term in bad_terms:
         if term in text:
             score -= 8
-            reasons.append(f"generic/homepage result: {term}")
+            reasons.append(f"generic result: {term}")
 
-    for word in crypto_terms:
-        if word in text:
+    for term in strong_visual_terms:
+        if term in text:
             score += 3
-            reasons.append(f"crypto relevance: {word}")
+            reasons.append(f"visual hook: {term}")
 
-    for word in pet_terms:
-        if word in text:
-            score += 4
-            reasons.append(f"pet/animal relevance: {word}")
+    for term in risky_terms:
+        if term in text:
+            score -= 7
+            reasons.append(f"sensitive topic: {term}")
 
-    for word in visual_terms:
-        if word in text:
-            score += 2
-            reasons.append(f"visual hook: {word}")
-
-    for word in risky_terms:
-        if word in text:
-            score -= 5
-            reasons.append(f"risky/sensitive topic: {word}")
+    if category == "animals_pets":
+        score += 10
+        reasons.append("category boost: animals/pets")
+    elif category == "crypto_markets":
+        score += 7
+        reasons.append("category boost: crypto/markets")
+    elif category == "ai_technology":
+        score += 8
+        reasons.append("category boost: AI/tech")
+    elif category == "holidays_seasonal":
+        score += 6
+        reasons.append("category boost: holiday/seasonal")
+    elif category == "weird_global":
+        score += 9
+        reasons.append("category boost: weird/global")
+    else:
+        score += 4
+        reasons.append("category boost: major world")
 
     if url and not url.endswith(".com/") and not url.endswith(".com"):
-        score += 2
+        score += 3
         reasons.append("specific article URL")
 
-    return score, reasons
+    return score, reasons, category
+
+
+def choose_target_category():
+    day_index = datetime.utcnow().timetuple().tm_yday
+    return CATEGORY_ORDER[day_index % len(CATEGORY_ORDER)]
 
 
 def build_concepts():
     trends = collect_trends()
+    target_category = choose_target_category()
     concepts = []
 
     for item in trends:
-        score, reasons = score_result(item)
+        score, reasons, category = score_result(item)
+
+        if category == target_category:
+            score += 8
+            reasons.append(f"daily rotation boost: {target_category}")
 
         if score < 8:
             continue
@@ -108,34 +129,33 @@ def build_concepts():
         title = item.get("title", "Untitled")
         description = item.get("description", "")
 
-        concept = {
+        concepts.append({
             "score": score,
+            "category": category,
+            "target_category_today": target_category,
             "source_title": title,
             "source_url": item.get("url"),
             "source_summary": description,
-            "why_selected": reasons[:8],
-            "post_angle": f"Turn this event into a funny, visually dense Instagram scene: {title}",
-            "image_direction": (
-                "Create a detailed square social-media illustration with a charismatic pet/mascot character "
-                "reacting to the news event. Add tiny background signs, props, charts, stickers, newspapers, "
-                "crypto symbols if relevant, and hidden easter eggs. Keep it playful, clever, and safe."
-            ),
-            "caption_draft": f"Today’s strange little signal from the world: {title} 🐾",
+            "why_selected": reasons[:10],
+            "post_angle": f"Turn this event into a funny Hunk Mao visual metaphor scene: {title}",
             "hashtag_seed": [
-                "#dailynews",
+                "#hunkmao",
+                "#dailyillustration",
                 "#petsofinstagram",
-                "#crypto",
                 "#weirdnews",
                 "#digitalart",
             ],
-        }
-
-        concepts.append(concept)
+        })
 
     concepts.sort(key=lambda x: x["score"], reverse=True)
-    return concepts[:5]
+
+    # Small shuffle among top 3 to reduce repetitive behavior
+    top = concepts[:3]
+    if len(top) > 1:
+        random.shuffle(top)
+
+    return top + concepts[3:5]
 
 
 if __name__ == "__main__":
-    concepts = build_concepts()
-    print(json.dumps(concepts, indent=2))
+    print(json.dumps(build_concepts(), indent=2))
