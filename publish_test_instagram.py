@@ -5,8 +5,14 @@ import requests
 
 IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN")
 
-PUBLIC_IMAGE_URL = "https://xahxxx.github.io/daily-social-engine/published/latest.png"
-PUBLIC_BRIEF_URL = "https://xahxxx.github.io/daily-social-engine/published/latest.json"
+POST_STAMP = os.environ.get("POST_STAMP")
+
+if POST_STAMP:
+    PUBLIC_IMAGE_URL = f"https://xahxxx.github.io/daily-social-engine/published/hunk-mao-%7BPOST_STAMP%7D.png"
+    PUBLIC_BRIEF_URL = f"https://xahxxx.github.io/daily-social-engine/published/hunk-mao-%7BPOST_STAMP%7D.json"
+else:
+    PUBLIC_IMAGE_URL = "https://xahxxx.github.io/daily-social-engine/published/latest.png"
+    PUBLIC_BRIEF_URL = "https://xahxxx.github.io/daily-social-engine/published/latest.json"
 
 if not IG_ACCESS_TOKEN:
     raise RuntimeError("IG_ACCESS_TOKEN is missing")
