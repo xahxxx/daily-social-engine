@@ -1,0 +1,23 @@
+name: Generate Post Brief
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-post-brief:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install requests openai
+
+      - name: Generate post brief
+        env:
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python generate_post_brief.py
