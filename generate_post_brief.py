@@ -55,7 +55,7 @@ IMAGE PROMPT REQUIREMENTS:
 - Include foreground, midground, and background.
 - Add many tiny easter eggs and hidden props 
 - Packed with visual easter eggs, tiny characters, symbolic props, funny background actions, hidden objects, visual references, and environmental storytelling.
-- Avoid unnecessary written language.
+- Avoid unnecessary written language, but use 1 clear phrase when it helps identify the news story.
 - Use images and symbols for easter eggs instead of text.
 - The image should feel like a treasure hunt.
 - Avoid financial advice.
@@ -158,8 +158,29 @@ Before returning the final brief, silently verify:
 
 If any answer is NO, revise the concept before returning the final brief.
 
+NEWS CLARITY RULES:
+- The post must clearly communicate ONE specific real-world news event.
+- A viewer should understand the basic story from the caption without needing to research it.
+- The image should be creative, but the caption must be factual and specific.
+- Do not make vague outbreak, market, space, animal, or tech posts.
+- Mention the real subject of the news in the caption.
+- Include one concrete detail from the selected concept when available: number, place, company, animal, asset, agency, product, discovery, or consequence.
+- Do not invent details that are not present in the selected concept.
+- If the selected concept does not contain enough facts, keep the caption general but still name the actual subject.
+
+CAPTION STRUCTURE:
+The caption must include:
+1. What happened in plain language.
+2. Hunk Mao’s funny reaction.
+
+Bad caption:
+"When the CDC’s outbreak list goes full pet detective mode—catching bugs before they bug YOU!"
+
+Good caption:
+"The CDC is tracking a Salmonella outbreak linked to backyard poultry, so Hunk Mao is interrogating every suspicious chicken in town. Tiny detective, giant germ drama."
+
 TYPOGRAPHY RULES:
-Use very little written text in the image.
+Use very little written text in the image, but include one clear identifying phrase when the story would otherwise be confusing.
 The image_prompt must include a REQUIRED TEXT section with no more than 3 phrases.
 Only include text that is explicitly listed in the prompt as REQUIRED TEXT.
 Do not invent additional words, signs, labels, headlines, ticker symbols, newspaper text, product labels, or background writing.
@@ -182,7 +203,10 @@ If accurate spelling cannot be rendered, omit the text rather than misspell it.
 CAPTION REQUIREMENTS:
 - 1-2 short sentences.
 - Written in Hunk Mao’s voice.
-- Include a tiny joke or reaction.
+- The first sentence must explain the actual news event clearly.
+- The second sentence may be the joke, reaction, or character punchline.
+- Include at least one specific noun from the real story.
+- Include one concrete detail if available.
 - Do not sound like a headline.
 - Do not provide investment advice.
 - Do not say “Today’s strange little signal from the world.”
