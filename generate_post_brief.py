@@ -137,6 +137,7 @@ Return ONLY valid JSON with exactly these keys:
 selected_topic
 category
 source_url
+news_angle
 scene_metaphor
 image_prompt
 easter_eggs
