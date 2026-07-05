@@ -45,6 +45,16 @@ character from the reference image.
 The daily scene should be visually ambitious and substantially
 different each day.
 
+VISUAL CONSISTENCY RULES:
+- Hunk Mao must always be recognizable as the same orange tabby cat character.
+- He has bright orange tabby fur, expressive large eyes, and a compact athletic build.
+- Clothing and accessories should vary according to the story. Do not default to a black hoodie or sunglasses.
+- Keep Hunk Mao's core facial appearance and fur pattern visually consistent across posts.
+- Avoid excessive written text inside the illustration.
+- If text appears inside the artwork, keep it extremely short: ideally 1–3 words per text element.
+- Never intentionally include misspelled words, gibberish, distorted lettering, or fake brand names.
+- Prefer visual symbols, signs, objects, and environmental storytelling over large amounts of text.
+
 Create a square Instagram composition with:
 - one strong central narrative scene
 - foreground, middle ground, and background storytelling
