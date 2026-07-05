@@ -12,7 +12,15 @@ def generate_image():
     with open("brand_profile.json", "r", encoding="utf-8") as f:
         brand = json.load(f)
 
-    daily_prompt = brief["image_prompt"]
+    daily_prompt = (
+    brief.get("image_prompt")
+    or brief.get("visual_prompt")
+    or brief.get("prompt")
+    or brief.get("image")
+)
+
+if not daily_prompt:
+    raise KeyError(f"No image prompt found in brief. Available keys: {list(brief.keys())}")
 
     final_prompt = f"""
 Use the provided Hunk Mao reference image as the authoritative
