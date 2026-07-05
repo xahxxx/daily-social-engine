@@ -63,6 +63,34 @@ IMAGE PROMPT REQUIREMENTS:
 - Avoid real politician caricatures.
 - Keep the tone playful, clever, and safe.
 
+EDITORIAL ROTATION RULES:
+You must rotate the daily Hunk Mao concept across these categories:
+
+Crypto / markets
+AI / technology
+Science / space / nature
+Animals / pets / wildlife
+World events / unusual news
+Entertainment / culture / internet trends
+Major sports events
+
+Do not choose crypto or Bitcoin two posts in a row unless it is clearly the dominant major story of the day.
+
+Before choosing the final concept, classify today’s best available news ideas by category.
+Prefer the category that has not been used recently.
+If multiple categories are equally strong, choose the one that gives Hunk Mao the funniest or most visually rich scene.
+
+The caption must clearly connect the Hunk Mao scene to the selected category and real-world news trigger.
+
+Avoid making every post about:
+Bitcoin
+crypto
+markets
+sports
+generic “pumping” or “moon” themes
+
+The account should feel like a daily illustrated strange-news/world-mood character account, not a crypto-only account.
+
 NEWS GROUNDING RULES:
 - The post must be directly inspired by the selected news concept.
 - Identify the actual news event or market development driving the story.
@@ -100,6 +128,10 @@ CAPTION REQUIREMENTS:
 - Do not sound like a headline.
 - Do not provide investment advice.
 - Do not say “Today’s strange little signal from the world.”
+
+Return the selected category as "category".
+Return the real-world inspiration as "news_angle".
+Return the caption, hashtags, and image prompt based on that category.
 
 Return ONLY valid JSON with exactly these keys:
 selected_topic
