@@ -13,14 +13,16 @@ def generate_image():
         brand = json.load(f)
 
     daily_prompt = (
-    brief.get("image_prompt")
-    or brief.get("visual_prompt")
-    or brief.get("prompt")
-    or brief.get("image")
-)
+        brief.get("image_prompt")
+        or brief.get("visual_prompt")
+        or brief.get("prompt")
+        or brief.get("image")
+    )
 
-if not daily_prompt:
-    raise KeyError(f"No image prompt found in brief. Available keys: {list(brief.keys())}")
+    if not daily_prompt:
+        raise KeyError(
+            f"No image prompt found in brief. Available keys: {list(brief.keys())}"
+        )
 
     final_prompt = f"""
 Use the provided Hunk Mao reference image as the authoritative
@@ -89,7 +91,7 @@ Do not add a border or watermark.
             model="gpt-image-1",
             image=reference_image,
             prompt=final_prompt,
-            size="1024x1024"
+            size="1024x1024",
         )
 
     image_base64 = response.data[0].b64_json
