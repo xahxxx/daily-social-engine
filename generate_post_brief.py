@@ -63,6 +63,15 @@ IMAGE PROMPT REQUIREMENTS:
 - Avoid real politician caricatures.
 - Keep the tone playful, clever, and safe.
 
+NEWS GROUNDING RULES:
+- The post must be directly inspired by the selected news concept.
+- Identify the actual news event or market development driving the story.
+- The caption must make the connection to the real event understandable.
+- Do not write a generic crypto, technology, market, or sports caption when a specific news event is available.
+- Do not invent events, statistics, quotes, prices, or claims.
+- If the source story is about a market move, explain the real catalyst or development rather than simply saying the asset is pumping.
+- Keep the caption entertaining and in Hunk Mao's personality while preserving factual accuracy.
+
 TYPOGRAPHY RULES:
 Use very little written text in the image.
 The image_prompt must include a REQUIRED TEXT section with no more than 3 phrases.
