@@ -133,13 +133,19 @@ IMAGE RULES:
   escaping from, or commenting on the actual news event.
 
 CAPTION RULES:
-The caption must contain:
-1. A creative Hunk Mao hook.
-2. A plain-language explanation of what actually happened.
-3. At least one important verified detail from the selected news concept
-   when available.
-4. A witty Hunk Mao reaction or observation.
-5. A natural engagement question or call to comment.
+The caption must be 2 concise sentences.
+
+Sentence 1:
+Clearly explain the actual news event in plain language and include at least
+one important verified detail from the selected news concept when available.
+
+Sentence 2:
+Give Hunk Mao a witty reaction, observation, or punchline that fits his
+established personality.
+
+The caption must never consist only of jokes, vague references, or metaphors.
+Someone reading it should learn what actually happened in the news.
+Do not invent facts beyond the supplied news concept.
 
 The caption must never consist only of jokes, vague references, or metaphors.
 Someone reading it should learn what happened in the news.
@@ -157,27 +163,6 @@ Before returning the final brief, silently verify:
 - Is Hunk Mao still entertaining rather than behaving like a generic news anchor?
 
 If any answer is NO, revise the concept before returning the final brief.
-
-NEWS CLARITY RULES:
-- The post must clearly communicate ONE specific real-world news event.
-- A viewer should understand the basic story from the caption without needing to research it.
-- The image should be creative, but the caption must be factual and specific.
-- Do not make vague outbreak, market, space, animal, or tech posts.
-- Mention the real subject of the news in the caption.
-- Include one concrete detail from the selected concept when available: number, place, company, animal, asset, agency, product, discovery, or consequence.
-- Do not invent details that are not present in the selected concept.
-- If the selected concept does not contain enough facts, keep the caption general but still name the actual subject.
-
-CAPTION STRUCTURE:
-The caption must include:
-1. What happened in plain language.
-2. Hunk Mao’s funny reaction.
-
-Bad caption:
-"When the CDC’s outbreak list goes full pet detective mode—catching bugs before they bug YOU!"
-
-Good caption:
-"The CDC is tracking a Salmonella outbreak linked to backyard poultry, so Hunk Mao is interrogating every suspicious chicken in town. Tiny detective, giant germ drama."
 
 TYPOGRAPHY RULES:
 Use very little written text in the image, but include one clear identifying phrase when the story would otherwise be confusing.
@@ -204,7 +189,7 @@ CAPTION REQUIREMENTS:
 - 1-2 short sentences.
 - Written in Hunk Mao’s voice.
 - The first sentence must explain the actual news event clearly.
-- The second sentence may be the joke, reaction, or character punchline.
+- The second sentence must contain Hunk Mao's joke, reaction, or character punchline.
 - Include at least one specific noun from the real story.
 - Include one concrete detail if available.
 - Do not sound like a headline.
