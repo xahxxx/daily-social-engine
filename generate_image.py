@@ -24,7 +24,7 @@ def generate_image():
             f"No image prompt found in brief. Available keys: {list(brief.keys())}"
         )
 
-        final_prompt = f"""
+    final_prompt = f"""
 Use the provided Hunk Mao reference image as the authoritative character reference.
 
 Preserve Hunk Mao's core identity:
