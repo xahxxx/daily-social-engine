@@ -24,23 +24,20 @@ def generate_image():
             f"No image prompt found in brief. Available keys: {list(brief.keys())}"
         )
 
-    final_prompt = f"""
-Use the provided Hunk Mao reference image as the authoritative
-character reference.
+        final_prompt = f"""
+Use the provided Hunk Mao reference image as the authoritative character reference.
 
 Preserve Hunk Mao's core identity:
-- same species
-- same orange tabby appearance
-- same facial identity
-- same recognizable proportions
-- same general visual personality
-- same core illustration aesthetic
+- same orange tabby cat character
+- same bright orange tabby fur pattern
+- same expressive large eyes
+- same compact athletic build
+- same mischievous confident personality
+- same recognizable facial identity
 
-Do NOT copy the reference image's original scene, pose, background,
-costume, or composition.
+Do NOT copy the reference image's original scene, pose, background, costume, or composition.
 
-Create a completely new daily editorial illustration based on this
-story direction:
+Create a completely new cinematic anime editorial scene based on this story direction:
 
 {daily_prompt}
 
@@ -48,40 +45,94 @@ Permanent brand direction:
 
 {json.dumps(brand, indent=2)}
 
-IMPORTANT:
-Hunk Mao must remain clearly recognizable as the same recurring
-character from the reference image.
+NEW VISUAL DIRECTION:
+Transform Hunk Mao into a recurring cinematic anime news-character.
+Each image should feel like a dramatic still frame from a premium animated film, not a flat editorial cartoon.
 
-The daily scene should be visually ambitious and substantially
-different each day.
+STYLE TARGET:
+- cinematic anime environmental concept art
+- painterly anime realism with cinematic photoreal material rendering
+- lush, immersive worldbuilding
+- dramatic camera language
+- high-end animated movie still
+- rich atmospheric depth
+- emotional visual storytelling
+- magical realism mixed with current-events satire
+- ultra-polished cinematic anime key art
+- luxury animated film lighting
+- glossy high-end finish
+- intricate background painting
+- premium Japanese anime film still
+- rich specular highlights and glistening surfaces
+- crisp subject focus with cinematic lens blur
+- visually stunning enough to stop a scrolling Instagram viewer
 
-VISUAL CONSISTENCY RULES:
-- Hunk Mao must always be recognizable as the same orange tabby cat character.
-- He has bright orange tabby fur, expressive large eyes, and a compact athletic build.
-- Clothing and accessories should vary according to the story. Do not default to a black hoodie or sunglasses.
-- Keep Hunk Mao's core facial appearance and fur pattern visually consistent across posts.
-- Avoid excessive written text inside the illustration.
-- If text appears inside the artwork, keep it extremely short: ideally 1–3 words per text element.
-- Never intentionally include misspelled words, gibberish, distorted lettering, or fake brand names.
-- Prefer visual symbols, signs, objects, and environmental storytelling over large amounts of text.
-
+COMPOSITION:
 Create a square Instagram composition with:
+- Hunk Mao clearly visible as the main recurring character
 - one strong central narrative scene
 - foreground, middle ground, and background storytelling
-- dense environmental details
-- numerous small props
-- visual jokes
-- hidden easter eggs
-- tiny signs and stickers
-- news-related objects
-- clever background characters when appropriate
+- deep layered perspective
+- asymmetrical cinematic framing
+- strong foreground elements partially out of focus
+- environmental scale and depth
+- subtle visual jokes and easter eggs
+- news-related props integrated naturally into the scene
+- camera feels physically inside the scene, not observing from far away
+- use low-angle, over-the-shoulder, foreground-framed, or dramatic perspective shots when appropriate
+
+LIGHTING AND COLOR:
+Use:
 - cinematic lighting
-- polished professional illustration quality
+- dramatic contrast
+- deep shadows
+- glowing practical lights
+- volumetric light rays
+- atmospheric mist or haze when appropriate
+- reflective wet surfaces when appropriate
+- saturated but controlled color grading
+- emerald green, sapphire blue, amber, magenta, neon cyan, or sunset-gold accents when appropriate
+- soft bloom and rim lighting
+- sparkling highlights on water, glass, metal, eyes, fur, and wet surfaces
+- luminous edge lighting around Hunk Mao
+- controlled HDR contrast
+- jewel-toned color palette
+- glowing particles, fireflies, embers, rain mist, dust motes, or floating light flecks when appropriate
+- beautiful caustic reflections and light shimmer when water or glass is present
 
-Avoid turning every scene into a character sitting behind a desk.
+DETAIL RULES:
+- The scene should feel dense, alive, and premium.
+- Include small props, tiny signs, symbolic objects, background characters, and hidden easter eggs.
+- Prefer visual storytelling over written explanation.
+- Avoid empty backgrounds.
+- Avoid simple centered poster compositions.
+- Avoid making every scene Hunk Mao sitting behind a desk.
+- Avoid generic office scenes unless the news story specifically requires it.
 
-Avoid excessive text. Any text visible in the image should be short,
-simple, and secondary to the visual storytelling.
+TEXT RULES:
+- Avoid excessive written text inside the illustration.
+- If text appears, keep it extremely short: ideally 1–3 words per text element.
+- Never include gibberish, fake brand names, distorted lettering, or misspelled words.
+- Text must be secondary to the image.
+
+CHARACTER CONSISTENCY:
+- Hunk Mao must remain clearly recognizable as the same orange tabby cat character.
+- Clothing and accessories should change according to the story.
+- Do not default to a black hoodie or sunglasses.
+- Keep his face, fur pattern, large eyes, and personality visually consistent across posts.
+
+NEGATIVE STYLE DIRECTION:
+Do not make the image look like:
+- flat vector art
+- simple cartoon
+- children's book illustration
+- generic mascot art
+- low-detail digital painting
+- plain editorial comic
+- centered logo/poster design
+- overly clean empty scene
+- daytime stock illustration
+- plastic 3D render
 
 Do not add a border or watermark.
 """
