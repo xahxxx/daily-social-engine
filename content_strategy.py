@@ -8,7 +8,6 @@ CATEGORY_ORDER = [
     "animals_pets",
     "crypto_markets",
     "ai_technology",
-    "holidays_seasonal",
     "weird_global",
     "major_world",
 ]
@@ -90,8 +89,9 @@ def score_result(item):
         score += 8
         reasons.append("category boost: AI/tech")
     elif category == "holidays_seasonal":
-        score += 6
-        reasons.append("category boost: holiday/seasonal")
+        score -= 10
+        reasons.append("penalty: seasonal/holiday content is usually not real news")
+        
     elif category == "weird_global":
         score += 9
         reasons.append("category boost: weird/global")
