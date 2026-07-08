@@ -176,10 +176,62 @@ Spell every required phrase exactly as provided.
 Render required text in large, clear, simple block lettering.
 Never render small text or partially obscured text.
 
-Hashtags must be normal Instagram hashtags with no spaces inside them.
-Correct: #hunkmao
-Wrong: # h u n k m a o
-Return hashtags as a JSON array of strings.
+HASHTAG RULES:
+
+Return 10 to 15 relevant Instagram hashtags as a JSON array of strings.
+
+Always include:
+#hunkmao
+
+For cryptocurrency-related stories:
+- Always include #cryptocurrency.
+- Include #bitcoin when the story is about Bitcoin, BTC, Bitcoin ETFs, Bitcoin adoption, or the Bitcoin market.
+- Include #ethereum when the story is about Ethereum, ETH, Ethereum ETFs, or the Ethereum ecosystem.
+- Include #solana when the story is about Solana, SOL, or the Solana ecosystem.
+- Include multiple asset hashtags only when those assets are genuinely relevant to the selected story.
+
+Examples:
+
+Bitcoin story:
+#hunkmao
+#cryptocurrency
+#bitcoin
+#btc
+#crypto
+#cryptonews
+#blockchain
+plus additional story-specific hashtags
+
+Ethereum story:
+#hunkmao
+#cryptocurrency
+#ethereum
+#eth
+#crypto
+#cryptonews
+#blockchain
+plus additional story-specific hashtags
+
+Solana story:
+#hunkmao
+#cryptocurrency
+#solana
+#sol
+#crypto
+#cryptonews
+#blockchain
+plus additional story-specific hashtags
+
+For non-crypto stories:
+Do not include #cryptocurrency, #bitcoin, #ethereum, #solana, #btc, #eth, or #sol unless directly relevant to the actual news event.
+
+All hashtags must:
+- be lowercase
+- contain no spaces
+- be directly relevant to the actual story
+- use established searchable terms
+- avoid irrelevant trending hashtags
+- avoid duplicate or near-duplicate hashtags
 
 For all other storytelling, use recognizable visual symbols, objects, character expressions, icons, charts without labels, and visual easter eggs instead of words.
 
