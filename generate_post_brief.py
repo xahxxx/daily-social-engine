@@ -686,6 +686,30 @@ risk_notes
 
     brief = json.loads(response.output_text)
 
+    required_keys = [
+        "selected_topic",
+        "category",
+        "source_url",
+        "news_angle",
+        "scene_metaphor",
+        "image_prompt",
+        "easter_eggs",
+        "caption",
+        "hashtags",
+        "risk_notes",
+    ]
+
+    missing = [
+        k for k in required_keys
+        if k not in brief or not brief[k]
+    ]
+
+    if missing:
+        raise KeyError(
+            f"Generated brief is missing required keys: {missing}. "
+            f"Available keys: {list(brief.keys())}"
+        )
+
     with open("post_brief.json", "w", encoding="utf-8") as f:
         json.dump(brief, f, indent=2)
 
