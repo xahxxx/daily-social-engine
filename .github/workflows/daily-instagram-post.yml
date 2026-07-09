@@ -2,31 +2,20 @@ name: Daily Instagram Post
 
 on:
   workflow_dispatch:
-  schedule:
-    # Runs daily at 8:15 AM Pacific during standard time / 9:15 AM during daylight time.
-    - cron: "15 16 * * *"
+    inputs:
+      publish_to_instagram:
+        description: "Publish to Instagram after generating?"
+        required: true
+        default: "false"
+        type: choice
+        options: ["false", "true"]
 
 permissions:
   contents: write
 
-defaults:
-  run:
-    shell: bash
-
-concurrency:
-  group: hunk-mao-daily-post
-  cancel-in-progress: false
-
 jobs:
   daily-post:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
-
-    env:
-      PYTHONUNBUFFERED: "1"
-      GITHUB_PAGES_BASE: ${{ vars.GITHUB_PAGES_BASE || 'https://xahxxx.github.io/daily-social-engine/published' }}
-      POST_TIMEZONE: America/Los_Angeles
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -35,8 +24,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
-          cache-dependency-path: requirements.txt
 
       - name: Install dependencies
         run: |
@@ -45,17 +32,9 @@ jobs:
 
       - name: Verify required files exist
         run: |
-          test -f requirements.txt
           test -f brand_profile.json
           test -f hunk_mao_reference.png
-          test -f hunk_utils.py
-          test -f trend_research.py
-          test -f content_strategy.py
-          test -f generate_post_brief.py
-          test -f generate_image.py
           test -f run_daily_pipeline.py
-          test -f publish_to_github_pages.py
-          test -f publish_test_instagram.py
 
       - name: Generate post brief and image
         env:
@@ -64,58 +43,49 @@ jobs:
         run: python run_daily_pipeline.py
 
       - name: Publish files locally for GitHub Pages
-        id: publish_files
         run: |
-          python publish_to_github_pages.py | tee publish_output.txt
-          STAMP=$(grep '^POST_STAMP=' publish_output.txt | tail -n 1 | cut -d= -f2)
-          if [ -z "$STAMP" ]; then
-            echo "Could not read POST_STAMP from publish_to_github_pages.py output" >&2
-            exit 1
-          fi
+          mkdir -p published
+          STAMP=$(date -u +"%Y%m%d-%H%M%S")
           echo "POST_STAMP=$STAMP" >> "$GITHUB_ENV"
-          echo "post_stamp=$STAMP" >> "$GITHUB_OUTPUT"
+          cp generated_post.png "published/hunk-mao-$STAMP.png"
+          cp post_brief.json "published/hunk-mao-$STAMP.json"
+          cp generated_post.png published/latest.png
+          cp post_brief.json published/latest.json
 
-      - name: Commit published files and state
+      - name: Commit published files and debug state
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Daily Hunk Mao post ${{ steps.publish_files.outputs.post_stamp }}"
-          file_pattern: published/*.png published/*.json hunk_mao_state.json trend_results.json selected_concepts.json
+          commit_message: "Daily Hunk Mao post"
+          file_pattern: published/*.png published/*.json trend_candidates.json concept_selection_debug.json
 
       - name: Wait for GitHub Pages to refresh
-        run: |
-          IMAGE_URL="$GITHUB_PAGES_BASE/hunk-mao-$POST_STAMP.png"
-          BRIEF_URL="$GITHUB_PAGES_BASE/hunk-mao-$POST_STAMP.json"
-          echo "Waiting for $IMAGE_URL"
-          for i in {1..36}; do
-            if curl -fsI "$IMAGE_URL" >/dev/null && curl -fsI "$BRIEF_URL" >/dev/null; then
-              echo "Published assets are reachable."
-              exit 0
-            fi
-            echo "Not live yet, retry $i/36..."
-            sleep 10
-          done
-          echo "GitHub Pages assets were not reachable in time." >&2
-          exit 1
+        run: sleep 90
 
       - name: Publish to Instagram
+        if: ${{ github.event.inputs.publish_to_instagram == 'true' }}
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           POST_STAMP: ${{ env.POST_STAMP }}
-          GITHUB_PAGES_BASE: ${{ env.GITHUB_PAGES_BASE }}
+          DRY_RUN: "false"
+        run: python publish_test_instagram.py
+
+      - name: Dry-run Instagram caption validation
+        if: ${{ github.event.inputs.publish_to_instagram != 'true' }}
+        env:
+          POST_STAMP: ${{ env.POST_STAMP }}
+          DRY_RUN: "true"
         run: python publish_test_instagram.py
 
       - name: Upload daily artifacts
-        uses: actions/upload-artifact@v4
         if: always()
+        uses: actions/upload-artifact@v4
         with:
-          name: daily-post-${{ steps.publish_files.outputs.post_stamp || github.run_id }}
+          name: daily-post
           path: |
             generated_post.png
             post_brief.json
-            trend_results.json
-            selected_concepts.json
+            trend_candidates.json
+            concept_selection_debug.json
+            post_brief_failed.json
             published/latest.png
             published/latest.json
-            published/hunk-mao-${{ steps.publish_files.outputs.post_stamp }}.png
-            published/hunk-mao-${{ steps.publish_files.outputs.post_stamp }}.json
-            hunk_mao_state.json

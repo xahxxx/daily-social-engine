@@ -1,26 +1,15 @@
-name: Test Instagram Connection
-
+name: Test Instagram Token
 on:
   workflow_dispatch:
-
 jobs:
   test-instagram:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    env:
-      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: "pip"
-          cache-dependency-path: requirements.txt
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-      - name: Test Instagram connection
-        env:
+      - run: pip install requests
+      - env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
         run: python test_instagram_token.py
