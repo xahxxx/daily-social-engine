@@ -12,7 +12,7 @@ def generate_image():
         brand = json.load(f)
 
     required_text = brief.get("required_text", [])
-    if len(required_text) > 3:
+    if len(required_text) > 1:
         raise RuntimeError("Too much required image text")
 
     final_prompt = f"""
@@ -36,12 +36,35 @@ REQUIRED TEXT ONLY:
 {json.dumps(required_text)}
 
 STRICT TEXT RULES:
-- Include only the REQUIRED TEXT phrases above.
-- Do not add any other words, headlines, captions, logos, scoreboards, signs, labels, tiny background text, fake UI text, or gibberish.
-- If text cannot be rendered clearly, omit it rather than misspell it.
+- Default to NO visible text anywhere in the image.
+- Only include REQUIRED TEXT if it is absolutely necessary to understand the story.
+- Maximum one visible text phrase in the entire image.
+- Maximum three words in that phrase.
+- Never create a headline, title card, news poster, slogan, caption, billboard, scoreboard, or large typography.
+- Never place headline text across the top or bottom of the image.
+- Do not add logos, labels, tiny background text, fake UI text, brand names, or gibberish.
+- Communicate the story through action, environment, expression, props, and visual metaphor.
+- If text cannot be rendered perfectly, omit it completely.
 
 STYLE:
-cinematic anime environmental concept art, premium animated movie still, lush worldbuilding, dramatic perspective, strong foreground/midground/background storytelling, polished lighting, crisp Hunk Mao face, no border, no watermark.
+- cinematic anime environmental concept art
+- premium animated movie still
+- lush worldbuilding and environmental storytelling
+- dramatic perspective and cinematic camera placement
+- strong foreground, midground, and background depth
+- Hunk Mao must be actively participating in the event, not posing for a poster
+- build a believable narrative moment with action happening around him
+- use props, environment, lighting, expressions, and visual metaphors to communicate the news
+- include subtle story-specific easter eggs and background activity
+- camera should feel physically inside the scene
+- prefer dynamic low-angle, over-the-shoulder, close environmental, or action perspectives when appropriate
+- rich atmospheric depth, cinematic lighting, volumetric effects, reflections, particles, haze, and detailed environments when appropriate
+- avoid character + headline + simple background compositions
+- avoid poster layouts
+- avoid centered promotional compositions
+- avoid generic mascot art
+- avoid large typography as a storytelling device
+- the final image should look like a frame captured from Hunk Mao's adventure through a real news event
 """
 
     with open("hunk_mao_reference.png", "rb") as reference_image:
