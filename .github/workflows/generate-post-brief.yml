@@ -6,34 +6,29 @@ on:
 jobs:
   generate-post-brief:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
-
+    timeout-minutes: 12
     env:
       PYTHONUNBUFFERED: "1"
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-
+          cache: "pip"
+          cache-dependency-path: requirements.txt
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests openai
-
+          pip install -r requirements.txt
       - name: Generate post brief
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python generate_post_brief.py
-
-      - name: Upload post brief artifact
-        uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
           name: post-brief
-          path: post_brief.json
+          path: |
+            post_brief.json
+            trend_results.json
+            selected_concepts.json

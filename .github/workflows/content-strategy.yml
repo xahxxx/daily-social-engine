@@ -7,26 +7,26 @@ jobs:
   content-strategy:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     env:
       PYTHONUNBUFFERED: "1"
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-
+          cache: "pip"
+          cache-dependency-path: requirements.txt
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests
-
+          pip install -r requirements.txt
       - name: Generate ranked post concepts
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
         run: python content_strategy.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: content-strategy-results
+          path: |
+            trend_results.json
+            selected_concepts.json

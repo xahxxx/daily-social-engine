@@ -13,53 +13,46 @@ defaults:
 jobs:
   generate-image:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
-
+    timeout-minutes: 25
     env:
       PYTHONUNBUFFERED: "1"
       POST_TIMEZONE: America/Los_Angeles
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: pip
-
+          cache: "pip"
+          cache-dependency-path: requirements.txt
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install openai requests
-
+          pip install -r requirements.txt
       - name: Generate post brief and image
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python run_daily_pipeline.py
-
       - name: Publish files locally for GitHub Pages
         id: publish_files
         run: |
           python publish_to_github_pages.py | tee publish_output.txt
           STAMP=$(grep '^POST_STAMP=' publish_output.txt | tail -n 1 | cut -d= -f2)
           echo "post_stamp=$STAMP" >> "$GITHUB_OUTPUT"
-
       - name: Commit published files and state
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Generate Hunk Mao post ${{ steps.publish_files.outputs.post_stamp }}"
-          file_pattern: published/*.png published/*.json hunk_mao_state.json
-
-      - name: Upload generated image and brief artifact
+          file_pattern: published/*.png published/*.json hunk_mao_state.json trend_results.json selected_concepts.json
+      - name: Upload generated artifacts
         uses: actions/upload-artifact@v4
         with:
           name: generated-post-${{ steps.publish_files.outputs.post_stamp }}
           path: |
             generated_post.png
             post_brief.json
+            trend_results.json
+            selected_concepts.json
             published/latest.png
             published/latest.json
             hunk_mao_state.json
