@@ -6,48 +6,60 @@ on:
 permissions:
   contents: write
 
+defaults:
+  run:
+    shell: bash
+
 jobs:
   generate-image:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      POST_TIMEZONE: America/Los_Angeles
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
 
-      - run: pip install openai requests
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai requests
 
-      - name: Generate post brief
+      - name: Generate post brief and image
         env:
           BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python generate_post_brief.py
+        run: python run_daily_pipeline.py
 
-      - name: Generate image
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: python generate_image.py
-
-      - name: Copy image and brief to published folder
+      - name: Publish files locally for GitHub Pages
+        id: publish_files
         run: |
-          mkdir -p published
-          cp generated_post.png published/latest.png
-          cp post_brief.json published/latest.json
+          python publish_to_github_pages.py | tee publish_output.txt
+          STAMP=$(grep '^POST_STAMP=' publish_output.txt | tail -n 1 | cut -d= -f2)
+          echo "post_stamp=$STAMP" >> "$GITHUB_OUTPUT"
 
-      - name: Commit published files
+      - name: Commit published files and state
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Publish latest generated Hunk Mao post"
-          file_pattern: published/latest.png published/latest.json
+          commit_message: "Generate Hunk Mao post ${{ steps.publish_files.outputs.post_stamp }}"
+          file_pattern: published/*.png published/*.json hunk_mao_state.json
 
       - name: Upload generated image and brief artifact
         uses: actions/upload-artifact@v4
         with:
-          name: generated-post
+          name: generated-post-${{ steps.publish_files.outputs.post_stamp }}
           path: |
             generated_post.png
             post_brief.json
             published/latest.png
             published/latest.json
+            hunk_mao_state.json
