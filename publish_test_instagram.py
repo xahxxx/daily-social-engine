@@ -3,8 +3,9 @@ import os
 import time
 import requests
 
+
 IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN")
-IG_USER_ID = os.getenv("IG_USER_ID")
+
 POST_STAMP = os.environ.get("POST_STAMP")
 
 if POST_STAMP:
@@ -17,181 +18,125 @@ else:
 if not IG_ACCESS_TOKEN:
     raise RuntimeError("IG_ACCESS_TOKEN is missing")
 
-if not IG_USER_ID:
-    raise RuntimeError("IG_USER_ID is missing")
-
 
 def get_caption():
-    print(f"Waiting for brief URL: {PUBLIC_BRIEF_URL}")
+    response = requests.get(PUBLIC_BRIEF_URL, timeout=30)
+    response.raise_for_status()
+    brief = response.json()
 
-    max_attempts = 12
-    wait_seconds = 15
+    if brief.get("selected_topic") == "NO_VALID_CURRENT_STORY":
+        raise RuntimeError("No valid current news story selected. Skipping Instagram publish.")
 
-    for attempt in range(1, max_attempts + 1):
-        try:
-            response = requests.get(
-                PUBLIC_BRIEF_URL,
-                timeout=30,
-                headers={
-                    "Cache-Control": "no-cache",
-                    "Pragma": "no-cache",
-                },
-            )
+    caption = brief.get("caption", "").strip()
+    hashtags = brief.get("hashtags", [])
 
-            if response.status_code == 200:
-                brief = response.json()
+    if not caption:
+        raise RuntimeError("Brief is missing caption. Skipping Instagram publish.")
 
-                caption = brief.get("caption", "").strip()
-                hashtags = brief.get("hashtags", [])
+    if not hashtags:
+        raise RuntimeError("Brief is missing hashtags. Skipping Instagram publish.")
 
-                clean_hashtags = []
+    clean_hashtags = []
+    seen = set()
 
-                for tag in hashtags:
-                    tag = str(tag).strip()
+    for tag in hashtags:
+        tag = str(tag).strip().lower()
+        tag = tag.replace(" ", "")
 
-                    if not tag:
-                        continue
+        if not tag:
+            continue
 
-                    if not tag.startswith("#"):
-                        tag = f"#{tag}"
+        if not tag.startswith("#"):
+            tag = "#" + tag
 
-                    clean_hashtags.append(tag)
+        if tag not in seen:
+            clean_hashtags.append(tag)
+            seen.add(tag)
 
-                hashtag_text = " ".join(clean_hashtags)
+    if not clean_hashtags:
+        raise RuntimeError("No valid hashtags after cleaning. Skipping Instagram publish.")
 
-                if caption and hashtag_text:
-                    return f"{caption}\n\n{hashtag_text}"
+    hashtag_text = " ".join(clean_hashtags)
 
-                if caption:
-                    return caption
+    return f"{caption}\n\n{hashtag_text}".strip()
 
-                raise RuntimeError("Brief JSON exists but caption is empty")
 
-            print(
-                f"Brief not ready yet "
-                f"(attempt {attempt}/{max_attempts}, "
-                f"status {response.status_code})."
-            )
-
-        except requests.RequestException as e:
-            print(
-                f"Brief request failed "
-                f"(attempt {attempt}/{max_attempts}): {e}"
-            )
-
-        if attempt < max_attempts:
-            time.sleep(wait_seconds)
-
-    raise RuntimeError(
-        f"Brief did not become available after "
-        f"{max_attempts * wait_seconds} seconds: "
-        f"{PUBLIC_BRIEF_URL}"
+def get_instagram_user_id():
+    response = requests.get(
+        "https://graph.instagram.com/me",
+        params={
+            "fields": "user_id,username",
+            "access_token": IG_ACCESS_TOKEN,
+        },
+        timeout=30,
     )
 
-
-def wait_for_image_url():
-    print(f"Waiting for image URL: {PUBLIC_IMAGE_URL}")
-
-    max_attempts = 12
-    wait_seconds = 15
-
-    for attempt in range(1, max_attempts + 1):
-        try:
-            response = requests.get(
-                PUBLIC_IMAGE_URL,
-                timeout=30,
-                headers={
-                    "Cache-Control": "no-cache",
-                    "Pragma": "no-cache",
-                },
-            )
-
-            if response.status_code == 200:
-                print("Image URL is available.")
-                return
-
-            print(
-                f"Image not ready yet "
-                f"(attempt {attempt}/{max_attempts}, "
-                f"status {response.status_code})."
-            )
-
-        except requests.RequestException as e:
-            print(
-                f"Image request failed "
-                f"(attempt {attempt}/{max_attempts}): {e}"
-            )
-
-        if attempt < max_attempts:
-            time.sleep(wait_seconds)
-
-    raise RuntimeError(
-        f"Image did not become available after "
-        f"{max_attempts * wait_seconds} seconds: "
-        f"{PUBLIC_IMAGE_URL}"
-    )
-
-
-def create_media_container(caption):
-    url = f"https://graph.facebook.com/v19.0/{IG_USER_ID}/media"
-
-    payload = {
-        "image_url": PUBLIC_IMAGE_URL,
-        "caption": caption,
-        "access_token": IG_ACCESS_TOKEN,
-    }
-
-    response = requests.post(url, data=payload, timeout=60)
+    print(response.status_code, response.text)
     response.raise_for_status()
 
     data = response.json()
-    creation_id = data.get("id")
 
-    if not creation_id:
-        raise RuntimeError(f"No creation ID returned: {json.dumps(data, indent=2)}")
+    if "user_id" not in data:
+        raise RuntimeError(f"Instagram user_id missing from response: {data}")
 
-    print(f"Created media container: {creation_id}")
-    return creation_id
+    return data["user_id"]
 
 
-def publish_media(creation_id):
-    url = f"https://graph.facebook.com/v19.0/{IG_USER_ID}/media_publish"
+def create_media_container(ig_user_id, caption):
+    response = requests.post(
+        f"https://graph.instagram.com/{ig_user_id}/media",
+        data={
+            "image_url": PUBLIC_IMAGE_URL,
+            "caption": caption,
+            "access_token": IG_ACCESS_TOKEN,
+        },
+        timeout=30,
+    )
 
-    payload = {
-        "creation_id": creation_id,
-        "access_token": IG_ACCESS_TOKEN,
-    }
-
-    response = requests.post(url, data=payload, timeout=60)
+    print(response.status_code, response.text)
     response.raise_for_status()
 
     data = response.json()
-    media_id = data.get("id")
 
-    if not media_id:
-        raise RuntimeError(f"No media ID returned: {json.dumps(data, indent=2)}")
+    if "id" not in data:
+        raise RuntimeError(f"Instagram media container id missing from response: {data}")
 
-    print(f"Published Instagram media: {media_id}")
-    return media_id
+    return data["id"]
+
+
+def publish_media(ig_user_id, creation_id):
+    time.sleep(15)
+
+    response = requests.post(
+        f"https://graph.instagram.com/{ig_user_id}/media_publish",
+        data={
+            "creation_id": creation_id,
+            "access_token": IG_ACCESS_TOKEN,
+        },
+        timeout=30,
+    )
+
+    print(response.status_code, response.text)
+    response.raise_for_status()
 
 
 def main():
-    print(f"POST_STAMP: {POST_STAMP}")
-    print(f"PUBLIC_IMAGE_URL: {PUBLIC_IMAGE_URL}")
-    print(f"PUBLIC_BRIEF_URL: {PUBLIC_BRIEF_URL}")
-
-    wait_for_image_url()
     caption = get_caption()
 
-    print("Final caption:")
+    print("Image URL:")
+    print(PUBLIC_IMAGE_URL)
+
+    print("Brief URL:")
+    print(PUBLIC_BRIEF_URL)
+
+    print("Caption:")
     print(caption)
 
-    creation_id = create_media_container(caption)
+    ig_user_id = get_instagram_user_id()
+    creation_id = create_media_container(ig_user_id, caption)
+    publish_media(ig_user_id, creation_id)
 
-    # Instagram sometimes needs a moment after container creation.
-    time.sleep(10)
-
-    publish_media(creation_id)
+    print("Published latest Hunk Mao post successfully.")
 
 
 if __name__ == "__main__":
