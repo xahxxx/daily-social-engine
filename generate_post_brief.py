@@ -1,150 +1,176 @@
 import json
-from typing import Dict, List
+import re
+from typing import Any
 
 from openai import OpenAI
-
-from content_strategy import build_concepts
-from hunk_utils import coerce_hashtags, load_json, path_for, save_json, unique
+from content_strategy import ALLOWED_CATEGORIES, build_concepts
 
 client = OpenAI()
 
-CRYPTO_WORDS = {
-    "bitcoin": ["#cryptocurrency", "#bitcoin", "#btc", "#crypto", "#cryptonews", "#blockchain"],
-    "ethereum": ["#cryptocurrency", "#ethereum", "#eth", "#crypto", "#cryptonews", "#blockchain"],
-    "solana": ["#cryptocurrency", "#solana", "#sol", "#crypto", "#cryptonews", "#blockchain"],
-    "crypto": ["#cryptocurrency", "#crypto", "#cryptonews", "#blockchain"],
-}
+REQUIRED_KEYS = [
+    "selected_topic", "category", "source_url", "news_angle", "why_this_is_news",
+    "specific_subject", "specific_action", "scene_metaphor", "image_prompt",
+    "required_text", "easter_eggs", "caption", "hashtags", "risk_notes"
+]
 
-REQUIRED_KEYS = ["selected_topic", "category", "source_url", "news_angle", "scene_metaphor", "image_prompt", "easter_eggs", "caption", "hashtags", "risk_notes"]
+BAD_CAPTION_PHRASES = [
+    "reuters highlights", "ap highlights", "major breakthrough impacting global markets",
+    "major ai technology breakthrough", "latest news", "keeps fans connected",
+    "anytime, anywhere", "according to espn", "live scores", "global markets"
+]
+CRYPTO_TAGS = {"#cryptocurrency", "#crypto", "#bitcoin", "#btc", "#ethereum", "#eth", "#solana", "#sol", "#blockchain"}
 
 
-def enforce_hashtags(brief: Dict) -> Dict:
-    text = " ".join(str(brief.get(k, "")) for k in ["selected_topic", "category", "news_angle", "caption", "image_prompt"]).lower()
-    tags = coerce_hashtags(brief.get("hashtags", []))
-    tags.append("#hunkmao")
-
-    is_crypto = any(w in text for w in ["bitcoin", "btc", "ethereum", "eth", "solana", "crypto", "cryptocurrency", "blockchain", "etf"])
-    if is_crypto:
-        tags.extend(CRYPTO_WORDS["crypto"])
-        if "bitcoin" in text or "btc" in text:
-            tags.extend(CRYPTO_WORDS["bitcoin"])
-        if "ethereum" in text or " eth" in text:
-            tags.extend(CRYPTO_WORDS["ethereum"])
-        if "solana" in text or " sol" in text:
-            tags.extend(CRYPTO_WORDS["solana"])
+def normalize_hashtags(value: Any, category: str, text_context: str):
+    if isinstance(value, str):
+        raw = re.split(r"[\s,]+", value.strip())
+    elif isinstance(value, list):
+        raw = []
+        for v in value:
+            if isinstance(v, str):
+                raw.extend(re.split(r"[\s,]+", v.strip()))
     else:
-        banned = {"#cryptocurrency", "#bitcoin", "#btc", "#ethereum", "#eth", "#solana", "#sol", "#crypto", "#cryptonews", "#blockchain"}
-        tags = [t for t in tags if t not in banned]
+        raw = []
 
-    tags = unique([t for t in tags if t])[:15]
-    while len(tags) < 10:
-        for fallback in ["#dailyillustration", "#digitalart", "#catart", "#instaart", "#hunkmao"]:
-            if fallback not in tags:
-                tags.append(fallback)
-            if len(tags) >= 10:
-                break
-    brief["hashtags"] = tags[:15]
-    if len(brief["hashtags"]) < 10:
-        raise ValueError(f"Hashtag validation failed: {brief['hashtags']}")
-    return brief
+    cleaned = []
+    for tag in raw:
+        tag = tag.strip().lower()
+        if not tag:
+            continue
+        tag = tag if tag.startswith("#") else "#" + tag
+        tag = re.sub(r"[^#a-z0-9_]", "", tag)
+        if len(tag) <= 2:
+            continue
+        if tag not in cleaned:
+            cleaned.append(tag)
+
+    if "#hunkmao" not in cleaned:
+        cleaned.insert(0, "#hunkmao")
+
+    context = text_context.lower()
+    if category != "cryptocurrency":
+        cleaned = [t for t in cleaned if t not in CRYPTO_TAGS]
+    else:
+        for t in ["#cryptocurrency", "#crypto"]:
+            if t not in cleaned:
+                cleaned.append(t)
+        asset_tags = []
+        if any(w in context for w in ["bitcoin", "btc"]): asset_tags += ["#bitcoin", "#btc"]
+        if any(w in context for w in ["ethereum", "eth"]): asset_tags += ["#ethereum", "#eth"]
+        if any(w in context for w in ["solana", "sol"]): asset_tags += ["#solana", "#sol"]
+        for t in asset_tags:
+            if t not in cleaned:
+                cleaned.append(t)
+
+    banned = {"#streetstyle", "#urbanstyle", "#gamingvibes", "#2026season", "#sportsnews", "#soccer", "#espn", "#footballscores"}
+    cleaned = [t for t in cleaned if t not in banned]
+    return cleaned[:15]
 
 
-def validate_brief(brief: Dict) -> Dict:
+def validate_brief(brief: dict, source_concept: dict):
+    errors = []
     for key in REQUIRED_KEYS:
         if key not in brief:
-            raise KeyError(f"Model response missing key: {key}. Got keys: {list(brief.keys())}")
-    if not str(brief.get("image_prompt", "")).strip():
-        raise ValueError("image_prompt is empty")
-    if not str(brief.get("caption", "")).strip():
-        raise ValueError("caption is empty")
-    return enforce_hashtags(brief)
+            errors.append(f"missing key: {key}")
+    if errors:
+        return errors
+
+    category = brief.get("category")
+    if category not in ALLOWED_CATEGORIES:
+        errors.append(f"category not allowed: {category}")
+    if brief.get("source_url") != source_concept.get("source_url"):
+        errors.append("source_url changed or invented")
+
+    caption = str(brief.get("caption", "")).strip()
+    news_angle = str(brief.get("news_angle", "")).strip()
+    why_news = str(brief.get("why_this_is_news", "")).strip()
+    subject = str(brief.get("specific_subject", "")).strip()
+    action = str(brief.get("specific_action", "")).strip()
+    combined = f"{caption} {news_angle} {why_news} {subject} {action}".lower()
+
+    if any(p in combined for p in BAD_CAPTION_PHRASES):
+        errors.append("brief uses vague/promotional banned phrase")
+    if len(subject.split()) < 1 or subject.lower() in {"reuters", "ap", "bbc", "espn", "source"}:
+        errors.append("specific_subject is missing or publisher-as-subject")
+    if len(action.split()) < 2:
+        errors.append("specific_action is too vague")
+    if len(why_news.split()) < 8:
+        errors.append("why_this_is_news too thin")
+    if len(caption.split()) < 18:
+        errors.append("caption too thin to explain actual event")
+
+    required_text = brief.get("required_text")
+    if not isinstance(required_text, list) or len(required_text) > 3:
+        errors.append("required_text must be list with max 3 phrases")
+    else:
+        for phrase in required_text:
+            if len(str(phrase).split()) > 3:
+                errors.append(f"required_text phrase too long: {phrase}")
+
+    hashtags = normalize_hashtags(brief.get("hashtags"), category, combined)
+    if len(hashtags) < 8:
+        errors.append("not enough valid hashtags")
+    brief["hashtags"] = hashtags
+    return errors
 
 
-def build_prompt(top_concept: Dict, brand_profile: Dict) -> str:
-    return f"""
-You are the creative director and caption writer for Hunk Mao, a daily illustrated Instagram news-art account.
-
-SELECTED NEWS CONCEPT:
-{json.dumps(top_concept, indent=2, ensure_ascii=False)}
-
-PERMANENT BRAND PROFILE:
-{json.dumps(brand_profile, indent=2, ensure_ascii=False)}
-
-MISSION:
-Create one complete post brief grounded in the selected real-world news concept. The post must be funny, cinematic, clear, safe, and visually rich.
-
-HUNK MAO PERSONALITY:
-- Confident, funny, dramatic, clever, slightly chaotic, playful, never mean.
-- A youthful athletic orange tabby internet-culture hero with expressive large eyes and a mischievous confident grin.
-- He reacts like the tiny emperor of internet news, not like a boring news anchor.
-
-NEWS GROUNDING RULES:
-1. Identify the single main factual event from the selected concept.
-2. Identify the central subject: company, person, animal, technology, country, sport, asset, discovery, or event.
-3. Include one concrete detail from the source title/summary if available.
-4. Do not invent numbers, quotes, claims, prices, names, or consequences.
-5. Verify this is a specific event, announcement, result, discovery, filing, launch, ruling, record, rescue, or measurable development—not evergreen promotional copy.
-6. Do not give financial advice.
-7. Avoid real politician caricatures and cruel tragedy humor.
-8. This account only covers the following news categories: Science and technology, AI, Pets and animals, Space Exploration and News, Worldly and weird news, Cryptocurrency
-
-IMAGE PROMPT REQUIREMENTS:
-- Square Instagram cinematic anime editorial illustration.
-- Hunk Mao is the central recurring orange tabby character.
-- Preserve his orange tabby identity, compact athletic build, large expressive eyes, and confident grin.
-- Build a narrative scene: action + setting + visual joke.
-- Include foreground, midground, background, atmospheric depth, cinematic lighting, jewel-toned accents, glossy highlights, and premium anime key-art finish.
-- Dense visual storytelling: tiny props, symbolic objects, background actions, easter eggs.
-- The actual news subject must be visually recognizable.
-- Avoid generic dashboard/chart/coin poster scenes.
-- NEVER create an advertisement, sponsorship creative, brand campaign, generic service promotion, or product-benefit poster.
-- A company may appear only when it is the subject of a specific fresh event; depict the EVENT, not the company slogan or evergreen service.
-- Do not plaster corporate logos across clothing, hats, walls, or screens. One necessary identifying logo at most.
-- Reject concepts whose source merely describes what a company/service generally does rather than something that happened today.
-
-TEXT INSIDE IMAGE — STRICT:
-- Maximum 3 visible text phrases in the whole image.
-- Each phrase maximum 3 words.
-- Include a REQUIRED TEXT section listing exact phrases.
-- Do not request extra small labels, fake brand names, fake headlines, gibberish, ticker clutter, or random background text.
-- If text is not needed, write REQUIRED TEXT: none.
-
-CAPTION RULES:
-- Exactly 2 concise sentences.
-- Sentence 1 plainly explains the actual news event and includes at least one concrete source detail when available.
-- Sentence 2 is Hunk Mao’s witty reaction or punchline.
-- Do not repeat the headline verbatim.
-- Do not say “Today’s strange little signal from the world.”
-
-HASHTAG RULES:
-- Return 10 to 15 lowercase hashtags.
-- Always include #hunkmao.
-- For crypto stories, include #cryptocurrency and only include asset hashtags that are directly relevant:
-  Bitcoin/BTC => #bitcoin #btc
-  Ethereum/ETH => #ethereum #eth
-  Solana/SOL => #solana #sol
-- For non-crypto stories, do not include #cryptocurrency, #bitcoin, #btc, #ethereum, #eth, #solana, #sol, #crypto, #cryptonews, or #blockchain.
-
-RETURN ONLY VALID JSON with exactly these keys:
-selected_topic, category, source_url, news_angle, scene_metaphor, image_prompt, easter_eggs, caption, hashtags, risk_notes
-"""
-
-
-def generate_post_brief() -> Dict:
+def generate_post_brief():
     concepts = build_concepts()
     top_concept = concepts[0]
-    brand_profile = load_json(path_for("brand_profile.json"))
+
+    with open("brand_profile.json", "r", encoding="utf-8") as f:
+        brand_profile = json.load(f)
+
+    prompt = f"""
+You are the editorial director for Hunk Mao, a daily illustrated Instagram account.
+
+ALLOWED CATEGORIES ONLY:
+{json.dumps(ALLOWED_CATEGORIES)}
+
+SELECTED VERIFIED CANDIDATE:
+{json.dumps(top_concept, indent=2)}
+
+PERMANENT BRAND PROFILE:
+{json.dumps(brand_profile, indent=2)}
+
+NON-NEGOTIABLE EDITORIAL RULES:
+- This must be a specific current event, not a generic topic.
+- The publisher/source is never the subject. Never write "Reuters highlights" or "AP reports" as the story.
+- Identify the actual subject and actual action/development.
+- Do not invent numbers, prices, dates, claims, quotes, scoreboards, brands, or statistics beyond the candidate.
+- Do not cover sports, ESPN, celebrities, generic holidays, shopping, ads, streaming pages, live scores, or evergreen service pages.
+- If the candidate is too vague, return risk_notes explaining the limitation but still stay inside the supplied facts.
+- The image must avoid corporate logos unless the specific company is truly the subject of the event.
+- Image text must be minimal: required_text max 3 phrases, max 3 words each.
+- Caption must be exactly 2 concise sentences: sentence 1 explains what happened; sentence 2 is Hunk Mao's witty reaction.
+- The post should feel like visually rich cinematic anime news satire, not an advertisement.
+
+HASHTAG RULES:
+- Return hashtags as a JSON array, never a single string.
+- Always include #hunkmao.
+- For non-crypto stories, do not include #cryptocurrency, #crypto, #bitcoin, #btc, #ethereum, #eth, #solana, #sol, or #blockchain.
+- For crypto stories, include only asset hashtags genuinely present in the story.
+- Hashtags must be lowercase, relevant, searchable, and not generic filler.
+
+Return ONLY valid JSON with exactly these keys:
+{json.dumps(REQUIRED_KEYS)}
+"""
 
     response = client.responses.create(
         model="gpt-4.1-mini",
-        input=build_prompt(top_concept, brand_profile),
+        input=prompt,
         text={"format": {"type": "json_object"}},
     )
+    brief = json.loads(response.output_text)
+    errors = validate_brief(brief, top_concept)
+    if errors:
+        with open("post_brief_failed.json", "w", encoding="utf-8") as f:
+            json.dump({"errors": errors, "brief": brief, "source_concept": top_concept}, f, indent=2)
+        raise RuntimeError("Brief failed editorial validation: " + "; ".join(errors))
 
-    brief = validate_brief(json.loads(response.output_text))
-    brief["source_url"] = brief.get("source_url") or top_concept.get("source_url")
-    save_json(path_for("post_brief.json"), brief)
-    print(json.dumps(brief, indent=2, ensure_ascii=False))
+    with open("post_brief.json", "w", encoding="utf-8") as f:
+        json.dump(brief, f, indent=2)
+    print(json.dumps(brief, indent=2))
     return brief
 
 

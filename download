@@ -1,4 +1,8 @@
-.env
 __pycache__/
-*.pyc
-publish_output.txt
+*.py[cod]
+.env
+.DS_Store
+post_brief.json
+generated_post.png
+trend_candidates.json
+published/

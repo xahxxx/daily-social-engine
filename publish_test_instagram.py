@@ -1,102 +1,105 @@
 import json
 import os
+import re
 import time
-from typing import Dict, List
-
 import requests
 
-from hunk_utils import coerce_hashtags, env, unique
-
-IG_ACCESS_TOKEN = env("IG_ACCESS_TOKEN", required=True)
-POST_STAMP = os.getenv("POST_STAMP", "").strip()
-GITHUB_PAGES_BASE = os.getenv("GITHUB_PAGES_BASE", "https://xahxxx.github.io/daily-social-engine/published").rstrip("/")
+IG_ACCESS_TOKEN = os.getenv("IG_ACCESS_TOKEN")
+POST_STAMP = os.environ.get("POST_STAMP")
+DRY_RUN = os.getenv("DRY_RUN", "true").lower() in {"1", "true", "yes"}
+BASE_URL = os.getenv("PUBLIC_BASE_URL", "https://xahxxx.github.io/daily-social-engine/published")
 
 if POST_STAMP:
-    PUBLIC_IMAGE_URL = f"{GITHUB_PAGES_BASE}/hunk-mao-{POST_STAMP}.png"
-    PUBLIC_BRIEF_URL = f"{GITHUB_PAGES_BASE}/hunk-mao-{POST_STAMP}.json"
+    PUBLIC_IMAGE_URL = f"{BASE_URL}/hunk-mao-{POST_STAMP}.png"
+    PUBLIC_BRIEF_URL = f"{BASE_URL}/hunk-mao-{POST_STAMP}.json"
 else:
-    PUBLIC_IMAGE_URL = f"{GITHUB_PAGES_BASE}/latest.png"
-    PUBLIC_BRIEF_URL = f"{GITHUB_PAGES_BASE}/latest.json"
+    PUBLIC_IMAGE_URL = f"{BASE_URL}/latest.png"
+    PUBLIC_BRIEF_URL = f"{BASE_URL}/latest.json"
 
 
-def request_json(method: str, url: str, **kwargs) -> Dict:
-    for attempt in range(3):
-        response = requests.request(method, url, timeout=45, **kwargs)
-        print(response.status_code, response.text[:1000])
-        if response.status_code < 500:
-            response.raise_for_status()
-            return response.json() if response.text else {}
-        time.sleep(5 * (attempt + 1))
+def normalize_hashtags(tags):
+    if isinstance(tags, str):
+        raw = re.split(r"[\s,]+", tags.strip())
+    elif isinstance(tags, list):
+        raw = []
+        for t in tags:
+            raw.extend(re.split(r"[\s,]+", str(t).strip()))
+    else:
+        raise RuntimeError("hashtags must be a list or string")
+    cleaned = []
+    for tag in raw:
+        tag = tag.strip().lower()
+        if not tag:
+            continue
+        tag = tag if tag.startswith("#") else "#" + tag
+        tag = re.sub(r"[^#a-z0-9_]", "", tag)
+        if len(tag) <= 2:
+            continue
+        if tag not in cleaned:
+            cleaned.append(tag)
+    if "#hunkmao" not in cleaned:
+        cleaned.insert(0, "#hunkmao")
+    if len(cleaned) < 8:
+        raise RuntimeError(f"Too few valid hashtags: {cleaned}")
+    return cleaned[:15]
+
+
+def get_caption():
+    response = requests.get(PUBLIC_BRIEF_URL, timeout=30)
     response.raise_for_status()
-    return {}
-
-
-def get_caption() -> str:
-    brief = request_json("GET", PUBLIC_BRIEF_URL)
+    brief = response.json()
     caption = str(brief.get("caption", "")).strip()
-    hashtags = unique(coerce_hashtags(brief.get("hashtags", [])))
-    hashtags = [t for t in hashtags if t]
-    if len(hashtags) < 5:
-        raise RuntimeError(f"Refusing to publish: invalid hashtag payload {brief.get('hashtags')!r}")
-    if not caption:
-        raise RuntimeError("Caption is empty in published brief JSON")
+    if len(caption.split()) < 12:
+        raise RuntimeError("Caption is too short / not explanatory enough")
+    hashtags = normalize_hashtags(brief.get("hashtags", []))
     return f"{caption}\n\n{' '.join(hashtags)}".strip()
 
 
-def get_instagram_user_id() -> str:
-    data = request_json(
-        "GET",
+def get_instagram_user_id():
+    if not IG_ACCESS_TOKEN:
+        raise RuntimeError("IG_ACCESS_TOKEN is missing")
+    response = requests.get(
         "https://graph.instagram.com/me",
-        params={"fields": "user_id,username,account_type", "access_token": IG_ACCESS_TOKEN},
+        params={"fields": "user_id,username", "access_token": IG_ACCESS_TOKEN},
+        timeout=30,
     )
-    return data["user_id"]
+    print(response.status_code, response.text)
+    response.raise_for_status()
+    return response.json()["user_id"]
 
 
-def create_media_container(ig_user_id: str, caption: str) -> str:
-    data = request_json(
-        "POST",
+def create_media_container(ig_user_id, caption):
+    response = requests.post(
         f"https://graph.instagram.com/{ig_user_id}/media",
         data={"image_url": PUBLIC_IMAGE_URL, "caption": caption, "access_token": IG_ACCESS_TOKEN},
+        timeout=30,
     )
-    return data["id"]
+    print(response.status_code, response.text)
+    response.raise_for_status()
+    return response.json()["id"]
 
 
-def wait_for_container(creation_id: str, max_wait: int = 90) -> None:
-    deadline = time.time() + max_wait
-    while time.time() < deadline:
-        data = request_json(
-            "GET",
-            f"https://graph.instagram.com/{creation_id}",
-            params={"fields": "status_code,status", "access_token": IG_ACCESS_TOKEN},
-        )
-        status = data.get("status_code")
-        print("Container status:", status, data.get("status"))
-        if status == "FINISHED":
-            return
-        if status in {"ERROR", "EXPIRED"}:
-            raise RuntimeError(f"Instagram media container failed: {data}")
-        time.sleep(10)
-    raise TimeoutError("Instagram media container did not finish in time")
-
-
-def publish_media(ig_user_id: str, creation_id: str) -> Dict:
-    wait_for_container(creation_id)
-    return request_json(
-        "POST",
+def publish_media(ig_user_id, creation_id):
+    time.sleep(20)
+    response = requests.post(
         f"https://graph.instagram.com/{ig_user_id}/media_publish",
         data={"creation_id": creation_id, "access_token": IG_ACCESS_TOKEN},
+        timeout=30,
     )
+    print(response.status_code, response.text)
+    response.raise_for_status()
 
 
-def main() -> None:
+def main():
     caption = get_caption()
-    print("Caption:\n", caption)
-    print("Image URL:", PUBLIC_IMAGE_URL)
+    print("Caption prepared:\n", caption)
+    if DRY_RUN:
+        print("DRY_RUN=true, not publishing to Instagram.")
+        return
     ig_user_id = get_instagram_user_id()
     creation_id = create_media_container(ig_user_id, caption)
-    result = publish_media(ig_user_id, creation_id)
+    publish_media(ig_user_id, creation_id)
     print("Published latest Hunk Mao post successfully.")
-    print(json.dumps(result, indent=2))
 
 
 if __name__ == "__main__":

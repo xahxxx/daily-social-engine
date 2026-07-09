@@ -1,6 +1,7 @@
 {
   "character_name": "Hunk Mao",
   "character_identity": "A charismatic young adult orange tabby cat with an athletic, compact build, expressive oversized eyes, sharp orange tabby markings, fluffy cheek fur, and a mischievous confident smile. Hunk Mao is cool, clever, energetic, adventurous, and slightly chaotic. He should look like a stylish internet culture icon and adventurous young hero, never obese, elderly, babyish, or shaped like a generic round prosperity cat.",
+
   "character_style": [
     "youthful and energetic",
     "compact athletic cat proportions",
@@ -13,6 +14,7 @@
     "dynamic poses and active body language",
     "recognizably the same recurring character in every image"
   ],
+
   "avoid_character_traits": [
     "obese body",
     "extremely round belly",
@@ -23,12 +25,5 @@
     "prosperity statue appearance",
     "different animal species",
     "realistic photographic cat"
-  ],
-  "visual_signature": {
-    "species": "orange tabby cat",
-    "body": "compact athletic youthful build",
-    "face": "large lively eyes, fluffy cheek fur, mischievous confident smile",
-    "energy": "playful cinematic internet-culture hero",
-    "never": "do not make him obese, elderly, babyish, statue-like, or generic"
-  }
+  ]
 }

@@ -1,148 +1,129 @@
 import json
-import random
 import re
 from datetime import datetime, timezone
-from typing import Dict, List, Tuple
+from urllib.parse import urlparse
 
-from hunk_utils import load_json, path_for, save_json
-from trend_research import collect_trends
+from trend_research import collect_trends, has_event_signal, looks_promotional
 
-CATEGORY_ORDER = [
+ALLOWED_CATEGORIES = [
     "science_technology",
     "ai",
-    "cryptocurrency",
     "pets_animals",
     "space",
     "world_weird",
-    
+    "cryptocurrency",
 ]
 
-CATEGORY_TERMS = {
-    "animals_pets": ["dog", "cat", "pet", "animal", "wildlife", "zoo", "eagle", "bear", "whale", "shark", "rescue"],
-    "crypto_markets": ["bitcoin", "btc", "ethereum", "eth", "crypto", "cryptocurrency", "etf", "solana", "xrp", "token", "blockchain"],
-    "ai_technology": ["ai", "artificial intelligence", "chip", "robot", "semiconductor", "technology", "openai", "nvidia", "startup"],
-    "science_space_nature": ["nasa", "space", "mars", "moon", "planet", "science", "discovery", "climate", "volcano", "earthquake", "ocean"],
-    "sports": ["nba", "nfl", "mlb", "nhl", "soccer", "world cup", "olympic", "tennis", "golf", "sports", "final"],
-    "entertainment_culture": ["movie", "music", "celebrity", "festival", "culture", "internet", "streaming", "box office"],
-    "weird_global": ["unusual", "strange", "weird", "viral", "mystery", "found", "rescued", "rare"],
+CATEGORY_KEYWORDS = {
+    "cryptocurrency": ["bitcoin", "btc", "ethereum", "eth", "solana", "crypto", "blockchain", "token", "etf", "stablecoin"],
+    "ai": ["artificial intelligence", " ai ", "openai", "anthropic", "deepmind", "nvidia", "chip", "llm", "robot", "model"],
+    "space": ["space", "nasa", "spacex", "rocket", "mars", "moon", "asteroid", "satellite", "astronomy", "planet"],
+    "pets_animals": ["dog", "cat", "pet", "animal", "wildlife", "zoo", "rescue", "rescued", "bear", "whale", "eagle", "turtle"],
+    "science_technology": ["science", "scientists", "researchers", "study", "discovery", "breakthrough", "technology", "quantum", "battery", "fusion", "medical device"],
+    "world_weird": ["weird", "strange", "unusual", "mystery", "found", "rescued", "rare", "record", "bizarre"],
 }
 
-GENERIC_TERMS = ["latest news", "top stories", "home", "live updates", "news today", "breaking news"]
-SENSITIVE_TERMS = ["death", "killed", "fatal", "shooting", "attack", "war", "funeral", "massacre", "abuse"]
-VISUAL_TERMS = ["rare", "first", "record", "historic", "giant", "tiny", "rescued", "mystery", "breakthrough", "surge", "robot", "discovery"]
-TRUSTED_DOMAINS = {"reuters.com", "apnews.com", "bbc.com", "npr.org", "cnbc.com", "bloomberg.com", "nasa.gov", "noaa.gov", "espn.com"}
+BLOCKED_SUBJECTS = ["espn", "sports fan", "live scores", "streaming", "watch live", "celebrity", "horoscope"]
+PUBLISHER_NAMES = ["reuters", "ap", "associated press", "bbc", "cnn", "cnbc", "the verge", "techcrunch", "yahoo"]
+VAGUE_TERMS = ["major breakthrough", "impacting global markets", "latest news", "top stories", "keeps fans connected"]
+
+VISUAL_TERMS = ["rare", "first", "record", "rescued", "discovered", "unveiled", "launched", "detected", "mystery", "surge"]
 
 
-def detect_category(item: Dict) -> str:
-    text = f"{item.get('category_hint', '')} {item.get('title', '')} {item.get('description', '')}".lower()
-    for category, terms in CATEGORY_TERMS.items():
-        if any(term in text for term in terms):
-            return category
-    return item.get("category_hint") or "major_world"
+def _text(item):
+    return f"{item.get('title','')} {item.get('description','')}".lower()
 
 
-def score_result(item: Dict, target_category: str, last_category: str = "") -> Tuple[int, List[str], str]:
-    text = f"{item.get('title', '')} {item.get('description', '')}".lower()
-    domain = item.get("domain", "")
-    category = detect_category(item)
-    score = 0
+def detect_category(item):
+    if item.get("category_hint") in ALLOWED_CATEGORIES:
+        return item["category_hint"]
+    text = f" {_text(item)} "
+    scores = {cat: sum(1 for kw in kws if kw in text) for cat, kws in CATEGORY_KEYWORDS.items()}
+    best = max(scores, key=scores.get)
+    return best if scores[best] else "world_weird"
+
+
+def validate_candidate(item):
+    title = item.get("title", "")
+    desc = item.get("description", "")
+    url = item.get("url", "")
+    text = f"{title} {desc}".lower()
     reasons = []
 
-    if domain in TRUSTED_DOMAINS:
-        score += 8
-        reasons.append(f"trusted source: {domain}")
-    elif domain:
-        score += 2
-        reasons.append(f"source: {domain}")
+    if not url.startswith("http"):
+        return False, ["missing valid url"]
+    if looks_promotional(title, desc, url):
+        return False, ["promotional/evergreen/service page"]
+    if any(b in text for b in BLOCKED_SUBJECTS):
+        return False, ["blocked subject/service content"]
+    if any(v in text for v in VAGUE_TERMS):
+        return False, ["vague non-specific news language"]
+    if not has_event_signal(title, desc):
+        return False, ["no concrete event verb/action"]
+    if len(title.split()) < 5:
+        return False, ["title too thin"]
+    if len(desc.split()) < 10:
+        reasons.append("thin snippet")
 
-    if category == target_category:
-        score += 8
-        reasons.append(f"daily rotation boost: {target_category}")
-    if category == last_category:
-        score -= 7
-        reasons.append(f"repeat category penalty: {last_category}")
+    # Publisher can be source, but not the story subject.
+    first_words = " ".join(title.lower().split()[:3])
+    if any(first_words.startswith(p) for p in PUBLISHER_NAMES):
+        return False, ["publisher treated as story subject"]
+    return True, reasons or ["passes event gate"]
 
-    category_boosts = {
-        "animals_pets": 10,
-        "weird_global": 9,
-        "ai_technology": 8,
-        "science_space_nature": 8,
-        "crypto_markets": 7,
-        "sports": 6,
-        "entertainment_culture": 5,
-        "major_world": 4,
-    }
-    score += category_boosts.get(category, 4)
-    reasons.append(f"category: {category}")
 
+def score_result(item):
+    valid, gate_reasons = validate_candidate(item)
+    category = detect_category(item)
+    if not valid:
+        return -999, gate_reasons, category
+
+    text = _text(item)
+    score = 20
+    reasons = list(gate_reasons)
     for term in VISUAL_TERMS:
         if term in text:
-            score += 3
-            reasons.append(f"visual hook: {term}")
-
-    for term in GENERIC_TERMS:
-        if term in text:
-            score -= 9
-            reasons.append(f"generic result: {term}")
-
-    for term in SENSITIVE_TERMS:
-        if term in text:
-            score -= 8
-            reasons.append(f"sensitive topic: {term}")
-
-    if re.search(r"\b\d+(?:\.\d+)?%|\$\d+|\b\d{3,}\b", text):
-        score += 2
-        reasons.append("contains concrete detail")
-
+            score += 4
+            reasons.append(f"visual/event hook: {term}")
+    if item.get("age"):
+        score += 5
+        reasons.append("fresh result age present")
+    if item.get("domain") in {"reuters.com", "apnews.com", "nasa.gov", "science.nasa.gov"}:
+        score += 5
+        reasons.append("reputable source boost")
+    if category in ALLOWED_CATEGORIES:
+        score += 6
+        reasons.append(f"allowed category: {category}")
     return score, reasons[:12], category
 
 
-def choose_target_category() -> str:
-    state = load_json(path_for("hunk_mao_state.json"), default={})
-    last_category = state.get("last_category", "")
-    day_index = datetime.now(timezone.utc).timetuple().tm_yday
-    ordered = CATEGORY_ORDER[day_index % len(CATEGORY_ORDER):] + CATEGORY_ORDER[:day_index % len(CATEGORY_ORDER)]
-    for category in ordered:
-        if category != last_category:
-            return category
-    return ordered[0]
-
-
-def build_concepts(limit: int = 6) -> List[Dict]:
+def build_concepts(max_concepts=8):
     trends = collect_trends()
-    state = load_json(path_for("hunk_mao_state.json"), default={})
-    target_category = choose_target_category()
-    last_category = state.get("last_category", "")
     concepts = []
-
+    rejects = []
     for item in trends:
-        score, reasons, category = score_result(item, target_category, last_category)
-        if score < 8:
+        score, reasons, category = score_result(item)
+        if score < 20:
+            rejects.append({"title": item.get("title"), "url": item.get("url"), "score": score, "reasons": reasons})
             continue
-        title = item.get("title", "Untitled")
-        description = item.get("description", "")
         concepts.append({
             "score": score,
             "category": category,
-            "target_category_today": target_category,
-            "last_category": last_category,
-            "source_title": title,
+            "source_title": item.get("title"),
             "source_url": item.get("url"),
             "source_domain": item.get("domain"),
-            "source_summary": description,
-            "collected_at": item.get("collected_at"),
+            "source_summary": item.get("description"),
+            "source_age": item.get("age"),
             "why_selected": reasons,
-            "post_angle": f"Turn this real news item into a funny cinematic Hunk Mao visual metaphor: {title}",
+            "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content",
         })
-
-    concepts.sort(key=lambda x: x["score"], reverse=True)
-    # Deterministic: never randomly replace the strongest verified story with a weaker candidate.
-    final = concepts[:limit]
-    save_json(path_for("selected_concepts.json"), final)
-    if not final:
-        raise RuntimeError("No usable concepts survived scoring. Check trend_results.json for raw results.")
-    return final
+    concepts.sort(key=lambda c: c["score"], reverse=True)
+    with open("concept_selection_debug.json", "w", encoding="utf-8") as f:
+        json.dump({"selected": concepts[:max_concepts], "rejected_sample": rejects[:30]}, f, indent=2)
+    if not concepts:
+        raise RuntimeError("No valid news-event concepts found. Check concept_selection_debug.json for rejected candidates.")
+    return concepts[:max_concepts]
 
 
 if __name__ == "__main__":
-    print(json.dumps(build_concepts(), indent=2, ensure_ascii=False))
+    print(json.dumps(build_concepts(), indent=2))
