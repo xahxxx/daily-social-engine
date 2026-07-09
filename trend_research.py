@@ -8,13 +8,13 @@ from hunk_utils import domain_from_url, env, normalize_text, path_for, save_json
 BRAVE_API_KEY = env('BRAVE_SEARCH_API_KEY', required=True)
 BRAVE_ENDPOINT = 'https://api.search.brave.com/res/v1/web/search'
 QUERIES = [
-    "latest science discovery today unusual breakthrough",
-    "latest technology breakthrough today AI robotics science",
-    "artificial intelligence news today breakthrough regulation startup",
-    "viral animal rescue unusual pet wildlife story today",
-    "space news today NASA SpaceX astronomy discovery",
-    "weird world news today unusual strange event",
-    "cryptocurrency news today bitcoin ethereum solana ETF regulation",
+    {"q": "latest science discovery today unusual breakthrough", "category_hint": "science_technology"},
+    {"q": "latest technology breakthrough today AI robotics science", "category_hint": "science_technology"},
+    {"q": "artificial intelligence news today breakthrough regulation startup", "category_hint": "ai"},
+    {"q": "viral animal rescue unusual pet wildlife story today", "category_hint": "pets_animals"},
+    {"q": "space news today NASA SpaceX astronomy discovery", "category_hint": "space"},
+    {"q": "weird world news today unusual strange event", "category_hint": "world_weird"},
+    {"q": "cryptocurrency news today bitcoin ethereum solana ETF regulation", "category_hint": "cryptocurrency"},
 ]
 BLOCKED_URL_WORDS=['/live/','live-updates','/tag/','/category/','/topics/','/latest','homepage','watch/','video/']
 PROMO_TERMS=['anytime anywhere','keeps fans connected','live scores, highlights','watch live','stream anytime','subscribe now','download the app','sign up','according to espn.com','sports fan']
