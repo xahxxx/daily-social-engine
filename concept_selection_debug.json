@@ -7,7 +7,7 @@
       "source_url": "https://www.sciencedaily.com/news/space_time/space_exploration/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Deadly \u201cred Sky\u201d Solar Storm from 800 Years Ago Discovered in Ancient Trees \u00b7 Scientists Think Dark Matter Might Come in Two Forms \u00b7 Students Found a Star from the Dawn of the Universe Drifting Into the Milky Way \u00b7 Saturn\u2019s Magnetic Field Is Twisted and Scientists Just Figured out Why \u00b7 NASA Launches Artemis II for First Crewed Moon Flyby in 50 Years \u00b7 This Walking Robot Could Change How We Search for Life on Mars \u00b7 Astronomers Finally Solve Saturn\u2019s Decades-Long Spin Mystery",
-      "source_age": "18 hours ago",
+      "source_age": "19 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -68,17 +68,17 @@
     },
     {
       "score": 35,
-      "category": "space",
-      "source_title": "Space News - Space, Astronomy, Space Exploration",
-      "source_url": "https://phys.org/space-news/",
-      "source_domain": "phys.org",
-      "source_summary": "Astronomers studying a population of unusually X-ray-silent and overmassive black holes discovered by the James Webb Space Telescope have found that they may not be as massive as they appear.",
+      "category": "pets_animals",
+      "source_title": "2,200-Lb. Viral Elephant Seal Neil Sparks Debate After Wildlife Officers Move Him Off Road With a Prodding Stick",
+      "source_url": "https://people.com/officials-defend-handling-of-neil-the-elephant-seal-after-latest-viral-video-12011614",
+      "source_domain": "people.com",
+      "source_summary": "\u201cCertainly, over the last week, there have been hundreds of people in attendance and possibly thousands visiting over the course of a day,\u201d said wildlife biologist Sam Thamman from MCP. Lost 250-Lb. Loggerhead Sea Turtle Rescued After Wandering ...",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: discovered",
+        "visual/event hook: rescued",
         "fresh result age present",
-        "allowed category: space"
+        "allowed category: pets_animals"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -157,19 +157,19 @@
       ]
     },
     {
-      "title": "Latest News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
       "title": "NASA\u2019s COFFIES Center Makes Breakthrough on Solar Enigma",
       "url": "https://science.nasa.gov/blogs/science-news/2026/07/07/nasas-coffies-science-center-makes-breakthrough-on-solar-enigma/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Latest News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -191,6 +191,14 @@
     {
       "title": "New Scientist | Science news, articles, and features",
       "url": "https://www.newscientist.com/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Nature News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -245,6 +253,14 @@
       ]
     },
     {
+      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
+      "url": "https://llm-stats.com/llm-updates",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
       "url": "https://apnews.com/",
       "score": -999,
@@ -285,14 +301,6 @@
       ]
     },
     {
-      "title": "B.C. is cracking down on exotic cats as pets. Where will they go? | The Narwhal",
-      "url": "https://thenarwhal.ca/bc-exotic-cats-banned/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Animals | The Guardian",
       "url": "https://www.theguardian.com/world/animals",
       "score": -999,
@@ -301,24 +309,16 @@
       ]
     },
     {
+      "title": "B.C. is cracking down on exotic cats as pets. Where will they go? | The Narwhal",
+      "url": "https://thenarwhal.ca/bc-exotic-cats-banned/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Biology News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Animals - ABC News",
-      "url": "https://abcnews.com/alerts/Animals",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "CDC Current Outbreak List | Outbreaks | CDC",
-      "url": "https://www.cdc.gov/outbreaks/index.html",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
