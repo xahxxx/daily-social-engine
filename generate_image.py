@@ -1,107 +1,103 @@
 import base64
 import json
+from pathlib import Path
+from typing import Dict
+
 from openai import OpenAI
+
+from hunk_utils import load_json, path_for
 
 client = OpenAI()
 
 
-def generate_image():
-    with open("post_brief.json", "r", encoding="utf-8") as f:
-        brief = json.load(f)
+def find_reference_image() -> Path:
+    candidates = [
+        path_for("hunk_mao_reference.png"),
+        path_for("hunk_mao_reference(1).png"),
+    ]
+    for p in candidates:
+        if p.exists():
+            return p
+    raise FileNotFoundError("Missing Hunk Mao reference image. Save it as hunk_mao_reference.png in this folder.")
 
-    with open("brand_profile.json", "r", encoding="utf-8") as f:
-        brand = json.load(f)
 
-    daily_prompt = (
-        brief.get("image_prompt")
-        or brief.get("visual_prompt")
-        or brief.get("prompt")
-        or brief.get("image")
-    )
-
+def final_image_prompt(brief: Dict, brand: Dict) -> str:
+    daily_prompt = brief.get("image_prompt") or brief.get("visual_prompt") or brief.get("prompt") or brief.get("image")
     if not daily_prompt:
-        raise KeyError(
-            f"No image prompt found in brief. Available keys: {list(brief.keys())}"
-        )
+        raise KeyError(f"No image prompt found in brief. Available keys: {list(brief.keys())}")
 
-    final_prompt = f"""
-Use the provided Hunk Mao reference image as the authoritative
-character reference.
+    return f"""
+Use the provided Hunk Mao reference image only as the authoritative character identity reference.
 
-Preserve Hunk Mao's core identity:
-- same species
-- same orange tabby appearance
-- same facial identity
-- same recognizable proportions
-- same general visual personality
-- same core illustration aesthetic
+PRESERVE HUNK MAO:
+- same recurring orange tabby cat identity
+- youthful compact athletic build, not obese or babyish
+- sharp orange tabby markings and fluffy cheek fur
+- expressive large lively eyes
+- mischievous confident grin and playful chaotic hero energy
 
-Do NOT copy the reference image's original scene, pose, background,
-costume, or composition.
+DO NOT COPY FROM REFERENCE:
+- do not copy the old pose, background, coaster/amusement scene, costume, sunglasses, layout, signs, or composition unless today's prompt specifically asks for them
+- create a new scene from the news brief
 
-Create a completely new daily editorial illustration based on this
-story direction:
-
+TODAY'S APPROVED BRIEF:
 {daily_prompt}
 
-Permanent brand direction:
+CAPTION CONTEXT:
+{brief.get('caption', '')}
 
-{json.dumps(brand, indent=2)}
+BRAND PROFILE:
+{json.dumps(brand, indent=2, ensure_ascii=False)}
 
-IMPORTANT:
-Hunk Mao must remain clearly recognizable as the same recurring
-character from the reference image.
+STYLE TARGET:
+- premium cinematic anime environmental concept art
+- painterly anime realism with cinematic photoreal material rendering
+- high-end animated movie still
+- rich atmospheric depth, foreground/midground/background storytelling
+- dramatic perspective, physically inside the scene
+- glossy high-end finish, crisp subject focus, cinematic lens blur
+- jewel-toned controlled color palette, soft bloom, rim light, volumetric rays
+- rich specular highlights on eyes, fur, metal, glass, water, wet streets, screens when relevant
+- visually stunning enough to stop an Instagram scroll
 
-The daily scene should be visually ambitious and substantially
-different each day.
+COMPOSITION RULES:
+- square Instagram composition
+- Hunk Mao must be clearly visible as the main recurring character
+- one strong central narrative scene, not a poster collage
+- deep layered perspective, environmental scale, visual jokes and easter eggs
+- news-related props integrated naturally
+- avoid empty backgrounds and simple centered logo/poster compositions
 
-VISUAL CONSISTENCY RULES:
-- Hunk Mao must always be recognizable as the same orange tabby cat character.
-- He has bright orange tabby fur, expressive large eyes, and a compact athletic build.
-- Clothing and accessories should vary according to the story. Do not default to a black hoodie or sunglasses.
-- Keep Hunk Mao's core facial appearance and fur pattern visually consistent across posts.
-- Avoid excessive written text inside the illustration.
-- If text appears inside the artwork, keep it extremely short: ideally 1–3 words per text element.
-- Never intentionally include misspelled words, gibberish, distorted lettering, or fake brand names.
-- Prefer visual symbols, signs, objects, and environmental storytelling over large amounts of text.
+TEXT RULES:
+- obey the REQUIRED TEXT section from the brief exactly
+- maximum 3 visible text phrases total
+- no extra random signs, fake brand names, labels, headlines, tickers, gibberish, watermark, or border
+- text must be large, simple, readable, and secondary to the image
 
-Create a square Instagram composition with:
-- one strong central narrative scene
-- foreground, middle ground, and background storytelling
-- dense environmental details
-- numerous small props
-- visual jokes
-- hidden easter eggs
-- tiny signs and stickers
-- news-related objects
-- clever background characters when appropriate
-- cinematic lighting
-- polished professional illustration quality
-
-Avoid turning every scene into a character sitting behind a desk.
-
-Avoid excessive text. Any text visible in the image should be short,
-simple, and secondary to the visual storytelling.
-
-Do not add a border or watermark.
+NEGATIVE STYLE DIRECTION:
+Avoid flat vector art, simple cartoon, children's book style, generic mascot art, low-detail digital painting, plain editorial comic, plastic 3D render, stock daytime illustration, empty sterile background, and dashboard-only scenes.
 """
 
-    with open("hunk_mao_reference.png", "rb") as reference_image:
+
+def generate_image() -> Path:
+    brief = load_json(path_for("post_brief.json"))
+    brand = load_json(path_for("brand_profile.json"))
+    reference_path = find_reference_image()
+
+    with reference_path.open("rb") as reference_image:
         response = client.images.edit(
             model="gpt-image-1",
             image=reference_image,
-            prompt=final_prompt,
+            prompt=final_image_prompt(brief, brand),
             size="1024x1024",
         )
 
     image_base64 = response.data[0].b64_json
     image_bytes = base64.b64decode(image_base64)
-
-    with open("generated_post.png", "wb") as f:
-        f.write(image_bytes)
-
-    print("Image generated successfully using Hunk Mao reference.")
-    print("Saved as generated_post.png")
+    output_path = path_for("generated_post.png")
+    output_path.write_bytes(image_bytes)
+    print(f"Image generated successfully: {output_path}")
+    return output_path
 
 
 if __name__ == "__main__":
