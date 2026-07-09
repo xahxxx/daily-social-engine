@@ -8,14 +8,13 @@ from hunk_utils import load_json, path_for, save_json
 from trend_research import collect_trends
 
 CATEGORY_ORDER = [
-    "animals_pets",
-    "crypto_markets",
-    "ai_technology",
-    "science_space_nature",
-    "weird_global",
-    "entertainment_culture",
-    "sports",
-    "major_world",
+    "science_technology",
+    "ai",
+    "cryptocurrency",
+    "pets_animals",
+    "space",
+    "world_weird",
+    
 ]
 
 CATEGORY_TERMS = {
