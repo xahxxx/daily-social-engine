@@ -82,7 +82,7 @@ def is_current(item):
     published_at = parse_datetime(published_raw)
 
     if not published_at:
-        return False, "rejected: missing or unreadable publish date", None
+        return True, "warning: missing publish date, allowed with penalty", 48
 
     now = datetime.now(timezone.utc)
     hours_old = (now - published_at).total_seconds() / 3600
@@ -161,6 +161,10 @@ def score_result(item):
 
     score += 30
     reasons.append(current_reason)
+
+    if "missing publish date" in current_reason:
+        score -= 15
+        reasons.append("penalty: freshness could not be verified")
 
     if hours_old is not None:
         if hours_old <= 12:
@@ -287,7 +291,7 @@ def build_concepts():
             score += 5
             reasons.append(f"daily rotation boost: {target_category}")
 
-        if score < 25:
+        if score < 15:
             continue
 
         title = item.get("title", "Untitled")
