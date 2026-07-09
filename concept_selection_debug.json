@@ -133,16 +133,16 @@
       ]
     },
     {
-      "title": "Reuters Energy News | Top Energy Headlines | Reuters",
-      "url": "https://www.reuters.com/business/energy/",
+      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
+      "url": "https://www.reuters.com/sustainability/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
-      "url": "https://www.reuters.com/sustainability/",
+      "title": "Reuters Energy News | Top Energy Headlines | Reuters",
+      "url": "https://www.reuters.com/business/energy/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -165,6 +165,14 @@
       ]
     },
     {
+      "title": "NASA\u2019s COFFIES Center Makes Breakthrough on Solar Enigma",
+      "url": "https://science.nasa.gov/blogs/science-news/2026/07/07/nasas-coffies-science-center-makes-breakthrough-on-solar-enigma/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
       "score": -999,
@@ -175,14 +183,6 @@
     {
       "title": "Health & Medicine News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/health_medicine/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "NASA\u2019s COFFIES Center Makes Breakthrough on Solar Enigma",
-      "url": "https://science.nasa.gov/blogs/science-news/2026/07/07/nasas-coffies-science-center-makes-breakthrough-on-solar-enigma/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -205,8 +205,8 @@
       ]
     },
     {
-      "title": "OpenAI to release its most powerful model after weekslong hold - POLITICO",
-      "url": "https://www.politico.com/news/2026/07/08/open-ai-models-release-sol-00989959",
+      "title": "Artificial Intelligence News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -221,8 +221,8 @@
       ]
     },
     {
-      "title": "Artificial Intelligence News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "title": "OpenAI to release its most powerful model after weekslong hold - POLITICO",
+      "url": "https://www.politico.com/news/2026/07/08/open-ai-models-release-sol-00989959",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -237,11 +237,11 @@
       ]
     },
     {
-      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
-      "url": "https://llm-stats.com/llm-updates",
+      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
+      "url": "https://www.artificialintelligence-news.com/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -250,14 +250,6 @@
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
       ]
     },
     {
@@ -319,6 +311,14 @@
     {
       "title": "Animals - ABC News",
       "url": "https://abcnews.com/alerts/Animals",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "CDC Current Outbreak List | Outbreaks | CDC",
+      "url": "https://www.cdc.gov/outbreaks/index.html",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
