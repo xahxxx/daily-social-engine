@@ -6,17 +6,35 @@
       "title": "World | Latest News & Updates | BBC News",
       "url": "https://www.bbc.com/news/world",
       "domain": "bbc.com",
-      "description": "Police said a major operation was under way in the area of Welfen-Gymnasium secondary school in Schongau, Bavaria. ... Rescuers pull bodies from the mud after heavy monsoon rains batter the south-eastern coast. Adeniyi Adeyemi allegedly forged a letter of appointment and secured funding for an agency the presidency knew nothing about.",
-      "collected_at": "2026-07-09T06:02:56.358385+00:00"
+      "description": "The attacks appear to be the latest phase of Ukraine&#x27;s bid to choke off supplies and routes into and out of occupied Crimea.",
+      "collected_at": "2026-07-09T18:08:13.649880+00:00"
     },
     {
-      "category_hint": "animals_pets",
-      "query": "viral animal pet wildlife rescue unusual today AP Reuters",
+      "category_hint": "weird_global",
+      "query": "unusual strange viral world news today AP Reuters",
       "title": "World News: Top & Breaking World News Today | AP News",
       "url": "https://apnews.com/world-news",
       "domain": "apnews.com",
       "description": "Stay informed with top world news today. The Associated Press aims to keep you up-to-date with breaking world news stories around the globe.",
-      "collected_at": "2026-07-09T06:02:54.588223+00:00"
+      "collected_at": "2026-07-09T18:08:12.645908+00:00"
+    },
+    {
+      "category_hint": "major_world",
+      "query": "major world news today Reuters AP BBC",
+      "title": "World News and International Headlines : NPR",
+      "url": "https://www.npr.org/sections/world/",
+      "domain": "npr.org",
+      "description": "U.S. President Donald Trump meets with Ukraine&#x27;s President Volodymyr Zelenskyy on the sidelines of the NATO summit in Ankara, Turkey, Wednesday, July 8, 2026. Alex Brandon/AP hide caption toggle caption Alex Brandon/AP",
+      "collected_at": "2026-07-09T18:08:13.649896+00:00"
+    },
+    {
+      "category_hint": "sports",
+      "query": "major sports event today ESPN AP Reuters",
+      "title": "Watch ESPN Schedule - Live Now, Upcoming and Replays - ESPN",
+      "url": "https://www.espn.com/watch/schedule/",
+      "domain": "espn.com",
+      "description": "Check out the Watch ESPN schedule of live streaming games and programming happening right now, upcoming shows and replays.",
+      "collected_at": "2026-07-09T18:08:15.316812+00:00"
     },
     {
       "category_hint": "weird_global",
@@ -25,7 +43,16 @@
       "url": "https://apnews.com/us-news",
       "domain": "apnews.com",
       "description": "View the latest national news from The Associated Press. Stay tuned in to all of the current events within the U.S. borders and breaking U.S. news stories.",
-      "collected_at": "2026-07-09T06:02:55.480508+00:00"
+      "collected_at": "2026-07-09T18:08:12.646025+00:00"
+    },
+    {
+      "category_hint": "weird_global",
+      "query": "unusual strange viral world news today AP Reuters",
+      "title": "Trending News | What's New Around the World | AP News",
+      "url": "https://apnews.com/hub/trending-news",
+      "domain": "apnews.com",
+      "description": "Discover today&#x27;s trending news from around the world. AP News uncovers the latest trending topics and stories.",
+      "collected_at": "2026-07-09T18:08:12.645988+00:00"
     },
     {
       "category_hint": "ai_technology",
@@ -34,25 +61,16 @@
       "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
       "domain": "techcrunch.com",
       "description": "General Intuition is betting millions of hours of video game data can train the foundation models for physical AI, making it easier to build smarter robots with minimal real-world data.",
-      "collected_at": "2026-07-09T06:02:52.923769+00:00"
+      "collected_at": "2026-07-09T18:08:10.038081+00:00"
     },
     {
-      "category_hint": "ai_technology",
-      "query": "AI technology breakthrough chip robot startup today Reuters AP The Verge",
-      "title": "TechCrunch Disrupt 2026 | TechCrunch",
-      "url": "https://techcrunch.com/events/techcrunch-disrupt/",
-      "domain": "techcrunch.com",
-      "description": "Practical insights for founders on fundraising, company building, scaling operations, and maintaining a founder-first approach while growing a business. Focus on how AI is expanding in software and beyond such as robotics, autonomous systems, industrial operations, energy, climate tech, and scientific discovery.",
-      "collected_at": "2026-07-09T06:02:52.923803+00:00"
-    },
-    {
-      "category_hint": "animals_pets",
-      "query": "viral animal pet wildlife rescue unusual today AP Reuters",
+      "category_hint": "weird_global",
+      "query": "unusual strange viral world news today AP Reuters",
       "title": "Reuters World News | Latest Top Stories | Reuters",
       "url": "https://www.reuters.com/world/",
       "domain": "reuters.com",
       "description": "Follow the latest international and world news, breaking stories and global current events from your trusted online news source.",
-      "collected_at": "2026-07-09T06:02:54.588182+00:00"
+      "collected_at": "2026-07-09T18:08:12.645937+00:00"
     },
     {
       "category_hint": "ai_technology",
@@ -61,25 +79,25 @@
       "url": "https://www.reuters.com/technology/",
       "domain": "reuters.com",
       "description": "Michelle Turner had no experience with startup culture so she developed her funding pitch with AI guidance. ... Trump administration and Anthropic have not discussed the government taking a stake in it, source says ... Payments platform Fiserv and service station operators including BP have warned their U.S. partners and store owners not to deal in illegal vapes or ​risk heavy fines as a consequen",
-      "collected_at": "2026-07-09T06:02:52.923719+00:00"
+      "collected_at": "2026-07-09T18:08:10.037983+00:00"
     },
     {
-      "category_hint": "animals_pets",
-      "query": "viral animal pet wildlife rescue unusual today AP Reuters",
+      "category_hint": "weird_global",
+      "query": "unusual strange viral world news today AP Reuters",
       "title": "Reuters Reuters | Breaking International News & Views",
       "url": "https://www.reuters.com/",
       "domain": "reuters.com",
       "description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
-      "collected_at": "2026-07-09T06:02:54.588195+00:00"
+      "collected_at": "2026-07-09T18:08:12.645968+00:00"
     },
     {
-      "category_hint": "sports",
-      "query": "major sports event today ESPN AP Reuters",
-      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
-      "url": "https://www.reuters.com/world/us/",
+      "category_hint": "ai_technology",
+      "query": "AI technology breakthrough chip robot startup today Reuters AP The Verge",
+      "title": "Reuters OpenAI News | Today's Latest Stories | Reuters",
+      "url": "https://www.reuters.com/technology/openai/",
       "domain": "reuters.com",
-      "description": "World Cup fans making their way into Kansas City&#x27;s match venue are met right across the parking lot by an ​unmistakable reminder of a U.S. sporting tradition: Kauffman Stadium, the home of Major League Baseball&#x27;s Kansas City Royals.",
-      "collected_at": "2026-07-09T06:02:58.037918+00:00"
+      "description": "OpenAI CEO Sam Altman told staff in a message ​earlier this week that he expected the AI startup to ‌go public &quot;within the next year,&quot; The Information reported on Wednesday.",
+      "collected_at": "2026-07-09T18:08:10.038100+00:00"
     },
     {
       "category_hint": "ai_technology",
@@ -88,7 +106,7 @@
       "url": "https://www.reuters.com/technology/artificial-intelligence/",
       "domain": "reuters.com",
       "description": "Explore the latest artificial intelligence news with Reuters - from AI breakthroughs and technology trends to regulation, ethics, business and global impact.",
-      "collected_at": "2026-07-09T06:02:52.923670+00:00"
+      "collected_at": "2026-07-09T18:08:10.037930+00:00"
     },
     {
       "category_hint": "science_space_nature",
@@ -96,17 +114,17 @@
       "title": "NASA",
       "url": "https://www.nasa.gov/",
       "domain": "nasa.gov",
-      "description": "NASA investigates the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery. NASA Missions ... In new images from NASA’s James Webb Space Telescope, a familiar galaxy transforms into something ...",
-      "collected_at": "2026-07-09T06:02:53.773674+00:00"
+      "description": "For the first time, NASA’s TESS (Transiting Exoplanet Survey Satellite) mission has identified a planet orbiting a distant star thanks to ripples in space-time.",
+      "collected_at": "2026-07-09T18:08:10.959209+00:00"
     },
     {
-      "category_hint": "entertainment_culture",
-      "query": "entertainment culture internet trend today Variety AP",
-      "title": "Entertainment Business News: TV, Movies, and Music - CNBC",
-      "url": "https://www.cnbc.com/entertainment/",
-      "domain": "cnbc.com",
-      "description": "Latest breaking entertainment business news, including celebrity headlines, blockbuster movie reviews, and coverage of hit television shows and video games.",
-      "collected_at": "2026-07-09T06:02:57.132640+00:00"
+      "category_hint": "sports",
+      "query": "major sports event today ESPN AP Reuters",
+      "title": "MLB | Latest News, Stats, and Scores | AP News",
+      "url": "https://apnews.com/hub/mlb",
+      "domain": "apnews.com",
+      "description": "The Los Angeles Dodgers celebrated their second straight World Series championship with a downtown parade Monday after becoming the first major league team in 25 years to win back-to-back titles.",
+      "collected_at": "2026-07-09T18:08:15.316969+00:00"
     },
     {
       "category_hint": "sports",
@@ -115,34 +133,7 @@
       "url": "https://www.espn.com/",
       "domain": "espn.com",
       "description": "Visit ESPN for live scores, highlights and sports news. Stream exclusive games on ESPN and play fantasy sports.",
-      "collected_at": "2026-07-09T06:02:58.037767+00:00"
-    },
-    {
-      "category_hint": "crypto_markets",
-      "query": "Bitcoin Ethereum Solana ETF inflows crypto regulation today Reuters Bloomberg CNBC",
-      "title": "Crypto - Bloomberg",
-      "url": "https://www.bloomberg.com/crypto",
-      "domain": "bloomberg.com",
-      "description": "Bloomberg&#x27;s coverage of the latest on Cryptocurrencies",
-      "collected_at": "2026-07-09T06:02:52.048143+00:00"
-    },
-    {
-      "category_hint": "ai_technology",
-      "query": "AI technology breakthrough chip robot startup today Reuters AP The Verge",
-      "title": "Chinese AI Startup DeepSeek Developing Own AI Chip, Reuters Says - Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says",
-      "domain": "bloomberg.com",
-      "description": "China’s DeepSeek is developing its own chip to help power artificial intelligence systems, Reuters reported, citing unnamed sources.",
-      "collected_at": "2026-07-09T06:02:52.923750+00:00"
-    },
-    {
-      "category_hint": "major_world",
-      "query": "major world news today Reuters AP BBC",
-      "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world",
-      "url": "https://www.bbc.com/news",
-      "domain": "bbc.com",
-      "description": "BBC Sport&#x27;s football expert Chris Sutton gives his predictions for the quarter-final ties at the 2026 World Cup, including England against Norway.",
-      "collected_at": "2026-07-09T06:02:56.358451+00:00"
+      "collected_at": "2026-07-09T18:08:15.316840+00:00"
     },
     {
       "category_hint": "major_world",
@@ -150,8 +141,8 @@
       "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio",
       "url": "https://www.bbc.com/",
       "domain": "bbc.com",
-      "description": "Visit BBC for trusted reporting on the latest world and US news, sports, business, climate, innovation, culture and much more.",
-      "collected_at": "2026-07-09T06:02:56.358403+00:00"
+      "description": "France are the overwhelming favourites to win the World Cup.",
+      "collected_at": "2026-07-09T18:08:13.649852+00:00"
     },
     {
       "category_hint": "animals_pets",
@@ -160,16 +151,7 @@
       "url": "https://apnews.com/",
       "domain": "apnews.com",
       "description": "Stay informed and read the latest news today from The Associated Press, the definitive source for independent journalism from every corner of the globe.",
-      "collected_at": "2026-07-09T06:02:54.588210+00:00"
-    },
-    {
-      "category_hint": "weird_global",
-      "query": "unusual strange viral world news today AP Reuters",
-      "title": "World news: Latest news, breaking news, today's news stories from around the world, updated daily from CBS News",
-      "url": "https://www.cbsnews.com/world/",
-      "domain": "cbsnews.com",
-      "description": "The White House appointed former Harvard University astronomer Avi Loeb to lead its new panel on Unidentified Anomalous Phenomena, also known as UAPs and UFOs.",
-      "collected_at": "2026-07-09T06:02:55.480552+00:00"
+      "collected_at": "2026-07-09T18:08:11.752130+00:00"
     },
     {
       "category_hint": "major_world",
@@ -178,16 +160,16 @@
       "url": "https://www.cnn.com/world",
       "domain": "cnn.com",
       "description": "View CNN world news today for international news and videos from Europe, Asia, Africa, the Middle East and the Americas.",
-      "collected_at": "2026-07-09T06:02:56.358494+00:00"
+      "collected_at": "2026-07-09T18:08:13.649909+00:00"
     },
     {
       "category_hint": "weird_global",
       "query": "unusual strange viral world news today AP Reuters",
-      "title": "The New York Times International - Breaking News, US News, World News, Videos",
-      "url": "https://www.nytimes.com/international/",
-      "domain": "nytimes.com",
-      "description": "An unusually early heat wave smashed records across France, Britain and Spain.",
-      "collected_at": "2026-07-09T06:02:55.480535+00:00"
+      "title": "The Washington Post - Breaking news and latest headlines, U.S. news, world news, and video",
+      "url": "https://www.washingtonpost.com/",
+      "domain": "washingtonpost.com",
+      "description": "Breaking news, live coverage, investigations, analysis, video, photos and opinions from The Washington Post. Subscribe for the latest on U.S. and international news, politics, business, technology, climate change, health and wellness, sports, science, weather, lifestyle and more.",
+      "collected_at": "2026-07-09T18:08:12.646059+00:00"
     },
     {
       "category_hint": "entertainment_culture",
@@ -196,7 +178,7 @@
       "url": "https://www.etonline.com/",
       "domain": "etonline.com",
       "description": "Entertainment Tonight (ET) is the authoritative source on entertainment and celebrity news with unprecedented access to Hollywood&#x27;s biggest stars, upcoming movies, and TV shows.",
-      "collected_at": "2026-07-09T06:02:57.132565+00:00"
+      "collected_at": "2026-07-09T18:08:14.401747+00:00"
     },
     {
       "category_hint": "crypto_markets",
@@ -205,7 +187,7 @@
       "url": "https://www.theblock.co/",
       "domain": "theblock.co",
       "description": "The Block is a crypto news site giving you the latest breaking news about Bitcoin, Ethereum, Solana and other digital assets. Plus live prices &amp; charts for BTC, ETH, SOL and more.",
-      "collected_at": "2026-07-09T06:02:52.048160+00:00"
+      "collected_at": "2026-07-09T18:08:09.338619+00:00"
     },
     {
       "category_hint": "science_space_nature",
@@ -214,7 +196,7 @@
       "url": "https://www.space.com/",
       "domain": "space.com",
       "description": "Get the latest space exploration, innovation and astronomy news. Space.com celebrates humanity&#x27;s ongoing expansion across the final frontier.",
-      "collected_at": "2026-07-09T06:02:53.773698+00:00"
+      "collected_at": "2026-07-09T18:08:10.959237+00:00"
     },
     {
       "category_hint": "science_space_nature",
@@ -223,25 +205,61 @@
       "url": "https://www.sciencedaily.com/news/space_time/space_exploration/",
       "domain": "sciencedaily.com",
       "description": "NASA’s Webb Telescope Discovers a Planet Where Rock Clouds Vanish Every Night · May 27, 2026  A giant planet nearly 700 light-years away has a bizarre daily weather cycle where mineral clouds appear every morning and vanish by nightfall.",
-      "collected_at": "2026-07-09T06:02:53.773720+00:00"
+      "collected_at": "2026-07-09T18:08:10.959260+00:00"
+    },
+    {
+      "category_hint": "ai_technology",
+      "query": "AI technology breakthrough chip robot startup today Reuters AP The Verge",
+      "title": "Robotics News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/robotics/",
+      "domain": "sciencedaily.com",
+      "description": "Apr. 23, 2026  A breakthrough in brain-inspired computing could make today’s energy-hungry AI systems far more efficient.",
+      "collected_at": "2026-07-09T18:08:10.038062+00:00"
+    },
+    {
+      "category_hint": "sports",
+      "query": "major sports event today ESPN AP Reuters",
+      "title": "Press Releases - ESPN Press Room U.S.",
+      "url": "https://espnpressroom.com/us/press-releases/",
+      "domain": "espnpressroom.com",
+      "description": "Over a dozen media day events will be featured, highlighted by on-site coverage from Monster Energy Big 12 Media Days (July 7-8), ACC Football Kickoff (July 15-17), and SEC Kickoff Presented by Regions Bank (July 20-23). ... Serena Williams’ Wimbledon return on Tuesday delivered record viewership. ... PGA TOUR LIVE on the ESPN App’s coverage of the 2026 PGA TOUR Season travels to Silvis, Illinois,",
+      "collected_at": "2026-07-09T18:08:15.316908+00:00"
+    },
+    {
+      "category_hint": "entertainment_culture",
+      "query": "entertainment culture internet trend today Variety AP",
+      "title": "Popular culture - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Popular_culture",
+      "domain": "en.wikipedia.org",
+      "description": "Because of this, popular culture ... in a variety of conflicting ways by different people across different contexts. It is generally viewed in contrast to other forms of culture, such as folk culture, working-class culture, or high culture, and also from different academic perspectives, including psychoanalysis, structuralism, postmodernism, and more. The common pop-culture categories are entertai",
+      "collected_at": "2026-07-09T18:08:14.401657+00:00"
+    },
+    {
+      "category_hint": "entertainment_culture",
+      "query": "entertainment culture internet trend today Variety AP",
+      "title": "Pop Culture News: Updates on Music, Movies, TV and Celebrities | NBC News",
+      "url": "https://www.nbcnews.com/pop-culture/pop-culture-news",
+      "domain": "nbcnews.com",
+      "description": "The latest news on all-things popular culture. Get updates on the icons of pop culture, including celebrities, musicians, social media influencers and more.",
+      "collected_at": "2026-07-09T18:08:14.401605+00:00"
+    },
+    {
+      "category_hint": "weird_global",
+      "query": "unusual strange viral world news today AP Reuters",
+      "title": "Newsroom - AP.org",
+      "url": "https://newsroom.ap.org/",
+      "domain": "newsroom.ap.org",
+      "description": "We cannot provide a description for this page right now",
+      "collected_at": "2026-07-09T18:08:12.646037+00:00"
     },
     {
       "category_hint": "science_space_nature",
       "query": "science space nature discovery today NASA NOAA AP Reuters",
-      "title": "ScienceDaily: Your source for the latest research news",
-      "url": "https://www.sciencedaily.com/",
-      "domain": "sciencedaily.com",
-      "description": "June 23, 2026  A newly proposed quantum sensing technique could make it much easier to identify one of physics’ newest and most intriguing classes of magnets: altermagnets. These unusual materials, discovered only a few years ago, appear to combine the speed and ... NASA’s Cold Atom Lab Is Creating One of the Weirdest Forms of Matter in Space",
-      "collected_at": "2026-07-09T06:02:53.773745+00:00"
-    },
-    {
-      "category_hint": "science_space_nature",
-      "query": "science space nature discovery today NASA NOAA AP Reuters",
-      "title": "NASA’s Webb telescope just discovered one of the weirdest planets ever | ScienceDaily",
-      "url": "https://sciencedaily.com/releases/2025/12/251227004146.htm",
-      "domain": "sciencedaily.com",
-      "description": "University of Chicago. &quot;NASA’s Webb telescope just discovered one of the weirdest planets ever.&quot; ScienceDaily. www.sciencedaily.com ... May 27, 2026  A giant planet nearly 700 light-years away has a bizarre daily weather cycle where mineral clouds appear every morning and vanish by nightfall.",
-      "collected_at": "2026-07-09T06:02:53.773769+00:00"
+      "title": "NASA’s COFFIES Center Makes Breakthrough on Solar Enigma",
+      "url": "https://science.nasa.gov/blogs/science-news/2026/07/07/nasas-coffies-science-center-makes-breakthrough-on-solar-enigma/",
+      "domain": "science.nasa.gov",
+      "description": "One of NASA&#x27;s DRIVE Science Centers, COFFIES, enabled a group of researchers to tackle a fundamental question about how the Sun works in a recent paper.",
+      "collected_at": "2026-07-09T18:08:10.959328+00:00"
     },
     {
       "category_hint": "science_space_nature",
@@ -250,7 +268,16 @@
       "url": "https://www.sciencedaily.com/news/space_time/nasa/",
       "domain": "sciencedaily.com",
       "description": "June 11, 2026  JWST has revealed dramatic differences between the dawn and dusk regions of the scorching exoplanet WASP-121 b. Fierce winds appear to carry heat from the planet’s permanent dayside, making the ... Planet Nine Mystery Deepens as New Discovery Challenges Hidden Planet Theory",
-      "collected_at": "2026-07-09T06:02:53.773789+00:00"
+      "collected_at": "2026-07-09T18:08:10.959301+00:00"
+    },
+    {
+      "category_hint": "sports",
+      "query": "major sports event today ESPN AP Reuters",
+      "title": "Live Sports On TV Today - TV Guide",
+      "url": "https://www.tvguide.com/sports/live-today/",
+      "domain": "tvguide.com",
+      "description": "Sign in to customize your TV listings · By joining TV Guide, you agree to our Terms of Use and acknowledge the data practices in our Privacy Policy",
+      "collected_at": "2026-07-09T18:08:15.316877+00:00"
     },
     {
       "category_hint": "animals_pets",
@@ -259,7 +286,7 @@
       "url": "https://en.wikipedia.org/wiki/List_of_unusual_deaths_in_the_21st_century",
       "domain": "en.wikipedia.org",
       "description": "&quot;It&#x27;s just as freakish of an accident ... Fish and Wildlife Conservation Commission. ... &quot;Bombeiros dizem ser cada vez mais difícil encontrar padre&quot; [Firefighters say it is increasingly difficult to find a priest]. Extra (in Portuguese). Reuters. 23 April 2008....",
-      "collected_at": "2026-07-09T06:02:54.588168+00:00"
+      "collected_at": "2026-07-09T18:08:11.752115+00:00"
     },
     {
       "category_hint": "sports",
@@ -268,16 +295,25 @@
       "url": "https://www.cnn.com/sport",
       "domain": "cnn.com",
       "description": "Latest sports news from around the world with in-depth analysis, features, photos and videos covering football, tennis, motorsport, golf, rugby, sailing, skiing, horse racing and equestrian.",
-      "collected_at": "2026-07-09T06:02:58.037818+00:00"
+      "collected_at": "2026-07-09T18:08:15.316924+00:00"
     },
     {
-      "category_hint": "entertainment_culture",
-      "query": "entertainment culture internet trend today Variety AP",
-      "title": "Hollywood Life – Latest Hollywood Celebrity & Entertainment News",
-      "url": "https://hollywoodlife.com/",
-      "domain": "hollywoodlife.com",
-      "description": "HollywoodLife brings you the latest celebrity and entertainment news, exclusive celebrity pics and videos - plus the hottest celebrity fashion and beauty trends.",
-      "collected_at": "2026-07-09T06:02:57.132627+00:00"
+      "category_hint": "science_space_nature",
+      "query": "science space nature discovery today NASA NOAA AP Reuters",
+      "title": "Latest science news, discoveries and analysis",
+      "url": "https://www.nature.com/news",
+      "domain": "nature.com",
+      "description": "Latest science news and analysis from the world&#x27;s leading research journal",
+      "collected_at": "2026-07-09T18:08:10.959312+00:00"
+    },
+    {
+      "category_hint": "science_space_nature",
+      "query": "science space nature discovery today NASA NOAA AP Reuters",
+      "title": "Latest News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/",
+      "domain": "sciencedaily.com",
+      "description": "NASA&#x27;s Hubble Captures a Crimson Stellar Nursery Sparkling With Blue and White Stars · July 5, 2026  Hubble has captured a spectacular view of LH 95, where about 2,500 young stars are still on their journey to becoming full-fledged stars. Scientists discovered these growing stars can keep pulling in ...",
+      "collected_at": "2026-07-09T18:08:10.959281+00:00"
     },
     {
       "category_hint": "animals_pets",
@@ -286,25 +322,16 @@
       "url": "https://www.humaneworld.org/en",
       "domain": "humaneworld.org",
       "description": "See one dog&#x27;s story as he is rescued from dogfighting.",
-      "collected_at": "2026-07-09T06:02:54.588084+00:00"
-    },
-    {
-      "category_hint": "ai_technology",
-      "query": "AI technology breakthrough chip robot startup today Reuters AP The Verge",
-      "title": "Exclusive-China's DeepSeek Developing Its Own AI Chip, Sources Say",
-      "url": "https://www.usnews.com/news/top-news/articles/2026-07-07/exclusive-chinas-deepseek-developing-its-own-ai-chip-sources-say",
-      "domain": "usnews.com",
-      "description": "OpenAI last month unveiled Jalapeno, its first custom inference chip, developed with Broadcom, ⁠while Anthropic has been weighing building its own AI chips, Reuters reported in April.",
-      "collected_at": "2026-07-09T06:02:52.923821+00:00"
+      "collected_at": "2026-07-09T18:08:11.751972+00:00"
     },
     {
       "category_hint": "entertainment_culture",
       "query": "entertainment culture internet trend today Variety AP",
-      "title": "Entertainment News and Celebrity Gossip",
-      "url": "https://www.cosmopolitan.com/entertainment/",
-      "domain": "cosmopolitan.com",
-      "description": "Need a pop culture catch-up? We&#x27;ve got you covered. From celebrity fashion disasters to exclusive celebrity interviews, here’s where you can get your dose of what’s happening in Hollywood.",
-      "collected_at": "2026-07-09T06:02:57.132584+00:00"
+      "title": "Entertainment | CNN",
+      "url": "https://www.cnn.com/entertainment",
+      "domain": "cnn.com",
+      "description": "View entertainment news and videos for the latest movie, music, TV and celebrity headlines on CNN.com",
+      "collected_at": "2026-07-09T18:08:14.401681+00:00"
     },
     {
       "category_hint": "entertainment_culture",
@@ -313,16 +340,34 @@
       "url": "https://deadline.com/",
       "domain": "deadline.com",
       "description": "Deadline.com is always the first to break up-to-the-minute entertainment, Hollywood and media news, with an unfiltered, no-holds-barred analysis of events.",
-      "collected_at": "2026-07-09T06:02:57.132599+00:00"
+      "collected_at": "2026-07-09T18:08:14.401719+00:00"
+    },
+    {
+      "category_hint": "animals_pets",
+      "query": "viral animal pet wildlife rescue unusual today AP Reuters",
+      "title": "DVIDS - News - USACE New Orleans District personnel rescue wildlife in Bonnet Carre’ Spillway",
+      "url": "https://www.dvidshub.net/news/569546/usace-new-orleans-district-personnel-rescue-wildlife-bonnet-carre-spillway",
+      "domain": "dvidshub.net",
+      "description": "According to Fontenot, the owl acted very docile and lethargic, and it moved very little even though its wings appeared to be intact. Donning his protective gear, Fontenot gently placed the bird into an animal carrier so it could be transported ...",
+      "collected_at": "2026-07-09T18:08:11.752063+00:00"
     },
     {
       "category_hint": "crypto_markets",
       "query": "Bitcoin Ethereum Solana ETF inflows crypto regulation today Reuters Bloomberg CNBC",
-      "title": "Crypto Prices Today LIVE (08 July 2026): Check Crypto Price News Today & Latest Crypto Coins Updates | ET Markets",
-      "url": "https://economictimes.indiatimes.com/markets/cryptocurrency",
-      "domain": "economictimes.indiatimes.com",
-      "description": "Bitcoin approaches $63,000 after $224 million ETF inflows snap six-day outflow streak ... Bitcoin slips below $60,000 as ETF outflows and middle east tensions weigh. Here is what experts say · Supply crunch lifts stablecoin premium above 8.5% in India ... Loading ...",
-      "collected_at": "2026-07-09T06:02:52.048183+00:00"
+      "title": "Crypto Today: Bitcoin, Ethereum, XRP stall despite returning ETF inflows | FXStreet",
+      "url": "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-struggle-to-build-momentum-despite-returning-etf-inflows-202607071200",
+      "domain": "fxstreet.com",
+      "description": "Bitcoin spot Exchange-Traded Funds (ETFs) are experiencing a steady return in inflows totaling $266 million on Monday and $222 million on Friday. The return of inflows broke an extended period of outflows, tracking back to June 16.",
+      "collected_at": "2026-07-09T18:08:09.338639+00:00"
+    },
+    {
+      "category_hint": "crypto_markets",
+      "query": "Bitcoin Ethereum Solana ETF inflows crypto regulation today Reuters Bloomberg CNBC",
+      "title": "Crypto News, Coin Prices & Market Trends | CryptoSlate",
+      "url": "https://cryptoslate.com/",
+      "domain": "cryptoslate.com",
+      "description": "The ETF rebound has helped stabilize sentiment, but negative on-chain demand and soft U.S. spot-market signals keep the recovery in doubt. ... Market data updates periodically. Data via CoinMarketCap ... Solana&#x27;s RWA transfer volume more than doubled over 30 days, shifting the adoption signal from tokenized value to usage quality.",
+      "collected_at": "2026-07-09T18:08:09.338551+00:00"
     },
     {
       "category_hint": "crypto_markets",
@@ -331,7 +376,7 @@
       "url": "https://investingnews.com/cryptocurrency-market-recap/",
       "domain": "investingnews.com",
       "description": "India&#x27;s cryptocurrency policy remains firmly in limbo, but internal government documents reveal that key authorities continue to push for tighter restrictions and a potential blanket ban, according to a Reuters report.",
-      "collected_at": "2026-07-09T06:02:52.048046+00:00"
+      "collected_at": "2026-07-09T18:08:09.338483+00:00"
     },
     {
       "category_hint": "crypto_markets",
@@ -339,8 +384,8 @@
       "title": "CoinDesk: Bitcoin, Ethereum, XRP, Crypto News and Price Data",
       "url": "https://www.coindesk.com/",
       "domain": "coindesk.com",
-      "description": "Leader in cryptocurrency, Bitcoin, Ethereum, XRP, blockchain, DeFi, digital finance and Web 3.0 news with analysis, video and live price updates.",
-      "collected_at": "2026-07-09T06:02:52.048082+00:00"
+      "description": "Latin America’s biggest stock exchange now offers options on bitcoin, ether and solana futuresThese options settle into underlying futures contracts rather than spot cryptoassets, involving no custody, transfer, or administration of tokens.",
+      "collected_at": "2026-07-09T18:08:09.338525+00:00"
     },
     {
       "category_hint": "entertainment_culture",
@@ -349,43 +394,34 @@
       "url": "https://www.tmz.com/",
       "domain": "tmz.com",
       "description": "According to the Lake Havasu City Police incident report, obtained by TMZ, detectives found a handwritten note tucked inside a black basket in a bathroom closet near where Darrell was found dead. Police summarized it as reading, &quot;I could not take anymore the Facebook bulling, f*** you [redacted]&quot; ... adding the handwriting appeared shaky.",
-      "collected_at": "2026-07-09T06:02:57.132539+00:00"
+      "collected_at": "2026-07-09T18:08:14.401704+00:00"
     },
     {
       "category_hint": "major_world",
       "query": "major world news today Reuters AP BBC",
-      "title": "Breaking News, Latest News and Videos | CNN",
-      "url": "https://edition.cnn.com/",
-      "domain": "edition.cnn.com",
-      "description": "Video Scott Jennings on his call today with Sen. Mitch McConnell 0:42 ... Video ‘If we don’t suffer, we don’t win’: Fans react to Argentina’s miraculous comeback victory 1:04 ... We knew this Super El Niño would be intense. But it could end up being even worse than anticipated ... Analysis OPEC is in a struggle for its survival. It could mean $40 oil ... Scan the QR code to download the CNN app on",
-      "collected_at": "2026-07-09T06:02:56.358480+00:00"
-    },
-    {
-      "category_hint": "entertainment_culture",
-      "query": "entertainment culture internet trend today Variety AP",
-      "title": "Breaking News, Latest News and Videos | CNN",
-      "url": "https://www.cnn.com/",
-      "domain": "cnn.com",
-      "description": "View the latest news and breaking news today for U.S., world, weather, entertainment, politics and health at CNN.com.",
-      "collected_at": "2026-07-09T06:02:57.132653+00:00"
+      "title": "Breaking News, World News and Video from Al Jazeera",
+      "url": "https://www.aljazeera.com/",
+      "domain": "aljazeera.com",
+      "description": "News, analysis from the Middle East &amp; worldwide, multimedia &amp; interactives, opinions, documentaries, podcasts, long reads and broadcast schedule.",
+      "collected_at": "2026-07-09T18:08:13.649866+00:00"
     },
     {
       "category_hint": "crypto_markets",
       "query": "Bitcoin Ethereum Solana ETF inflows crypto regulation today Reuters Bloomberg CNBC",
-      "title": "Bitcoin ETF Inflows Return As Farside Data Shows Institutions Still Buying The Dip",
-      "url": "https://www.newsbtc.com/news/bitcoin-etf-inflows-return-as-farside-data-shows-institutions-still-buying-the/",
-      "domain": "newsbtc.com",
-      "description": "Solana’s ETF story keeps gaining weight. The latest Bitwise-linked filing puts SOL more firmly into the institutional product conversation, even...",
-      "collected_at": "2026-07-09T06:02:52.048104+00:00"
+      "title": "Blackrock’s IBIT Lifts Bitcoin ETFs With $54.8 Million as Inflows Reach Day 3",
+      "url": "https://news.bitcoin.com/blackrocks-ibit-lifts-bitcoin-etfs-with-54-8-million-as-inflows-reach-day-3/",
+      "domain": "news.bitcoin.com",
+      "description": "Ether looked steadier, while HYPE and solana continued to show that selective altcoin demand remains alive. Crypto ETF flows opened the new week on a stronger footing, with bitcoin ETFs adding $265.69 million and ether ETFs…Read Now",
+      "collected_at": "2026-07-09T18:08:09.338601+00:00"
     },
     {
       "category_hint": "crypto_markets",
       "query": "Bitcoin Ethereum Solana ETF inflows crypto regulation today Reuters Bloomberg CNBC",
-      "title": "Bitcoin (BTC) Price Prediction 2026, 2027 - 2030",
-      "url": "https://cryptonews.com/price-predictions/bitcoin-price-prediction/",
-      "domain": "cryptonews.com",
-      "description": "Its volatile price performance is due to macroeconomic and geopolitical uncertainty, while Bitcoin bulls continue to focus on key developments like the Bitcoin halving schedule, massive inflows into Bitcoin ETFs, the arrival of a more crypto-friendly US administration, and increasing institutional interest.",
-      "collected_at": "2026-07-09T06:02:52.048203+00:00"
+      "title": "Bitcoin (BTC) Price USD Today, News, Charts, Market Cap | Coinbase",
+      "url": "https://www.coinbase.com/price/bitcoin",
+      "domain": "coinbase.com",
+      "description": "combination of factors, including optimism over Congress tackling a suite of crypto rules this week; a wave of institutional investment via crypto exchange-traded funds (ETFs), and analysts’ belief that the Federal Reserve will ... by less than many market watchers expected). Prices ticked back upward towards $120,000 on Wednesday. Speaking to Bloomberg, one analyst",
+      "collected_at": "2026-07-09T18:08:09.338578+00:00"
     },
     {
       "category_hint": "crypto_markets",
@@ -394,7 +430,7 @@
       "url": "https://www.spotedcrypto.com/best-altcoins-2026-crypto-cycle-picks/",
       "domain": "spotedcrypto.com",
       "description": "&quot;Solana is furthest along, with XRP the most-discussed next candidate,&quot; Bloomberg analysts noted in describing the &quot;altcoin ETF summer 2026&quot; (source: Use The Bitcoin, 2026). The lesson from Ethereum&#x27;s post-2024 ETF experience applies directly here: approval opened the door, but sustained inflows and delivered upgrades — not the listing itself — moved the asset .",
-      "collected_at": "2026-07-09T06:02:52.048133+00:00"
+      "collected_at": "2026-07-09T18:08:09.338665+00:00"
     },
     {
       "category_hint": "science_space_nature",
@@ -403,16 +439,16 @@
       "url": "https://www.sciencedaily.com/news/space_time/astronomy/",
       "domain": "sciencedaily.com",
       "description": "NASA’s Hubble Accidentally Caught a Comet Breaking Apart in Real Time · Astronomers Discover Nearby Galaxy Was Shattered by Cosmic Crash",
-      "collected_at": "2026-07-09T06:02:53.773821+00:00"
+      "collected_at": "2026-07-09T18:08:10.959341+00:00"
     },
     {
-      "category_hint": "science_space_nature",
-      "query": "science space nature discovery today NASA NOAA AP Reuters",
-      "title": "Astronomy Magazine: Space News, Observing, Planets, Galaxies",
-      "url": "https://www.astronomy.com/",
-      "domain": "astronomy.com",
-      "description": "LHA 120-N 40 is the glowing debris of a star that exploded in the Large Magellanic Cloud, the Milky Way satellite galaxy about 163,000 light-years away in Dorado. The shell that appears in blue was blown out by the supernova, while smaller regions ...",
-      "collected_at": "2026-07-09T06:02:53.773807+00:00"
+      "category_hint": "ai_technology",
+      "query": "AI technology breakthrough chip robot startup today Reuters AP The Verge",
+      "title": "Artificial Intelligence News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "domain": "sciencedaily.com",
+      "description": "By borrowing ideas from traditional robotics and combining ... ... Mar. 13, 2026  As AI systems began acing traditional tests, researchers realized those benchmarks were no longer tough enough. In response, nearly 1,000 experts created Humanity’s Last Exam, a massive ... Quantum Computer Breakthrough Tracks Qubit Fluctuations in Real Time",
+      "collected_at": "2026-07-09T18:08:10.038046+00:00"
     },
     {
       "category_hint": "animals_pets",
@@ -420,19 +456,37 @@
       "title": "Animals | The Guardian",
       "url": "https://www.theguardian.com/world/animals",
       "domain": "theguardian.com",
-      "description": "This week’s best wildlife photographs from around the world · Family find answers via social media after their furry friend returned home with an unusual makeover",
-      "collected_at": "2026-07-09T06:02:54.588112+00:00"
+      "description": "Latest news, sport, business, comment, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
+      "collected_at": "2026-07-09T18:08:11.751960+00:00"
+    },
+    {
+      "category_hint": "animals_pets",
+      "query": "viral animal pet wildlife rescue unusual today AP Reuters",
+      "title": "Abandoned and injured, sloth bear cub rescued from Bandhavgarh | Bhopal News - The Times of India",
+      "url": "https://timesofindia.indiatimes.com/city/bhopal/abandoned-and-injured-sloth-bear-cub-rescued-from-bandhavgarh/articleshow/132294558.cms",
+      "domain": "timesofindia.indiatimes.com",
+      "description": "Luna’s rescue demonstrates what is possible when prompt action, veterinary expertise and close coordination with the forest department come together.”Geeta Seshamani, co-founder and secretary of Wildlife SOS, said it was encouraging to see the cub making steady progress in her recovery.The Van Vihar Bear Rescue Facility in Bhopal provides specialised treatment and long-term care to rescued sloth b",
+      "collected_at": "2026-07-09T18:08:11.752037+00:00"
     },
     {
       "category_hint": "ai_technology",
       "query": "AI technology breakthrough chip robot startup today Reuters AP The Verge",
-      "title": "AI & Technology Stock News News Live Feed | Stock Titan",
-      "url": "https://www.stocktitan.net/news/ai.html",
+      "title": "AI Stocks List 2026: 60+ AI Companies | StockTitan",
+      "url": "https://www.stocktitan.net/stocks/themes/ai-stocks",
       "domain": "stocktitan.net",
-      "description": "AI stock news today: Real-time updates on artificial intelligence advancements in public companies. Track AI news, machine learning breakthroughs, and tech stock movements. Updated live.",
-      "collected_at": "2026-07-09T06:02:52.923784+00:00"
+      "description": "In AI servers its chips handle management and security functions around the main accelerators, and its low-power devices target edge-AI inference in robotics, industrial, and automotive systems, a growing source of demand. Jul 1, 2026 Lattice Wins 2026 Cybersecurity Stars Award by The Hacker News · Jun 25, 2026 Lattice Wins 2026 AI Breakthrough Award",
+      "collected_at": "2026-07-09T18:08:10.038126+00:00"
+    },
+    {
+      "category_hint": "animals_pets",
+      "query": "viral animal pet wildlife rescue unusual today AP Reuters",
+      "title": "'Especially aromatic' opossum becomes unlikely rescue star after surviving bitter cold",
+      "url": "https://www.thecooldown.com/outdoors/opossum-rescue-southwest-virginia-unique-story/",
+      "domain": "thecooldown.com",
+      "description": "As for its &quot;aura of funk,&quot; the wildlife center did confirm that &quot;wild animals, and especially adult opossums do tend to be…",
+      "collected_at": "2026-07-09T18:08:11.751933+00:00"
     }
   ],
   "errors": [],
-  "generated_at": "2026-07-09T06:02:58.238834+00:00"
+  "generated_at": "2026-07-09T18:08:15.517980+00:00"
 }

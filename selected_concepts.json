@@ -1,48 +1,31 @@
 [
   {
-    "score": 22,
-    "category": "sports",
-    "target_category_today": "sports",
-    "last_category": "",
-    "source_title": "ESPN - Serving Sports Fans. Anytime. Anywhere.",
-    "source_url": "https://www.espn.com/",
-    "source_domain": "espn.com",
-    "source_summary": "Visit ESPN for live scores, highlights and sports news. Stream exclusive games on ESPN and play fantasy sports.",
-    "collected_at": "2026-07-09T06:02:58.037767+00:00",
-    "why_selected": [
-      "trusted source: espn.com",
-      "daily rotation boost: sports",
-      "category: sports"
-    ],
-    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: ESPN - Serving Sports Fans. Anytime. Anywhere."
-  },
-  {
-    "score": 18,
-    "category": "crypto_markets",
-    "target_category_today": "sports",
-    "last_category": "",
+    "score": 19,
+    "category": "science_space_nature",
+    "target_category_today": "major_world",
+    "last_category": "sports",
     "source_title": "NASA",
     "source_url": "https://www.nasa.gov/",
     "source_domain": "nasa.gov",
-    "source_summary": "NASA investigates the unknown in air and space, innovates for the benefit of humanity, and inspires the world through discovery. NASA Missions ... In new images from NASA’s James Webb Space Telescope, a familiar galaxy transforms into something ...",
-    "collected_at": "2026-07-09T06:02:53.773674+00:00",
+    "source_summary": "For the first time, NASA’s TESS (Transiting Exoplanet Survey Satellite) mission has identified a planet orbiting a distant star thanks to ripples in space-time.",
+    "collected_at": "2026-07-09T18:08:10.959209+00:00",
     "why_selected": [
       "trusted source: nasa.gov",
-      "category: crypto_markets",
-      "visual hook: discovery"
+      "category: science_space_nature",
+      "visual hook: first"
     ],
     "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: NASA"
   },
   {
     "score": 18,
     "category": "crypto_markets",
-    "target_category_today": "sports",
-    "last_category": "",
+    "target_category_today": "major_world",
+    "last_category": "sports",
     "source_title": "Reuters AI News | Latest Headlines and Developments | Reuters",
     "source_url": "https://www.reuters.com/technology/artificial-intelligence/",
     "source_domain": "reuters.com",
     "source_summary": "Explore the latest artificial intelligence news with Reuters - from AI breakthroughs and technology trends to regulation, ethics, business and global impact.",
-    "collected_at": "2026-07-09T06:02:52.923670+00:00",
+    "collected_at": "2026-07-09T18:08:10.037930+00:00",
     "why_selected": [
       "trusted source: reuters.com",
       "category: crypto_markets",
@@ -53,13 +36,49 @@
   {
     "score": 18,
     "category": "ai_technology",
-    "target_category_today": "sports",
-    "last_category": "",
+    "target_category_today": "major_world",
+    "last_category": "sports",
+    "source_title": "World News and International Headlines : NPR",
+    "source_url": "https://www.npr.org/sections/world/",
+    "source_domain": "npr.org",
+    "source_summary": "U.S. President Donald Trump meets with Ukraine&#x27;s President Volodymyr Zelenskyy on the sidelines of the NATO summit in Ankara, Turkey, Wednesday, July 8, 2026. Alex Brandon/AP hide caption toggle caption Alex Brandon/AP",
+    "collected_at": "2026-07-09T18:08:13.649896+00:00",
+    "why_selected": [
+      "trusted source: npr.org",
+      "category: ai_technology",
+      "contains concrete detail"
+    ],
+    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: World News and International Headlines : NPR"
+  },
+  {
+    "score": 18,
+    "category": "ai_technology",
+    "target_category_today": "major_world",
+    "last_category": "sports",
+    "source_title": "Robotics News -- ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/news/computers_math/robotics/",
+    "source_domain": "sciencedaily.com",
+    "source_summary": "Apr. 23, 2026  A breakthrough in brain-inspired computing could make today’s energy-hungry AI systems far more efficient.",
+    "collected_at": "2026-07-09T18:08:10.038062+00:00",
+    "why_selected": [
+      "source: sciencedaily.com",
+      "category: ai_technology",
+      "visual hook: breakthrough",
+      "visual hook: robot",
+      "contains concrete detail"
+    ],
+    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Robotics News -- ScienceDaily"
+  },
+  {
+    "score": 18,
+    "category": "ai_technology",
+    "target_category_today": "major_world",
+    "last_category": "sports",
     "source_title": "NASA News -- ScienceDaily",
     "source_url": "https://www.sciencedaily.com/news/space_time/nasa/",
     "source_domain": "sciencedaily.com",
     "source_summary": "June 11, 2026  JWST has revealed dramatic differences between the dawn and dusk regions of the scorching exoplanet WASP-121 b. Fierce winds appear to carry heat from the planet’s permanent dayside, making the ... Planet Nine Mystery Deepens as New Discovery Challenges Hidden Planet Theory",
-    "collected_at": "2026-07-09T06:02:53.773789+00:00",
+    "collected_at": "2026-07-09T18:08:10.959301+00:00",
     "why_selected": [
       "source: sciencedaily.com",
       "category: ai_technology",
@@ -70,35 +89,22 @@
     "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: NASA News -- ScienceDaily"
   },
   {
-    "score": 16,
+    "score": 18,
     "category": "ai_technology",
-    "target_category_today": "sports",
-    "last_category": "",
-    "source_title": "Entertainment Business News: TV, Movies, and Music - CNBC",
-    "source_url": "https://www.cnbc.com/entertainment/",
-    "source_domain": "cnbc.com",
-    "source_summary": "Latest breaking entertainment business news, including celebrity headlines, blockbuster movie reviews, and coverage of hit television shows and video games.",
-    "collected_at": "2026-07-09T06:02:57.132640+00:00",
+    "target_category_today": "major_world",
+    "last_category": "sports",
+    "source_title": "Artificial Intelligence News -- ScienceDaily",
+    "source_url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+    "source_domain": "sciencedaily.com",
+    "source_summary": "By borrowing ideas from traditional robotics and combining ... ... Mar. 13, 2026  As AI systems began acing traditional tests, researchers realized those benchmarks were no longer tough enough. In response, nearly 1,000 experts created Humanity’s Last Exam, a massive ... Quantum Computer Breakthrough Tracks Qubit Fluctuations in Real Time",
+    "collected_at": "2026-07-09T18:08:10.038046+00:00",
     "why_selected": [
-      "trusted source: cnbc.com",
-      "category: ai_technology"
+      "source: sciencedaily.com",
+      "category: ai_technology",
+      "visual hook: breakthrough",
+      "visual hook: robot",
+      "contains concrete detail"
     ],
-    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Entertainment Business News: TV, Movies, and Music - CNBC"
-  },
-  {
-    "score": 16,
-    "category": "ai_technology",
-    "target_category_today": "sports",
-    "last_category": "",
-    "source_title": "Chinese AI Startup DeepSeek Developing Own AI Chip, Reuters Says - Bloomberg",
-    "source_url": "https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says",
-    "source_domain": "bloomberg.com",
-    "source_summary": "China’s DeepSeek is developing its own chip to help power artificial intelligence systems, Reuters reported, citing unnamed sources.",
-    "collected_at": "2026-07-09T06:02:52.923750+00:00",
-    "why_selected": [
-      "trusted source: bloomberg.com",
-      "category: ai_technology"
-    ],
-    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Chinese AI Startup DeepSeek Developing Own AI Chip, Reuters Says - Bloomberg"
+    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Artificial Intelligence News -- ScienceDaily"
   }
 ]
