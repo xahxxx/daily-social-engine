@@ -86,6 +86,7 @@ NEWS GROUNDING RULES:
 5. Verify this is a specific event, announcement, result, discovery, filing, launch, ruling, record, rescue, or measurable development—not evergreen promotional copy.
 6. Do not give financial advice.
 7. Avoid real politician caricatures and cruel tragedy humor.
+8. This account only covers the following news categories: Science and technology, AI, Pets and animals, Space Exploration and News, Worldly and weird news, Cryptocurrency
 
 IMAGE PROMPT REQUIREMENTS:
 - Square Instagram cinematic anime editorial illustration.
