@@ -307,5 +307,5 @@ def generate_post_brief(max_candidates: int = 5, attempts_per_candidate: int = 2
 
 if __name__ == "__main__":
     generate_post_brief()
-generate_post_brief_FIXED.py
-Displaying generate_post_brief_FIXED.py.
+generate_post_brief.py
+Displaying generate_post_brief.py.
