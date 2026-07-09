@@ -149,7 +149,7 @@ def repair_brief(brief: Dict[str, Any], source_concept: Dict[str, Any]) -> Dict[
         phrase = str(phrase).strip()
         if phrase and len(phrase.split()) <= 3:
             safe_text.append(phrase)
-    brief["required_text"] = safe_text[:3]
+    brief["required_text"] = safe_text[:1]
 
     for key in REQUIRED_KEYS:
         brief.setdefault(key, "" if key not in {"hashtags", "required_text", "easter_eggs"} else [])
@@ -189,8 +189,8 @@ def validate_brief(brief: Dict[str, Any], source_concept: Dict[str, Any]) -> Lis
         errors.append("caption too thin to explain actual event")
 
     required_text = brief.get("required_text")
-    if not isinstance(required_text, list) or len(required_text) > 3:
-        errors.append("required_text must be list with max 3 phrases")
+    if not isinstance(required_text, list) or len(required_text) > 1:
+        errors.append("required_text must be list with max 1 phrases")
     else:
         for phrase in required_text:
             if len(str(phrase).split()) > 3:
@@ -224,7 +224,10 @@ NON-NEGOTIABLE EDITORIAL RULES:
 - Do not cover sports, ESPN, celebrities, generic holidays, shopping, ads, streaming pages, live scores, or evergreen service pages.
 - If the candidate is too vague, do not make it sound more specific than the supplied facts.
 - The image must avoid corporate logos unless the specific company is truly the subject of the event.
-- Image text must be minimal: required_text max 3 phrases, max 3 words each.
+- Default required_text to an empty array [].
+- Only use required_text if the image would be confusing without it.
+- If used, required_text must contain exactly 1 phrase maximum, 3 words maximum.
+- Never use image text as a headline, title card, slogan, poster text, or caption.
 - Caption must be exactly 2 concise sentences: sentence 1 explains what happened; sentence 2 is Hunk Mao's witty reaction.
 - The post should feel like visually rich cinematic anime news satire, not an advertisement.
 
