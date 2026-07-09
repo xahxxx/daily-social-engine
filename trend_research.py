@@ -8,14 +8,13 @@ from hunk_utils import domain_from_url, env, normalize_text, path_for, save_json
 BRAVE_API_KEY = env('BRAVE_SEARCH_API_KEY', required=True)
 BRAVE_ENDPOINT = 'https://api.search.brave.com/res/v1/web/search'
 QUERIES = [
- {'category_hint':'crypto_markets','q':'Bitcoin OR Ethereum OR Solana major development today Reuters Bloomberg CNBC'},
- {'category_hint':'ai_technology','q':'AI technology breakthrough launch deal today Reuters AP The Verge'},
- {'category_hint':'science_space_nature','q':'science space nature discovery mission today NASA NOAA AP Reuters'},
- {'category_hint':'animals_pets','q':'animal wildlife rescue discovery unusual today AP Reuters'},
- {'category_hint':'weird_global','q':'unusual strange world event discovery today AP Reuters'},
- {'category_hint':'major_world','q':'major world development today Reuters AP BBC'},
- {'category_hint':'entertainment_culture','q':'entertainment culture major announcement release today Variety AP Reuters'},
- {'category_hint':'sports','q':'major sports result final record trade today ESPN AP Reuters'},
+    "latest science discovery today unusual breakthrough",
+    "latest technology breakthrough today AI robotics science",
+    "artificial intelligence news today breakthrough regulation startup",
+    "viral animal rescue unusual pet wildlife story today",
+    "space news today NASA SpaceX astronomy discovery",
+    "weird world news today unusual strange event",
+    "cryptocurrency news today bitcoin ethereum solana ETF regulation",
 ]
 BLOCKED_URL_WORDS=['/live/','live-updates','/tag/','/category/','/topics/','/latest','homepage','watch/','video/']
 PROMO_TERMS=['anytime anywhere','keeps fans connected','live scores, highlights','watch live','stream anytime','subscribe now','download the app','sign up','according to espn.com','sports fan']
