@@ -59,7 +59,7 @@ jobs:
           file_pattern: published/*.png published/*.json trend_candidates.json concept_selection_debug.json
 
       - name: Wait for GitHub Pages to refresh
-        run: sleep 90
+        run: sleep 120
 
       - name: Publish to Instagram
         if: ${{ github.event.inputs.publish_to_instagram == 'true' }}
