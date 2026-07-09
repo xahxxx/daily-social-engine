@@ -6,9 +6,9 @@
       "title": "Reuters Tech News | Today's Latest Technology News | Reuters",
       "url": "https://www.reuters.com/technology/",
       "domain": "reuters.com",
-      "description": "Find latest technology news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
+      "description": "China&#x27;s Kuaishou Technology said on Thursday a group of investors including Alibaba and Tencent will inject over 19 billion yuan ($2.80 billion) \u200bin Kling AI, while valuing the popular AI video arm \u200bat $15 billion on a pre-money basis.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.160021+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.154995+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -20,7 +20,7 @@
       "domain": "reuters.com",
       "description": "Explore the latest artificial intelligence news with Reuters - from AI breakthroughs and technology trends to regulation, ethics, business and global impact.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.162378+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.157207+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -32,7 +32,7 @@
       "domain": "reuters.com",
       "description": "Micron Technology and Ford Motor on Monday signed a long-term agreement to secure the \u200bsupply for memory and storage platforms used \u200cin the automaker&#x27;s next-generation vehicle production.",
       "age": "17 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.162616+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.157394+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -44,7 +44,7 @@
       "domain": "reuters.com",
       "description": "Find latest news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.162866+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.157615+00:00",
       "is_promotional": true,
       "has_event_signal": false
     },
@@ -56,7 +56,7 @@
       "domain": "reuters.com",
       "description": "Follow the latest international and world news, breaking stories and global current events from your trusted online news source.",
       "age": "9 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.162914+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.157654+00:00",
       "is_promotional": true,
       "has_event_signal": false
     },
@@ -68,19 +68,7 @@
       "domain": "reuters.com",
       "description": "OpenAI could set the stage for a trio of trillion-dollar-valuation companies debuting rapidly, which together are seen as the most consequential test of investor appetite for high-growth technology stocks in the last 10 \u200byears.",
       "age": "9 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.162971+00:00",
-      "is_promotional": false,
-      "has_event_signal": false
-    },
-    {
-      "query": "site:reuters.com science technology breakthrough discovery today",
-      "category_hint": "science_technology",
-      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
-      "url": "https://www.reuters.com/sustainability/",
-      "domain": "reuters.com",
-      "description": "Find latest sustainable news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
-      "age": "13 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.163222+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.157692+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -92,7 +80,19 @@
       "domain": "reuters.com",
       "description": "Find latest energy news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
       "age": "7 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.163403+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.157931+00:00",
+      "is_promotional": false,
+      "has_event_signal": false
+    },
+    {
+      "query": "site:reuters.com science technology breakthrough discovery today",
+      "category_hint": "science_technology",
+      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
+      "url": "https://www.reuters.com/sustainability/",
+      "domain": "reuters.com",
+      "description": "Find latest sustainable news from every corner of the globe at Reuters.com, your online source for breaking international news coverage.",
+      "age": "13 hours ago",
+      "discovered_at_utc": "2026-07-09T21:48:51.158081+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -104,7 +104,7 @@
       "domain": "sciencedaily.com",
       "description": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
       "age": "14 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.385472+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.772223+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -116,7 +116,7 @@
       "domain": "nature.com",
       "description": "Once the realm of science fiction, the idea of making Mars habitable is gaining traction. Nature consulted with key scientists to develop this experimental adventure. ... These collaborations are delivering scientific discoveries beyond most astronomers\u2019 dreams.",
       "age": "7 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.385602+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.772332+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -128,7 +128,7 @@
       "domain": "science.nasa.gov",
       "description": "One of NASA&#x27;s DRIVE Science Centers, COFFIES, enabled a group of researchers to tackle a fundamental question about how the Sun works in a recent paper.",
       "age": "9 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.385888+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.772576+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -140,20 +140,8 @@
       "domain": "sciencedaily.com",
       "description": "June 26, 2026 \u0097 A new sunlight-powered material can convert visible light into higher-energy UV light, overcoming a challenge that has frustrated scientists for years. The breakthrough could enable cleaner air ...",
       "age": "18 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.386156+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.772790+00:00",
       "is_promotional": true,
-      "has_event_signal": false
-    },
-    {
-      "query": "science discovery today researchers announced breakthrough",
-      "category_hint": "science_technology",
-      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
-      "domain": "sciencedaily.com",
-      "description": "Researchers have created quantum control techniques that can make a system appear to run backward in time. By precisely managing quantum measurements, they can reshape the system&#x27;s arrow of time and even harvest energy from the measurement process ...",
-      "age": "10 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.386217+00:00",
-      "is_promotional": false,
       "has_event_signal": false
     },
     {
@@ -164,7 +152,7 @@
       "domain": "sciencedaily.com",
       "description": "July 8, 2026 \u0097 Researchers have cracked the code behind bacteria&#x27;s ability to naturally manufacture multiple versions of powerful anti-cancer drugs. The discovery could make it much easier to engineer new cancer treatments inspired by nature, ...",
       "age": "18 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.386488+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.772833+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -176,7 +164,19 @@
       "domain": "newscientist.com",
       "description": "New Scientist Live showcases the latest breakthroughs and innovations in science. With interactive experience across the show floor and talks from over 50 speakers, including Alice Roberts, Tim Spector, Giles Yeo, Jim Al-Khalili, Turi King, Maddie Moate and Chris and Xand van Tulleken. ... The ocean floor is a vast source of potentially revolutionary scientific discovery \u2013 yet it remains largely inaccessible.",
       "age": "7 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.386748+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.773052+00:00",
+      "is_promotional": false,
+      "has_event_signal": false
+    },
+    {
+      "query": "science discovery today researchers announced breakthrough",
+      "category_hint": "science_technology",
+      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
+      "domain": "sciencedaily.com",
+      "description": "Researchers have created quantum control techniques that can make a system appear to run backward in time. By precisely managing quantum measurements, they can reshape the system&#x27;s arrow of time and even harvest energy from the measurement process ...",
+      "age": "11 hours ago",
+      "discovered_at_utc": "2026-07-09T21:48:51.773377+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -188,7 +188,7 @@
       "domain": "sciencedaily.com",
       "description": "Scientists Discover a Completely Different Way to Fight Viruses \u00b7 June 30, 2026 \u0097 Researchers have uncovered an unexpected antiviral defense system in sea anemones that works very differently from the one humans use.",
       "age": "9 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.387150+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:51.773604+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -200,7 +200,7 @@
       "domain": "theinformation.com",
       "description": "Grok 4.5 is the first joint AI model that SpaceXAI and Cursor have developed through their partnership.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.584500+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:52.338776+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -212,7 +212,7 @@
       "domain": "sciencedaily.com",
       "description": "Artificial Intelligence News. Everything on AI including futuristic robots with artificial intelligence, computer models of human intelligence and more.",
       "age": "9 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.584656+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:52.338910+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -224,7 +224,7 @@
       "domain": "techcrunch.com",
       "description": "Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.584846+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:52.339074+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -236,7 +236,7 @@
       "domain": "politico.com",
       "description": "OpenAI has been previewing and testing GPT-5.6 with the White House and the Center for AI Standards and Innovation for over a month, the spokesperson said.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.585049+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:52.339237+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -247,8 +247,8 @@
       "url": "https://www.semafor.com/vertical/tech",
       "domain": "semafor.com",
       "description": "Transparent, global reporting by Semafor journalists on technology, startups, AI, regulation Big Tech companies, and cryptocurrency.",
-      "age": "4 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.585257+00:00",
+      "age": "5 hours ago",
+      "discovered_at_utc": "2026-07-09T21:48:52.339415+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -260,20 +260,8 @@
       "domain": "artificialintelligence-news.com",
       "description": "AI Business Strategy, AI in Action, Cybersecurity AI, Data Engineering &amp; MLOps, Featured News, Features, Governance, Regulation &amp; Policy, How It Works, Infrastructure &amp; Hardware, Inside AI, Natural Language Processing (NLP), Retail &amp; Logistics AI, Service Industry AI, World of Work",
       "age": "2 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.585433+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:52.339843+00:00",
       "is_promotional": true,
-      "has_event_signal": false
-    },
-    {
-      "query": "artificial intelligence news today announced AI model chip regulation startup",
-      "category_hint": "ai",
-      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
-      "url": "https://llm-stats.com/llm-updates",
-      "domain": "llm-stats.com",
-      "description": "LLM Stats updates this page hourly to capture new model releases and API changes as they happen. Our team also manually verifies major announcements from provider blogs, press releases, and official documentation.",
-      "age": "9 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.585486+00:00",
-      "is_promotional": false,
       "has_event_signal": false
     },
     {
@@ -283,8 +271,8 @@
       "url": "https://apnews.com/",
       "domain": "apnews.com",
       "description": "Ads in New York must now label AI-generated &#x27;synthetic performers&#x27; ... Comprehensive global coverage of how religion shapes our world. See All Newsletters ... Our flagship newsletter breaks down the biggest headlines of the day. ... Get caught up on what you may have missed throughout the day. See All Newsletters ... Judge orders E. Jean Carroll be paid $5.8M in Trump sex abuse and defamation case; Trump appeals",
-      "age": "2 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.777932+00:00",
+      "age": "3 hours ago",
+      "discovered_at_utc": "2026-07-09T21:48:53.097834+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -296,7 +284,7 @@
       "domain": "business-standard.com",
       "description": "Home / Technology / Tech News / ... \u00b7 3 min read Last Updated : Jul 09 2026 | 10:37 AM IST \u00b7 OpenAI will publicly launch GPT-5.6, its most advanced AI model, on Thursday following a delay last month prompted by US government ...",
       "age": "17 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:24.778793+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:53.098589+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -308,7 +296,7 @@
       "domain": "humaneworld.org",
       "description": "Animal rescue and response \u00b7 How wildlife rehabbers save lives after a disaster \u00b7 The end of the storm is not the end of the story. Read the Blog \u2192 \u00b7 Humane World for Animals/ Tips for pet owners \u00b7 Disasters can strike without warning and are stressful and chaotic.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.038168+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:53.775160+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -320,7 +308,7 @@
       "domain": "boredpanda.com",
       "description": "The youngster was transferred to ... back into the wild. ... A rescue dog named Sienna surprised everyone at an adoption event when she walked straight up to a man and refused to leave his side....",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.038498+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:53.775459+00:00",
       "is_promotional": true,
       "has_event_signal": false
     },
@@ -332,7 +320,7 @@
       "domain": "people.com",
       "description": "A firefighter rescued a fawn stuck on a roof on the Fourth of July in Astoria, Ore. Photos show the firefighter carrying the fawn to safety and the animal reuniting with its mother.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.038748+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:53.775670+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -343,8 +331,8 @@
       "url": "https://www.theguardian.com/environment/wildlife",
       "domain": "theguardian.com",
       "description": "Animals may inhabit the same world as us, but new research shows how their perceptions of what is around them differs, says research fellow Ishan Singhal",
-      "age": "16 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.038860+00:00",
+      "age": "11 hours ago",
+      "discovered_at_utc": "2026-07-09T21:48:53.775779+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -356,7 +344,7 @@
       "domain": "theguardian.com",
       "description": "Latest news, sport, business, comment, analysis and reviews from the Guardian, the world&#x27;s leading liberal voice",
       "age": "11 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.039044+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:53.775929+00:00",
       "is_promotional": true,
       "has_event_signal": false
     },
@@ -368,7 +356,7 @@
       "domain": "usatoday.com",
       "description": "Nevado shelter in Venezuela rescued over 530 pets after twin earthquakes struck the country, giving injured dogs and cats a second chance at life.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.039085+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:53.775962+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -380,7 +368,7 @@
       "domain": "thenarwhal.ca",
       "description": "Gary is a serval who was surrendered to an animal rescue in Abbotsford, B.C. His diet includes raw beef and whole African rats. For this story, I let him climb across my lap and fed him lunch with a pair of tweezers.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.039176+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:53.776039+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -392,7 +380,7 @@
       "domain": "people.com",
       "description": "\u201cCertainly, over the last week, there have been hundreds of people in attendance and possibly thousands visiting over the course of a day,\u201d said wildlife biologist Sam Thamman from MCP. Lost 250-Lb. Loggerhead Sea Turtle Rescued After Wandering ...",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.039428+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:53.776258+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -404,7 +392,7 @@
       "domain": "sciencedaily.com",
       "description": "June 20, 2026 \u0097 Animals from different species often rely on surprisingly sophisticated communication to work together, whether finding food, cleaning parasites, or gaining protection.",
       "age": "9 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.275811+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:54.332769+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -416,7 +404,7 @@
       "domain": "abcnews.com",
       "description": "The deep-sea species is rarely observed in the wild, scientists say \u00b7 A zoo in Taiwan&#x27;s capital has received a pair of endangered red pandas from China",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.276217+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:54.333243+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -428,7 +416,7 @@
       "domain": "cdc.gov",
       "description": "See previous outbreaks linked to animals and animal products in the U.S.",
       "age": "3 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.276537+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:54.333396+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -440,7 +428,7 @@
       "domain": "x.com",
       "description": "NWS does not spread like a contagious disease. Stay aware and protect your animals: check animals often, watch wounds closely and report suspicious signs right away. Learn more about early detecti",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.276693+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:54.333527+00:00",
       "is_promotional": true,
       "has_event_signal": false
     },
@@ -452,7 +440,7 @@
       "domain": "timesofindia.indiatimes.com",
       "description": "When the Moon briefly turned day ... respond to one of nature\u2019s most unusual events. Stories of birds falling silent, insects changing their routines and mammals ......",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.276901+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:54.333722+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -464,7 +452,7 @@
       "domain": "space.com",
       "description": "The Japanese company ispace is ... mystery around a particular class of cosmic explosion called an interacting supernova. ... NASA is hoping to launch the mission to Mars in 2028....",
       "age": "7 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.530673+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.046636+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -476,7 +464,7 @@
       "domain": "universetoday.com",
       "description": "Your daily source for space and astronomy news. Expert coverage of NASA missions, rocket launches, space exploration, exoplanets, and the latest discoveries in astrophysics.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.530926+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.046871+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -488,7 +476,7 @@
       "domain": "sciencedaily.com",
       "description": "Deadly \u201cred Sky\u201d Solar Storm from 800 Years Ago Discovered in Ancient Trees \u00b7 Scientists Think Dark Matter Might Come in Two Forms \u00b7 Students Found a Star from the Dawn of the Universe Drifting Into the Milky Way \u00b7 Saturn\u2019s Magnetic Field Is Twisted and Scientists Just Figured out Why \u00b7 NASA Launches Artemis II for First Crewed Moon Flyby in 50 Years \u00b7 This Walking Robot Could Change How We Search for Life on Mars \u00b7 Astronomers Finally Solve Saturn\u2019s Decades-Long Spin Mystery",
       "age": "19 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.531175+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.047061+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -500,7 +488,7 @@
       "domain": "sciencedaily.com",
       "description": "NASA Just Proved Spacecraft Can Switch Between Multiple Satellite Networks \u00b7 NASA&#x27;s Webb Detects Methane and Strange Chemistry on Interstellar Comet 3I/ATLAS \u00b7 Venus Will Disappear Behind the Moon in a Rare June Sky Event \u00b7 A Stellar \u201cRosetta ...",
       "age": "19 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.531315+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.047180+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -512,20 +500,8 @@
       "domain": "nasa.gov",
       "description": "NASA.gov brings you the latest news, images and videos from America&#x27;s space agency, pioneering the future in space exploration, scientific discovery and aeronautics research.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.531579+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.047406+00:00",
       "is_promotional": true,
-      "has_event_signal": false
-    },
-    {
-      "query": "space news today NASA SpaceX astronomy discovery scientists announced",
-      "category_hint": "space",
-      "title": "SpaceX news - Today\u2019s latest updates - CBS News",
-      "url": "https://www.cbsnews.com/tag/spacex/",
-      "domain": "cbsnews.com",
-      "description": "Katalyst Space&#x27;s LINK spacecraft is designed to capture and boost NASA&#x27;s Swift observatory back to a safe altitude.",
-      "age": "16 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.531628+00:00",
-      "is_promotional": false,
       "has_event_signal": false
     },
     {
@@ -536,7 +512,7 @@
       "domain": "sciencedaily.com",
       "description": "Although the mission&#x27;s main scientific goals focus on dark energy, dark matter, and planets beyond our solar system, researchers expect the observatory to support a wide range of astronomical discoveries. By the end of its planned five year primary mission, Roman is expected to collect an enormous archive containing roughly 20,000 terabytes of data. Scientists will use this information to investigate around 100,000 exoplanets, hundreds of millions of galaxies, billions of stars, and unusual cosmic events that may include objects or phenomena never previously observed. ... NASA plans to launch the observatory aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at Kennedy Space Center in Florida.",
       "age": "2 days ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.531858+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.047458+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -548,9 +524,21 @@
       "domain": "phys.org",
       "description": "Astronomers studying a population of unusually X-ray-silent and overmassive black holes discovered by the James Webb Space Telescope have found that they may not be as massive as they appear.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.532428+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.047964+00:00",
       "is_promotional": false,
       "has_event_signal": true
+    },
+    {
+      "query": "space news today NASA SpaceX astronomy discovery scientists announced",
+      "category_hint": "space",
+      "title": "Spaceflight Now \u2013 The leading source for online space news",
+      "url": "https://spaceflightnow.com/",
+      "domain": "spaceflightnow.com",
+      "description": "The mission is the debut of a new ... by SpaceX that weighs about 2,100 kg (4,600 lbs). Liftoff from pad 40 at Cape Canaveral Space Force Station happened at 6:53 a.m. EDT (1053 UTC). ... The $4.3 billion observatory will go through about 70 days of prelaunch processing at NASA\u2019s Kennedy ...",
+      "age": "1 day ago",
+      "discovered_at_utc": "2026-07-09T21:48:55.048037+00:00",
+      "is_promotional": false,
+      "has_event_signal": false
     },
     {
       "query": "weird world news today unusual strange discovery rescued found",
@@ -560,7 +548,7 @@
       "domain": "sciencedaily.com",
       "description": "May 31, 2026 \u0097 A surprising new discovery suggests that tiny microbes living inside fish may be helping shape the chemistry of the world\u2019s oceans.",
       "age": "8 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.812130+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.707944+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -572,7 +560,7 @@
       "domain": "nytimes.com",
       "description": "An Australian beach community was bewildered \u2014 and later delighted \u2014 by the discovery of six metallic-looking spheres that washed ashore last week.",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.812378+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.708167+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -584,19 +572,7 @@
       "domain": "sciencedaily.com",
       "description": "July 6, 2026 \u0097 Engineers at a deep underground research facility noticed something strange during major rainstorms: airflow underground sometimes reversed direction. Using new sensors and mathematical modeling, they found that water rushing ...",
       "age": "2 days ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.812495+00:00",
-      "is_promotional": false,
-      "has_event_signal": true
-    },
-    {
-      "query": "weird world news today unusual strange discovery rescued found",
-      "category_hint": "world_weird",
-      "title": "AP Strange SummaryBrief at 10:39 a.m. EDT | National News | mykxlg.com",
-      "url": "https://www.mykxlg.com/news/national/ap-strange-summarybrief-at-10-39-a-m-edt/article_da67336f-5029-5c7f-bb3d-df0cbd9366fc.html",
-      "domain": "mykxlg.com",
-      "description": "LONDON (AP) \u2014 Michael Scurr, a volunteer at Britain\u2019s National Archives, has discovered a rare early copy of the Declaration of Independence. He found it while cataloging 18th-century documents. The document is one of only 11 known copies of the Exeter printing, made just days after the ...",
-      "age": "7 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.813090+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.708686+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -608,7 +584,7 @@
       "domain": "sciencedaily.com",
       "description": "June 25, 2026 \u0097 NASA\u2019s Lucy spacecraft discovered that asteroid Donaldjohanson is a wobbling, peanut-shaped relic born from a violent collision and slowly reshaped by the subtle force of sunlight. It also carries ... James Webb Uncovers Exotic Salt Clouds on a Mysterious Pink World ...",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.813206+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.708799+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -620,9 +596,21 @@
       "domain": "nytimes.com",
       "description": "In the oceans and on land, scientists are discovering rare, transitional organisms that bridge the gap between Earth\u2019s simplest cells and today\u2019s complex ones.",
       "age": "2 days ago",
-      "discovered_at_utc": "2026-07-09T21:41:25.813298+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:55.708885+00:00",
       "is_promotional": false,
       "has_event_signal": false
+    },
+    {
+      "query": "weird world news today unusual strange discovery rescued found",
+      "category_hint": "world_weird",
+      "title": "AP Strange SummaryBrief at 10:39 a.m. EDT | National News | mykxlg.com",
+      "url": "https://www.mykxlg.com/news/national/ap-strange-summarybrief-at-10-39-a-m-edt/article_da67336f-5029-5c7f-bb3d-df0cbd9366fc.html",
+      "domain": "mykxlg.com",
+      "description": "LONDON (AP) \u2014 Michael Scurr, a volunteer at Britain\u2019s National Archives, has discovered a rare early copy of the Declaration of Independence. He found it while cataloging 18th-century documents. The document is one of only 11 known copies of the Exeter printing, made just days after the ...",
+      "age": "7 hours ago",
+      "discovered_at_utc": "2026-07-09T21:48:55.709074+00:00",
+      "is_promotional": false,
+      "has_event_signal": true
     },
     {
       "query": "cryptocurrency news today bitcoin ethereum solana ETF regulation market",
@@ -632,7 +620,7 @@
       "domain": "coindesk.com",
       "description": "Latin America\u2019s biggest stock exchange now offers options on bitcoin, ether and solana futuresThese options settle into underlying futures contracts rather than spot cryptoassets, involving no custody, transfer, or administration of tokens.",
       "age": "10 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:26.047584+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:56.425111+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -644,19 +632,7 @@
       "domain": "theblock.co",
       "description": "The Block is a crypto news site giving you the latest breaking news about Bitcoin, Ethereum, Solana and other digital assets. Plus live prices &amp; charts for BTC, ETH, SOL and more.",
       "age": "9 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:26.047900+00:00",
-      "is_promotional": false,
-      "has_event_signal": false
-    },
-    {
-      "query": "cryptocurrency news today bitcoin ethereum solana ETF regulation market",
-      "category_hint": "cryptocurrency",
-      "title": "Crypto Market Update: 'Regulation Crypto' Agenda Slated ...",
-      "url": "https://investingnews.com/cryptocurrency-market-recap/",
-      "domain": "investingnews.com",
-      "description": "... Ether (ETH) was priced at US$1,733.47, trading 2.3 percent lower over the last 24 hours. XRP (XRP) was priced at US$1.08, trading 3.9 percent lower over the past 24 hours. Solana (SOL) was trading at US$77.06, trading 5.2 percent lower over the past 24 hours.",
-      "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:26.048153+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:56.425387+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -668,7 +644,19 @@
       "domain": "cryptoslate.com",
       "description": "... The ETF rebound has helped ... data updates periodically. Data via CoinMarketCap ... Solana&#x27;s RWA transfer volume more than doubled over 30 days, shifting the adoption signal from tokenized value to usage quality....",
       "age": "1 day ago",
-      "discovered_at_utc": "2026-07-09T21:41:26.048422+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:56.425580+00:00",
+      "is_promotional": false,
+      "has_event_signal": false
+    },
+    {
+      "query": "cryptocurrency news today bitcoin ethereum solana ETF regulation market",
+      "category_hint": "cryptocurrency",
+      "title": "Crypto Market Update: 'Regulation Crypto' Agenda Slated ...",
+      "url": "https://investingnews.com/cryptocurrency-market-recap/",
+      "domain": "investingnews.com",
+      "description": "... Ether (ETH) was priced at US$1,733.47, trading 2.3 percent lower over the last 24 hours. XRP (XRP) was priced at US$1.08, trading 3.9 percent lower over the past 24 hours. Solana (SOL) was trading at US$77.06, trading 5.2 percent lower over the past 24 hours.",
+      "age": "1 day ago",
+      "discovered_at_utc": "2026-07-09T21:48:56.425795+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -680,7 +668,7 @@
       "domain": "finance.yahoo.com",
       "description": "Bitcoin USD \u00b7 62,817.03 \u00b7 +689.04 \u00b7 +1.11% XRP USD \u00b7 1.09 \u00b7 +0.01 \u00b7 +0.96% Ethereum USD \u00b7 1,750.45 \u00b7 +12.40 \u00b7 +0.71% Tether USDt USD \u00b7 1.00 \u00b7 -0.00 \u00b7 -0.04% BNB USD \u00b7 570.14 \u00b7 +8.00 \u00b7 +1.42% Solana USD \u00b7 77.94 \u00b7 +0.69 \u00b7 +0.89% Dogecoin USD \u00b7",
       "age": "4 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:26.048663+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:56.426030+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -692,7 +680,7 @@
       "domain": "crypto.news",
       "description": "Bitcoin trades near $62,800 as U.S.-Iran strikes lift oil and dollar, while ETF inflows, charts and K33 loss data shape the BTC outlook.",
       "age": "7 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:26.048935+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:56.426274+00:00",
       "is_promotional": false,
       "has_event_signal": false
     },
@@ -704,7 +692,7 @@
       "domain": "coinmarketcap.com",
       "description": "Uniswap Surges 5.5% Amid DeFi Re-rating and Ethereum TailwindsUniswap (UNI) rose 5.5% in 17 hours driven by DeFi re-rating, Ethereum rally, and Robinhood Chain integration. Technical breakout and market rotation also contributed. ... XRP Swings 3% on Risk-Off, Leverage, Regulatory DelaysXRP fell 2.73% to $1.09 as crypto markets digested recent gains and faced mild risk-off.",
       "age": "8 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:26.049139+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:56.426442+00:00",
       "is_promotional": false,
       "has_event_signal": true
     },
@@ -716,7 +704,7 @@
       "domain": "forbes.com",
       "description": "RDC is reinventing Depositary Receipts for Bitcoin, Ethereum and Solana\u2014bridging crypto tokens into DTC, prime brokerage, ETFs and \u201940 Act funds.",
       "age": "18 hours ago",
-      "discovered_at_utc": "2026-07-09T21:41:26.049381+00:00",
+      "discovered_at_utc": "2026-07-09T21:48:56.426650+00:00",
       "is_promotional": false,
       "has_event_signal": false
     }

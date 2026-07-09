@@ -133,16 +133,16 @@
       ]
     },
     {
-      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
-      "url": "https://www.reuters.com/sustainability/",
+      "title": "Reuters Energy News | Top Energy Headlines | Reuters",
+      "url": "https://www.reuters.com/business/energy/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Reuters Energy News | Top Energy Headlines | Reuters",
-      "url": "https://www.reuters.com/business/energy/",
+      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
+      "url": "https://www.reuters.com/sustainability/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -173,14 +173,6 @@
       ]
     },
     {
-      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Health & Medicine News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/health_medicine/",
       "score": -999,
@@ -191,6 +183,14 @@
     {
       "title": "New Scientist | Science news, articles, and features",
       "url": "https://www.newscientist.com/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -253,14 +253,6 @@
       ]
     },
     {
-      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
-      "url": "https://llm-stats.com/llm-updates",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
       "url": "https://apnews.com/",
       "score": -999,
@@ -319,6 +311,14 @@
     {
       "title": "Biology News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Animals - ABC News",
+      "url": "https://abcnews.com/alerts/Animals",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
