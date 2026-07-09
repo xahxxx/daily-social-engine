@@ -1,31 +1,49 @@
 [
   {
-    "score": 19,
-    "category": "science_space_nature",
-    "target_category_today": "major_world",
-    "last_category": "sports",
-    "source_title": "NASA",
-    "source_url": "https://www.nasa.gov/",
-    "source_domain": "nasa.gov",
-    "source_summary": "For the first time, NASA’s TESS (Transiting Exoplanet Survey Satellite) mission has identified a planet orbiting a distant star thanks to ripples in space-time.",
-    "collected_at": "2026-07-09T18:08:10.959209+00:00",
+    "score": 24,
+    "category": "sports",
+    "target_category_today": "sports",
+    "last_category": "major_world",
+    "source_title": "Soccer Scores - 2026 Season - ESPN",
+    "source_url": "https://www.espn.com/soccer/scoreboard",
+    "source_domain": "espn.com",
+    "source_summary": "Live scores for all soccer major league games on ESPN. Includes box scores, video highlights, play breakdowns and updated odds.",
+    "collected_at": "2026-07-09T20:13:29.399234+00:00",
     "why_selected": [
-      "trusted source: nasa.gov",
-      "category: science_space_nature",
-      "visual hook: first"
+      "trusted source: espn.com",
+      "daily rotation boost: sports",
+      "category: sports",
+      "contains concrete detail"
     ],
-    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: NASA"
+    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Soccer Scores - 2026 Season - ESPN"
+  },
+  {
+    "score": 20,
+    "category": "animals_pets",
+    "target_category_today": "sports",
+    "last_category": "major_world",
+    "source_title": "Trending News | What's New Around the World | AP News",
+    "source_url": "https://apnews.com/hub/trending-news",
+    "source_domain": "apnews.com",
+    "source_summary": "Archaeologists say they have discovered a huge Viking Age textile production site in Denmark that dates back more than 1,000 years and underlines the sophistication of Viking society.",
+    "collected_at": "2026-07-09T20:13:26.689373+00:00",
+    "why_selected": [
+      "trusted source: apnews.com",
+      "category: animals_pets",
+      "contains concrete detail"
+    ],
+    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Trending News | What's New Around the World | AP News"
   },
   {
     "score": 18,
     "category": "crypto_markets",
-    "target_category_today": "major_world",
-    "last_category": "sports",
+    "target_category_today": "sports",
+    "last_category": "major_world",
     "source_title": "Reuters AI News | Latest Headlines and Developments | Reuters",
     "source_url": "https://www.reuters.com/technology/artificial-intelligence/",
     "source_domain": "reuters.com",
     "source_summary": "Explore the latest artificial intelligence news with Reuters - from AI breakthroughs and technology trends to regulation, ethics, business and global impact.",
-    "collected_at": "2026-07-09T18:08:10.037930+00:00",
+    "collected_at": "2026-07-09T20:13:24.110021+00:00",
     "why_selected": [
       "trusted source: reuters.com",
       "category: crypto_markets",
@@ -36,13 +54,13 @@
   {
     "score": 18,
     "category": "ai_technology",
-    "target_category_today": "major_world",
-    "last_category": "sports",
+    "target_category_today": "sports",
+    "last_category": "major_world",
     "source_title": "World News and International Headlines : NPR",
     "source_url": "https://www.npr.org/sections/world/",
     "source_domain": "npr.org",
     "source_summary": "U.S. President Donald Trump meets with Ukraine&#x27;s President Volodymyr Zelenskyy on the sidelines of the NATO summit in Ankara, Turkey, Wednesday, July 8, 2026. Alex Brandon/AP hide caption toggle caption Alex Brandon/AP",
-    "collected_at": "2026-07-09T18:08:13.649896+00:00",
+    "collected_at": "2026-07-09T20:13:27.693004+00:00",
     "why_selected": [
       "trusted source: npr.org",
       "category: ai_technology",
@@ -51,60 +69,35 @@
     "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: World News and International Headlines : NPR"
   },
   {
-    "score": 18,
+    "score": 16,
     "category": "ai_technology",
-    "target_category_today": "major_world",
-    "last_category": "sports",
-    "source_title": "Robotics News -- ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/news/computers_math/robotics/",
-    "source_domain": "sciencedaily.com",
-    "source_summary": "Apr. 23, 2026  A breakthrough in brain-inspired computing could make today’s energy-hungry AI systems far more efficient.",
-    "collected_at": "2026-07-09T18:08:10.038062+00:00",
+    "target_category_today": "sports",
+    "last_category": "major_world",
+    "source_title": "Reuters OpenAI News | Today's Latest Stories | Reuters",
+    "source_url": "https://www.reuters.com/technology/openai/",
+    "source_domain": "reuters.com",
+    "source_summary": "... OpenAI is planning its biggest ChatGPT overhaul yet, aiming to turn it ​into a &quot;superapp&quot; with coding tools and AI agents to ‌boost revenue ahead of a potential stock market listing, the Financial Times reported on Sunday.",
+    "collected_at": "2026-07-09T20:13:24.110199+00:00",
     "why_selected": [
-      "source: sciencedaily.com",
-      "category: ai_technology",
-      "visual hook: breakthrough",
-      "visual hook: robot",
-      "contains concrete detail"
+      "trusted source: reuters.com",
+      "category: ai_technology"
     ],
-    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Robotics News -- ScienceDaily"
+    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Reuters OpenAI News | Today's Latest Stories | Reuters"
   },
   {
-    "score": 18,
+    "score": 16,
     "category": "ai_technology",
-    "target_category_today": "major_world",
-    "last_category": "sports",
-    "source_title": "NASA News -- ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/news/space_time/nasa/",
-    "source_domain": "sciencedaily.com",
-    "source_summary": "June 11, 2026  JWST has revealed dramatic differences between the dawn and dusk regions of the scorching exoplanet WASP-121 b. Fierce winds appear to carry heat from the planet’s permanent dayside, making the ... Planet Nine Mystery Deepens as New Discovery Challenges Hidden Planet Theory",
-    "collected_at": "2026-07-09T18:08:10.959301+00:00",
+    "target_category_today": "sports",
+    "last_category": "major_world",
+    "source_title": "Movie News | Latest New Movie News | AP News",
+    "source_url": "https://apnews.com/hub/movies",
+    "source_domain": "apnews.com",
+    "source_summary": "Never miss an update on movie news, screenings, or trailers for the next blockbuster. Get all your movie news and updates with AP News.",
+    "collected_at": "2026-07-09T20:13:28.534796+00:00",
     "why_selected": [
-      "source: sciencedaily.com",
-      "category: ai_technology",
-      "visual hook: mystery",
-      "visual hook: discovery",
-      "contains concrete detail"
+      "trusted source: apnews.com",
+      "category: ai_technology"
     ],
-    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: NASA News -- ScienceDaily"
-  },
-  {
-    "score": 18,
-    "category": "ai_technology",
-    "target_category_today": "major_world",
-    "last_category": "sports",
-    "source_title": "Artificial Intelligence News -- ScienceDaily",
-    "source_url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-    "source_domain": "sciencedaily.com",
-    "source_summary": "By borrowing ideas from traditional robotics and combining ... ... Mar. 13, 2026  As AI systems began acing traditional tests, researchers realized those benchmarks were no longer tough enough. In response, nearly 1,000 experts created Humanity’s Last Exam, a massive ... Quantum Computer Breakthrough Tracks Qubit Fluctuations in Real Time",
-    "collected_at": "2026-07-09T18:08:10.038046+00:00",
-    "why_selected": [
-      "source: sciencedaily.com",
-      "category: ai_technology",
-      "visual hook: breakthrough",
-      "visual hook: robot",
-      "contains concrete detail"
-    ],
-    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Artificial Intelligence News -- ScienceDaily"
+    "post_angle": "Turn this real news item into a funny cinematic Hunk Mao visual metaphor: Movie News | Latest New Movie News | AP News"
   }
 ]
