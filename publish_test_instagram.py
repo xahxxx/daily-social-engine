@@ -5,7 +5,7 @@ from typing import Dict, List
 
 import requests
 
-from hunk_utils import clean_hashtag, env, unique
+from hunk_utils import coerce_hashtags, env, unique
 
 IG_ACCESS_TOKEN = env("IG_ACCESS_TOKEN", required=True)
 POST_STAMP = os.getenv("POST_STAMP", "").strip()
@@ -34,8 +34,10 @@ def request_json(method: str, url: str, **kwargs) -> Dict:
 def get_caption() -> str:
     brief = request_json("GET", PUBLIC_BRIEF_URL)
     caption = str(brief.get("caption", "")).strip()
-    hashtags = unique([clean_hashtag(t) for t in brief.get("hashtags", [])])
+    hashtags = unique(coerce_hashtags(brief.get("hashtags", [])))
     hashtags = [t for t in hashtags if t]
+    if len(hashtags) < 5:
+        raise RuntimeError(f"Refusing to publish: invalid hashtag payload {brief.get('hashtags')!r}")
     if not caption:
         raise RuntimeError("Caption is empty in published brief JSON")
     return f"{caption}\n\n{' '.join(hashtags)}".strip()

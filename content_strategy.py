@@ -137,10 +137,8 @@ def build_concepts(limit: int = 6) -> List[Dict]:
         })
 
     concepts.sort(key=lambda x: x["score"], reverse=True)
-    top = concepts[:3]
-    if len(top) > 1:
-        random.shuffle(top)
-    final = top + concepts[3:limit]
+    # Deterministic: never randomly replace the strongest verified story with a weaker candidate.
+    final = concepts[:limit]
     save_json(path_for("selected_concepts.json"), final)
     if not final:
         raise RuntimeError("No usable concepts survived scoring. Check trend_results.json for raw results.")

@@ -4,7 +4,7 @@ from typing import Dict, List
 from openai import OpenAI
 
 from content_strategy import build_concepts
-from hunk_utils import clean_hashtag, load_json, path_for, save_json, unique
+from hunk_utils import coerce_hashtags, load_json, path_for, save_json, unique
 
 client = OpenAI()
 
@@ -20,7 +20,7 @@ REQUIRED_KEYS = ["selected_topic", "category", "source_url", "news_angle", "scen
 
 def enforce_hashtags(brief: Dict) -> Dict:
     text = " ".join(str(brief.get(k, "")) for k in ["selected_topic", "category", "news_angle", "caption", "image_prompt"]).lower()
-    tags = [clean_hashtag(t) for t in brief.get("hashtags", [])]
+    tags = coerce_hashtags(brief.get("hashtags", []))
     tags.append("#hunkmao")
 
     is_crypto = any(w in text for w in ["bitcoin", "btc", "ethereum", "eth", "solana", "crypto", "cryptocurrency", "blockchain", "etf"])
@@ -44,6 +44,8 @@ def enforce_hashtags(brief: Dict) -> Dict:
             if len(tags) >= 10:
                 break
     brief["hashtags"] = tags[:15]
+    if len(brief["hashtags"]) < 10:
+        raise ValueError(f"Hashtag validation failed: {brief['hashtags']}")
     return brief
 
 
@@ -81,8 +83,9 @@ NEWS GROUNDING RULES:
 2. Identify the central subject: company, person, animal, technology, country, sport, asset, discovery, or event.
 3. Include one concrete detail from the source title/summary if available.
 4. Do not invent numbers, quotes, claims, prices, names, or consequences.
-5. Do not give financial advice.
-6. Avoid real politician caricatures and cruel tragedy humor.
+5. Verify this is a specific event, announcement, result, discovery, filing, launch, ruling, record, rescue, or measurable development—not evergreen promotional copy.
+6. Do not give financial advice.
+7. Avoid real politician caricatures and cruel tragedy humor.
 
 IMAGE PROMPT REQUIREMENTS:
 - Square Instagram cinematic anime editorial illustration.
@@ -93,6 +96,10 @@ IMAGE PROMPT REQUIREMENTS:
 - Dense visual storytelling: tiny props, symbolic objects, background actions, easter eggs.
 - The actual news subject must be visually recognizable.
 - Avoid generic dashboard/chart/coin poster scenes.
+- NEVER create an advertisement, sponsorship creative, brand campaign, generic service promotion, or product-benefit poster.
+- A company may appear only when it is the subject of a specific fresh event; depict the EVENT, not the company slogan or evergreen service.
+- Do not plaster corporate logos across clothing, hats, walls, or screens. One necessary identifying logo at most.
+- Reject concepts whose source merely describes what a company/service generally does rather than something that happened today.
 
 TEXT INSIDE IMAGE — STRICT:
 - Maximum 3 visible text phrases in the whole image.
