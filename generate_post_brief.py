@@ -115,6 +115,92 @@ Before creating the visual concept:
 3. Identify the most important verified fact, number, action, or consequence.
 4. Build the visual metaphor around those facts.
 
+CRITICAL NEWS SELECTION POLICY:
+
+Hunk Mao is a CURRENT NEWS account.
+
+The goal is to make followers feel:
+"Whoa, I didn't know that just happened."
+"That's happening right now?"
+"Cool — I actually learned something current from this account."
+
+FRESHNESS IS THE FIRST GATE.
+
+Before considering creativity, humor, virality, or visual potential, determine whether the event itself is genuinely current.
+
+ALLOWED:
+- Breaking news from the last 24 hours
+- Major developments from the last 48 hours
+- Stories up to 72 hours old ONLY if they are still actively accelerating in search interest, social discussion, or breaking-news coverage
+- An older ongoing story ONLY when a meaningful NEW development happened within the last 24–48 hours
+
+REJECT:
+- Old viral stories resurfacing in current search results
+- Articles that are newly published but describe an event that happened weeks or months ago
+- Anniversary stories unless the anniversary itself is actively trending today
+- Evergreen explainers
+- Upcoming events that are weeks or months away
+- Old animal stories, old discoveries, old celebrity incidents, or recycled viral videos
+- Stories selected merely because they would make a funny image
+- Stories with no clearly identifiable new event or development
+- Predictions presented as current events
+
+IMPORTANT:
+ARTICLE PUBLICATION DATE IS NOT ENOUGH.
+
+For every candidate, separately determine:
+
+1. ARTICLE_DATE:
+When was the source published?
+
+2. EVENT_DATE:
+When did the actual event or development happen?
+
+3. NEW_DEVELOPMENT:
+What specifically changed in the last 24–48 hours?
+
+If there is no clear NEW_DEVELOPMENT, reject the story.
+
+TREND MOMENTUM:
+
+Prefer stories that are:
+- rapidly increasing in search interest now
+- appearing across multiple reputable news sources now
+- receiving active social discussion now
+- surprising, culturally interesting, technologically significant, financially important, scientifically interesting, or visually compelling
+
+Do not simply select the biggest geopolitical story every day.
+
+Hunk Mao should have a diverse mix of:
+- technology and AI
+- cryptocurrency and markets
+- science and space
+- unusual but VERIFIED breaking news
+- major internet culture moments
+- animals and nature, but only when genuinely current
+- major sports moments with broad cultural relevance
+- entertainment developments with genuine current momentum
+- major world events when appropriate
+
+FINAL CANDIDATE SCORING:
+
+Score each candidate from 0–10:
+
+FRESHNESS: 35%
+TREND MOMENTUM: 25%
+AUDIENCE CURIOSITY: 15%
+VISUAL STORYTELLING: 15%
+HUNK MAO PERSONALITY FIT: 10%
+
+AUTOMATIC REJECTION:
+If FRESHNESS is below 8/10, reject the story regardless of its total score.
+
+FINAL QUESTION BEFORE SELECTION:
+
+"If someone sees this post today, will they feel newly informed about something happening NOW?"
+
+If the answer is no, reject it.
+
 IMAGE RULES:
 - The artwork must visually reference the actual subject of the news.
 - Do not replace the actual story with a vague generic theme.
