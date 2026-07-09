@@ -7,7 +7,7 @@
       "source_url": "https://www.sciencedaily.com/news/space_time/space_exploration/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Deadly \u201cred Sky\u201d Solar Storm from 800 Years Ago Discovered in Ancient Trees \u00b7 Scientists Think Dark Matter Might Come in Two Forms \u00b7 Students Found a Star from the Dawn of the Universe Drifting Into the Milky Way \u00b7 Saturn\u2019s Magnetic Field Is Twisted and Scientists Just Figured out Why \u00b7 NASA Launches Artemis II for First Crewed Moon Flyby in 50 Years \u00b7 This Walking Robot Could Change How We Search for Life on Mars \u00b7 Astronomers Finally Solve Saturn\u2019s Decades-Long Spin Mystery",
-      "source_age": "19 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -19,13 +19,30 @@
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     },
     {
+      "score": 39,
+      "category": "world_weird",
+      "source_title": "Scientists Reveal the First Images of Ernest Shackleton\u2019s Last Ship",
+      "source_url": "https://gizmodo.com/scientists-reveal-the-first-images-of-ernest-shackletons-last-ship-2000783570",
+      "source_domain": "gizmodo.com",
+      "source_summary": "Scientists discovered the ozone hole in 1985, but if they&#x27;d had the atmospheric monitoring capabilities of today, they could have found it 30 years earlier, according to new research.",
+      "source_age": "8 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: first",
+        "visual/event hook: discovered",
+        "fresh result age present",
+        "allowed category: world_weird"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
       "score": 35,
       "category": "science_technology",
       "source_title": "ScienceDaily: Your source for the latest research news",
       "source_url": "https://www.sciencedaily.com/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
-      "source_age": "14 hours ago",
+      "source_age": "16 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -57,22 +74,6 @@
       "source_url": "https://www.usatoday.com/videos/pets-animals/2026/07/08/venezuela-animal-shelter-rescues-530-pets-after-deadly-earthquakes/90855452007/",
       "source_domain": "usatoday.com",
       "source_summary": "Nevado shelter in Venezuela rescued over 530 pets after twin earthquakes struck the country, giving injured dogs and cats a second chance at life.",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: rescued",
-        "fresh result age present",
-        "allowed category: pets_animals"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "pets_animals",
-      "source_title": "2,200-Lb. Viral Elephant Seal Neil Sparks Debate After Wildlife Officers Move Him Off Road With a Prodding Stick",
-      "source_url": "https://people.com/officials-defend-handling-of-neil-the-elephant-seal-after-latest-viral-video-12011614",
-      "source_domain": "people.com",
-      "source_summary": "\u201cCertainly, over the last week, there have been hundreds of people in attendance and possibly thousands visiting over the course of a day,\u201d said wildlife biologist Sam Thamman from MCP. Lost 250-Lb. Loggerhead Sea Turtle Rescued After Wandering ...",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
@@ -157,19 +158,35 @@
       ]
     },
     {
-      "title": "NASA\u2019s COFFIES Center Makes Breakthrough on Solar Enigma",
-      "url": "https://science.nasa.gov/blogs/science-news/2026/07/07/nasas-coffies-science-center-makes-breakthrough-on-solar-enigma/",
+      "title": "New Scientist | Science news, articles, and features",
+      "url": "https://www.newscientist.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Latest News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/",
+      "title": "Live Science | Latest science news and articles for those with curious minds",
+      "url": "https://www.livescience.com/",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Science - The New York Times",
+      "url": "https://www.nytimes.com/section/science",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "NASA\u2019s COFFIES Center Makes Breakthrough on Solar Enigma",
+      "url": "https://science.nasa.gov/blogs/science-news/2026/07/07/nasas-coffies-science-center-makes-breakthrough-on-solar-enigma/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -181,27 +198,11 @@
       ]
     },
     {
-      "title": "New Scientist | Science news, articles, and features",
-      "url": "https://www.newscientist.com/",
+      "title": "Latest News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Nature News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -229,14 +230,6 @@
       ]
     },
     {
-      "title": "OpenAI to release its most powerful model after weekslong hold - POLITICO",
-      "url": "https://www.politico.com/news/2026/07/08/open-ai-models-release-sol-00989959",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Semafor Technology",
       "url": "https://www.semafor.com/vertical/tech",
       "score": -999,
@@ -250,6 +243,14 @@
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Meta to put AI chip into production in September as it looks to double computing capacity, Reuters reports",
+      "url": "https://www.cnbc.com/2026/07/09/meta-to-put-ai-chip-into-production-in-september-report.html",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -271,6 +272,14 @@
     {
       "title": "Global Animal Welfare | Humane World for Animals",
       "url": "https://www.humaneworld.org/en",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "By Alerting His Owner to a Situation in the Barn, a Brave Dog Helped the Herd of Cows Today - DAILY NEWS",
+      "url": "https://habertv.org/by-alerting-his-owner-to-a-situation-in-the-barn-a-brave-dog-helped-the-herd-of-cows-today/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -309,16 +318,8 @@
       ]
     },
     {
-      "title": "Biology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Animals - ABC News",
-      "url": "https://abcnews.com/alerts/Animals",
+      "title": "CDC Current Outbreak List | Outbreaks | CDC",
+      "url": "https://www.cdc.gov/outbreaks/index.html",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
