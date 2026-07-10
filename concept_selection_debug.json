@@ -3,34 +3,17 @@
     {
       "score": 39,
       "category": "science_technology",
-      "source_title": "Phys.org - News and Articles on Science and Technology",
-      "source_url": "https://phys.org/",
-      "source_domain": "phys.org",
-      "source_summary": "For the first time, astronomers have discovered stellar cocoons rich in complex organic molecules within a supernova remnant. A research team from Niigata University, Gifu University, ...",
-      "source_age": "19 hours ago",
+      "source_title": "Live Science | Latest science news and articles for those with curious minds",
+      "source_url": "https://www.livescience.com/",
+      "source_domain": "livescience.com",
+      "source_summary": "At Live Science, our team of ... stories, as well as our AI policy, please read our ... Researchers have identified the first-ever dinosaur fossil discovered on Antarctica, revealing it belonged to a titanosaur....",
+      "source_age": "2 days ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
         "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 39,
-      "category": "world_weird",
-      "source_title": "Scientists Reveal the First Images of Ernest Shackleton\u2019s Last Ship",
-      "source_url": "https://gizmodo.com/scientists-reveal-the-first-images-of-ernest-shackletons-last-ship-2000783570",
-      "source_domain": "gizmodo.com",
-      "source_summary": "Scientists discovered the ozone hole in 1985, but if they&#x27;d had the atmospheric monitoring capabilities of today, they could have found it 30 years earlier, according to new research.",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: first",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: world_weird"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     },
@@ -41,7 +24,7 @@
       "source_url": "https://www.sciencedaily.com/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
-      "source_age": "9 hours ago",
+      "source_age": "16 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -52,28 +35,44 @@
     },
     {
       "score": 35,
-      "category": "space",
-      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
-      "source_url": "https://www.space.com/",
-      "source_domain": "space.com",
-      "source_summary": "Using the ESA&#x27;s Euclid space telescope, astronomers have discovered a treasure trove of black hole-powered quasars in the early universe, including the most ancient and distant ever seen. ... SpaceX has applied for approval to operate a 100,000-member megaconstellation of next-gen Starlink ...",
+      "category": "pets_animals",
+      "source_title": "B.C. volunteer braves Ukraine war for all creatures great, small and bizarre | Hope Standard",
+      "source_url": "https://hopestandard.com/2026/07/10/b-c-volunteer-braves-ukraine-war-for-all-creatures-great-small-and-bizarre/",
+      "source_domain": "hopestandard.com",
+      "source_summary": "Living with its rescuer and her cat, the normally wild animal became an unlikely but much-loved family pet. \u201cI thought it was a badger at first,\u201d says Adams. \u201cI did not even know raccoon dogs existed until we came around the corner \u2013 it just opened up my eyes to the world.\u201d \u00b7 Adams says Bonya has now been moved to a wildlife sanctuary in a safer region, which coincidentally has another raccoon dog.",
+      "source_age": "7 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: first",
+        "fresh result age present",
+        "allowed category: pets_animals"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "pets_animals",
+      "source_title": "B.C. volunteer braves Ukraine war for all creatures great, small and bizarre | Today in BC",
+      "source_url": "https://todayinbc.com/2026/07/10/b-c-volunteer-braves-ukraine-war-for-all-creatures-great-small-and-bizarre/",
+      "source_domain": "todayinbc.com",
+      "source_summary": "Living with its rescuer and her cat, the normally wild animal became an unlikely but much-loved family pet. \u201cI thought it was a badger at first,\u201d says Adams. \u201cI did not even know raccoon dogs existed until we came around the corner \u2013 it just opened up my eyes to the world.\u201d \u00b7 Adams says Bonya has now been moved to a wildlife sanctuary in a safer region, which coincidentally has another raccoon dog.",
       "source_age": "6 hours ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: discovered",
+        "visual/event hook: first",
         "fresh result age present",
-        "allowed category: space"
+        "allowed category: pets_animals"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     },
     {
       "score": 35,
       "category": "space",
-      "source_title": "Space News - Latest Space and Astronomy News | Space",
-      "source_url": "https://www.space.com/news",
+      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
+      "source_url": "https://www.space.com/",
       "source_domain": "space.com",
       "source_summary": "Using the ESA&#x27;s Euclid space telescope, astronomers have discovered a treasure trove of black hole-powered quasars in the early universe, including the most ancient and distant ever seen. ... SpaceX has applied for approval to operate a 100,000-member megaconstellation of next-gen Starlink ...",
-      "source_age": "2 days ago",
+      "source_age": "15 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -93,8 +92,8 @@
       ]
     },
     {
-      "title": "Reuters Business News | Today's International Headlines | Reuters",
-      "url": "https://www.reuters.com/business/",
+      "title": "Reuters AI News | Latest Headlines and Developments | Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -109,11 +108,19 @@
       ]
     },
     {
-      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
-      "url": "https://www.reuters.com/world/us/",
+      "title": "Reuters Business News | Today's International Headlines | Reuters",
+      "url": "https://www.reuters.com/business/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters World News | Latest Top Stories | Reuters",
+      "url": "https://www.reuters.com/world/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -141,14 +148,6 @@
       ]
     },
     {
-      "title": "Reuters Europe News | Latest Headlines & Stories | Reuters",
-      "url": "https://www.reuters.com/world/europe/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Latest science news, discoveries and analysis",
       "url": "https://www.nature.com/news",
       "score": -999,
@@ -157,19 +156,11 @@
       ]
     },
     {
-      "title": "Live Science | Latest science news and articles for those with curious minds",
-      "url": "https://www.livescience.com/",
+      "title": "Latest News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Technology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/matter_energy/technology/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -181,16 +172,40 @@
       ]
     },
     {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
+      "title": "Phys.org - News and Articles on Science and Technology",
+      "url": "https://phys.org/",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "OpenAI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "The Information",
+      "url": "https://www.theinformation.com/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
       "title": "Artificial Intelligence News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
+      "url": "https://llm-stats.com/ai-news",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -206,50 +221,18 @@
     },
     {
       "title": "EXCLUSIVE: Meta to put AI chip into production in September as it looks to double computing capacity, memo shows",
-      "url": "https://reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09",
+      "url": "https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "China's DeepSeek developing its own AI chip, sources say",
-      "url": "https://www.reuters.com/world/china/chinas-deepseek-developing-its-own-ai-chip-sources-say-2026-07-07/",
+      "title": "AI model mania and the new chip gold rush - SiliconANGLE",
+      "url": "https://siliconangle.com/2026/07/10/ai-model-mania-new-chip-gold-rush/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
-      "url": "https://llm-stats.com/ai-news",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "The Information",
-      "url": "https://www.theinformation.com/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Exclusive-Meta to put AI chip into production in September as it looks to double computing capacity, memo shows",
-      "url": "https://finance.yahoo.com/technology/ai/articles/exclusive-meta-put-ai-chip-112222555.html",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
-      "url": "https://apnews.com/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -263,22 +246,6 @@
     {
       "title": "Promoting Animal Welfare & Pet Adoption | Best Friends Animal Society",
       "url": "https://bestfriends.org/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Sooke volunteer braves Ukraine war for all creatures great, small and bizarre | Goldstream News Gazette",
-      "url": "https://goldstreamgazette.com/2026/07/10/sooke-volunteer-braves-ukraine-war-for-all-creatures-great-small-and-bizarre/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Animals | The Guardian",
-      "url": "https://www.theguardian.com/world/animals",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
@@ -301,27 +268,59 @@
       ]
     },
     {
-      "title": "Viral video shows a Sumatran elephant saving a drowning tiger from being carried away in the rush of floods: Is it real or AI-generated? - The Times of India",
-      "url": "https://timesofindia.indiatimes.com/etimes/animals/viral-video-shows-a-sumatran-elephant-saving-a-drowning-tiger-from-being-carried-away-in-the-rush-of-floods-is-it-real-or-ai-generated/articleshow/132306461.cms",
+      "title": "Animals | The Guardian",
+      "url": "https://www.theguardian.com/world/animals",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Zoos | The Guardian",
+      "url": "https://www.theguardian.com/world/zoos",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "\u090f\u0906\u092f \u0915\u0940 \u0928\u093f\u0938\u0930\u094d\u0917\u093e\u091a\u093e \u091a\u092e\u0924\u094d\u0915\u093e\u0930! \u0939\u0924\u094d\u0924\u0940\u0928\u0947 \u0935\u093e\u091a\u0935\u0932\u0947 \u0935\u093e\u0918\u093e\u091a\u0947 \u092a\u094d\u0930\u093e\u0923, \u0926\u0943\u0937\u094d\u092f \u092a\u093e\u0939\u0942\u0928 \u092f\u0942\u091c\u0930\u094d\u0938\u0928\u093e \u092c\u0938\u0932\u093e \u0906\u0936\u094d\u091a\u0930\u094d\u092f\u093e\u091a\u093e \u0927\u0915\u094d\u0915\u093e; Video Viral | Navarashtra",
-      "url": "https://www.navarashtra.com/viral/viral-elephant-saves-tiger-in-flood-video-ai-or-real-fact-check-1275803.html",
+      "title": "Endangered species - BBC News",
+      "url": "https://www.bbc.com/news/topics/c1xp19dn8ret",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "NASA taps SpaceX to launch the telescope that could unlock new worlds",
-      "url": "https://www.teslarati.com/nasa-taps-spacex-to-launch-the-telescope-that-could-unlock-new-worlds/",
+      "title": "Species\u2019 ingenious survival strategies no match for human destruction, red list reveals | IUCN red list of endangered species | The Guardian",
+      "url": "https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "CDC Current Outbreak List | Outbreaks | CDC",
+      "url": "https://www.cdc.gov/outbreaks/index.html",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Viral Video: \u0c35\u0c30\u0c26\u0c32\u0c4b \u0c15\u0c4a\u0c1f\u0c4d\u0c1f\u0c41\u0c15\u0c41\u0c2a\u0c4b\u0c24\u0c41\u0c28\u0c4d\u0c28 \u0c2a\u0c41\u0c32\u0c3f\u0c28\u0c3f \u0c30\u0c15\u0c4d\u0c37\u0c3f\u0c02\u0c1a\u0c3f\u0c28 \u0c0f\u0c28\u0c41\u0c17\u0c41..! \u0c1a\u0c3f\u0c35\u0c30\u0c4d\u0c32\u0c4b \u0c2d\u0c3e\u0c30\u0c40 \u0c1f\u0c4d\u0c35\u0c3f\u0c38\u0c4d\u0c1f\u0c4d | Fact Check: Viral Elephant Saving Tiger Flood Video is AI Generated, Not Real | TV9 Telugu",
+      "url": "https://tv9telugu.com/trending/fact-check-viral-elephant-saving-tiger-flood-video-is-ai-generated-not-real-1862218.html",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "NASA",
+      "url": "https://www.nasa.gov/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     }
   ]
