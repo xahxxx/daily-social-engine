@@ -7,7 +7,7 @@
       "source_url": "https://www.livescience.com/",
       "source_domain": "livescience.com",
       "source_summary": "At Live Science, our team of ... stories, as well as our AI policy, please read our ... Researchers have identified the first-ever dinosaur fossil discovered on Antarctica, revealing it belonged to a titanosaur....",
-      "source_age": "2 days ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -24,7 +24,7 @@
       "source_url": "https://www.sciencedaily.com/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
-      "source_age": "16 hours ago",
+      "source_age": "2 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -36,11 +36,11 @@
     {
       "score": 35,
       "category": "pets_animals",
-      "source_title": "B.C. volunteer braves Ukraine war for all creatures great, small and bizarre | Hope Standard",
-      "source_url": "https://hopestandard.com/2026/07/10/b-c-volunteer-braves-ukraine-war-for-all-creatures-great-small-and-bizarre/",
-      "source_domain": "hopestandard.com",
+      "source_title": "B.C. volunteer braves Ukraine war for all creatures great, small and bizarre | Houston Today",
+      "source_url": "https://houston-today.com/2026/07/10/b-c-volunteer-braves-ukraine-war-for-all-creatures-great-small-and-bizarre/",
+      "source_domain": "houston-today.com",
       "source_summary": "Living with its rescuer and her cat, the normally wild animal became an unlikely but much-loved family pet. \u201cI thought it was a badger at first,\u201d says Adams. \u201cI did not even know raccoon dogs existed until we came around the corner \u2013 it just opened up my eyes to the world.\u201d \u00b7 Adams says Bonya has now been moved to a wildlife sanctuary in a safer region, which coincidentally has another raccoon dog.",
-      "source_age": "7 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -52,14 +52,14 @@
     {
       "score": 35,
       "category": "pets_animals",
-      "source_title": "B.C. volunteer braves Ukraine war for all creatures great, small and bizarre | Today in BC",
-      "source_url": "https://todayinbc.com/2026/07/10/b-c-volunteer-braves-ukraine-war-for-all-creatures-great-small-and-bizarre/",
-      "source_domain": "todayinbc.com",
-      "source_summary": "Living with its rescuer and her cat, the normally wild animal became an unlikely but much-loved family pet. \u201cI thought it was a badger at first,\u201d says Adams. \u201cI did not even know raccoon dogs existed until we came around the corner \u2013 it just opened up my eyes to the world.\u201d \u00b7 Adams says Bonya has now been moved to a wildlife sanctuary in a safer region, which coincidentally has another raccoon dog.",
-      "source_age": "6 hours ago",
+      "source_title": "Over 100 Potentially \u2018Aggressive\u2019 Animals Escape Zoo After a Typhoon Damages Their Enclosures",
+      "source_url": "https://people.com/over-100-animals-escape-zoo-after-enclosures-damaged-by-typhoon-12015152",
+      "source_domain": "people.com",
+      "source_summary": "Dog Rescued After Falling 15 Feet into a Well While Fleeing Fourth of July Fireworks \u00b7 The Guigang Zoo isn\u2019t the only facility in the region to lose animals due to flooding from Typhoon Maysak.",
+      "source_age": "2 days ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: first",
+        "visual/event hook: rescued",
         "fresh result age present",
         "allowed category: pets_animals"
       ],
@@ -67,30 +67,22 @@
     },
     {
       "score": 35,
-      "category": "space",
-      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
-      "source_url": "https://www.space.com/",
-      "source_domain": "space.com",
-      "source_summary": "Using the ESA&#x27;s Euclid space telescope, astronomers have discovered a treasure trove of black hole-powered quasars in the early universe, including the most ancient and distant ever seen. ... SpaceX has applied for approval to operate a 100,000-member megaconstellation of next-gen Starlink ...",
-      "source_age": "15 hours ago",
+      "category": "pets_animals",
+      "source_title": "B.C. volunteer braves Ukraine war for all creatures great, small and bizarre | Northern Sentinel",
+      "source_url": "https://northernsentinel.com/2026/07/10/b-c-volunteer-braves-ukraine-war-for-all-creatures-great-small-and-bizarre/",
+      "source_domain": "northernsentinel.com",
+      "source_summary": "Living with its rescuer and her cat, the normally wild animal became an unlikely but much-loved family pet. \u201cI thought it was a badger at first,\u201d says Adams. \u201cI did not even know raccoon dogs existed until we came around the corner \u2013 it just opened up my eyes to the world.\u201d \u00b7 Adams says Bonya has now been moved to a wildlife sanctuary in a safer region, which coincidentally has another raccoon dog.",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: discovered",
+        "visual/event hook: first",
         "fresh result age present",
-        "allowed category: space"
+        "allowed category: pets_animals"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
   ],
   "rejected_sample": [
-    {
-      "title": "Reuters Tech News | Today's Latest Technology News | Reuters",
-      "url": "https://www.reuters.com/technology/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
     {
       "title": "Reuters AI News | Latest Headlines and Developments | Reuters",
       "url": "https://www.reuters.com/technology/artificial-intelligence/",
@@ -100,32 +92,8 @@
       ]
     },
     {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
       "title": "Reuters Business News | Today's International Headlines | Reuters",
       "url": "https://www.reuters.com/business/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters World News | Latest Top Stories | Reuters",
-      "url": "https://www.reuters.com/world/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Reuters OpenAI News | Today's Latest Stories | Reuters",
-      "url": "https://www.reuters.com/technology/openai/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -140,32 +108,48 @@
       ]
     },
     {
-      "title": "Reuters Energy News | Top Energy Headlines | Reuters",
-      "url": "https://www.reuters.com/business/energy/",
+      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
+      "url": "https://www.reuters.com/world/us/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Latest science news, discoveries and analysis",
-      "url": "https://www.nature.com/news",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Latest News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/",
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
+      "title": "Up next in Business (25 videos)",
+      "url": "https://www.reuters.com/video/business/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters Europe News | Latest Headlines & Stories | Reuters",
+      "url": "https://www.reuters.com/world/europe/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters Middle East News | Today's Latest Stories | Reuters",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Breaking News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/breaking/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -180,16 +164,32 @@
       ]
     },
     {
-      "title": "OpenAI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "The Information",
-      "url": "https://www.theinformation.com/",
+      "title": "Latest News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
+      "url": "https://www.artificialintelligence-news.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -204,24 +204,8 @@
       ]
     },
     {
-      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
-      "url": "https://llm-stats.com/ai-news",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
       "url": "https://llm-stats.com/llm-updates",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "EXCLUSIVE: Meta to put AI chip into production in September as it looks to double computing capacity, memo shows",
-      "url": "https://www.reuters.com/world/asia-pacific/meta-put-ai-chip-into-production-september-it-looks-double-computing-capacity-2026-07-09/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -236,8 +220,32 @@
       ]
     },
     {
+      "title": "OpenAI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
+      "url": "https://apnews.com/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Meta Stock Surges as Hidden AI Cost Breakthrough Stuns Wall Street",
       "url": "https://finance.yahoo.com/technology/ai/articles/meta-stock-surges-hidden-ai-131256019.html",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Top Tech News Today, July 8, 2026: Today\u2019s Biggest AI & Tech Stories from Meta, OpenAI, Microsoft, TenCent & More - Tech Startups",
+      "url": "https://techstartups.com/2026/07/10/top-tech-news-today-july-8-2026-todays-biggest-ai-tech-stories-from-meta-openai-microsoft-bytedance-more/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -260,48 +268,32 @@
       ]
     },
     {
-      "title": "The Dodo - For Animal People",
-      "url": "https://www.thedodo.com/",
+      "title": "100 Best Animal Podcasts to Listen to in 2026",
+      "url": "https://podcast.feedspot.com/animal_podcasts/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Animals | The Guardian",
-      "url": "https://www.theguardian.com/world/animals",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Zoos | The Guardian",
-      "url": "https://www.theguardian.com/world/zoos",
+      "title": "Animals - News, views, pictures, video - Daily Record",
+      "url": "https://www.dailyrecord.co.uk/all-about/animals",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Endangered species - BBC News",
-      "url": "https://www.bbc.com/news/topics/c1xp19dn8ret",
+      "title": "Dogs - BBC News",
+      "url": "https://www.bbc.com/news/topics/cl866rrqjz4t",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Species\u2019 ingenious survival strategies no match for human destruction, red list reveals | IUCN red list of endangered species | The Guardian",
-      "url": "https://www.theguardian.com/environment/2026/jul/09/species-ingenious-survival-strategies-no-match-human-destruction-red-list",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "CDC Current Outbreak List | Outbreaks | CDC",
-      "url": "https://www.cdc.gov/outbreaks/index.html",
+      "title": "Animal Research News Roundup: July 10, 2026 \u2013 Rise for Animals",
+      "url": "https://riseforanimals.org/news/news-jul-10-2026/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -316,11 +308,19 @@
       ]
     },
     {
-      "title": "NASA",
-      "url": "https://www.nasa.gov/",
+      "title": "\u090f\u0906\u092f \u0915\u0940 \u0928\u093f\u0938\u0930\u094d\u0917\u093e\u091a\u093e \u091a\u092e\u0924\u094d\u0915\u093e\u0930! \u0939\u0924\u094d\u0924\u0940\u0928\u0947 \u0935\u093e\u091a\u0935\u0932\u0947 \u0935\u093e\u0918\u093e\u091a\u0947 \u092a\u094d\u0930\u093e\u0923, \u0926\u0943\u0937\u094d\u092f \u092a\u093e\u0939\u0942\u0928 \u092f\u0942\u091c\u0930\u094d\u0938\u0928\u093e \u092c\u0938\u0932\u093e \u0906\u0936\u094d\u091a\u0930\u094d\u092f\u093e\u091a\u093e \u0927\u0915\u094d\u0915\u093e; Video Viral | Navarashtra",
+      "url": "https://www.navarashtra.com/viral/viral-elephant-saves-tiger-in-flood-video-ai-or-real-fact-check-1275803.html",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Space.com: NASA, Space Exploration and Astronomy News",
+      "url": "https://www.space.com/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     }
   ]
