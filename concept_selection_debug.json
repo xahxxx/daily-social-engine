@@ -2,12 +2,30 @@
   "selected": [
     {
       "score": 43,
+      "category": "pets_animals",
+      "source_title": "Rare Indian Giant Flying Squirrel Spotted in Uttarakhand's Ramnagar After Nearly 12 years (WATCH) | Asianet Newsable",
+      "source_url": "https://newsable.asianetnews.com/india/bright-side-stories-rare-indian-giant-flying-squirrel-found-inside-uttarakhand-home-after-12-years-safely-rescued-articleshow-m7kpyzb",
+      "source_domain": "newsable.asianetnews.com",
+      "source_summary": "A rare Indian Giant Flying Squirrel has been spotted in Uttarakhand&#x27;s Ramnagar for the first time in nearly 12 years after it entered a villager&#x27;s house. Officials safely rescued nocturnal animal, which will be released back into wild after ...",
+      "source_age": "10 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: rare",
+        "visual/event hook: first",
+        "visual/event hook: rescued",
+        "fresh result age present",
+        "allowed category: pets_animals"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 43,
       "category": "space",
       "source_title": "Space Exploration News -- ScienceDaily",
       "source_url": "https://www.sciencedaily.com/news/space_time/space_exploration/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Deadly \u201cred Sky\u201d Solar Storm from 800 Years Ago Discovered in Ancient Trees \u00b7 Scientists Think Dark Matter Might Come in Two Forms \u00b7 Students Found a Star from the Dawn of the Universe Drifting Into the Milky Way \u00b7 Saturn\u2019s Magnetic Field Is Twisted and Scientists Just Figured out Why \u00b7 NASA Launches Artemis II for First Crewed Moon Flyby in 50 Years \u00b7 This Walking Robot Could Change How We Search for Life on Mars \u00b7 Astronomers Finally Solve Saturn\u2019s Decades-Long Spin Mystery",
-      "source_age": "11 hours ago",
+      "source_age": "19 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -25,7 +43,7 @@
       "source_url": "https://coinmarketcap.com/top-stories/",
       "source_domain": "coinmarketcap.com",
       "source_summary": "Polkadot (DOT) Price Movement: Staking Changes, ETF RebalancePolkadot (DOT) saw a 3.79% price change due to staking parameter overhaul, removal from Bitwise ETF, and oversold bounce. Key drivers and market impact explained. ... Arbitrum (ARB) Surges 13.5% on Robinhood Chain LaunchArbitrum (ARB) rallied 13.5% as Robinhood launched its Layer 2 chain on Arbitrum&#x27;s tech, with $568M in trading volume and a new fee-sharing model. ... Jito (JTO) Surges 14.69% Amid Solana Infrastructure BoostJito (JTO) rose 14.69 percentage points in 2.5 days due to strong U.S. Bitcoin ETF inflows, a $5.1M token unlock, and new Solana infrastructure partnerships.",
-      "source_age": "16 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: launched",
@@ -42,7 +60,7 @@
       "source_url": "https://www.sciencedaily.com/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
-      "source_age": "15 hours ago",
+      "source_age": "11 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -54,11 +72,11 @@
     {
       "score": 35,
       "category": "science_technology",
-      "source_title": "Phys.org - News and Articles on Science and Technology",
-      "source_url": "https://phys.org/",
-      "source_domain": "phys.org",
-      "source_summary": "A research team led by Professor Chaogu Zheng from the School of Biological Sciences at the University of Hong Kong (HKU), in collaboration with scientists from Princeton University and Columbia University, has discovered ...",
-      "source_age": "14 hours ago",
+      "source_title": "Live Science | Latest science news and articles for those with curious minds",
+      "source_url": "https://www.livescience.com/",
+      "source_domain": "livescience.com",
+      "source_summary": "Chinese researchers say they have overcome one of the trickiest problems of battery chemistry by developing a special gel. ... Malaria had nearly been eliminated around a giant dam in the Amazon \u2014 but then it came roaring back. Experts just discovered why.",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -66,25 +84,17 @@
         "allowed category: science_technology"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "pets_animals",
-      "source_title": "List of individual dogs - Wikipedia",
-      "source_url": "https://en.wikipedia.org/wiki/List_of_individual_dogs",
-      "source_domain": "en.wikipedia.org",
-      "source_summary": "Kelsey, a dog, was hailed a hero after he rescued his owner who became paralyzed when he slipped and fell in the snow. Kelsey stayed by his side licking his face to keep him warm for nearly 20 hours. Mari: A Tale of Mari and Three Puppies is based on a true story in the 2004 Ch\u016betsu earthquake. Mari gave birth to three puppies. That spring, animals ...",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: rescued",
-        "fresh result age present",
-        "allowed category: pets_animals"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
   ],
   "rejected_sample": [
+    {
+      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
+      "url": "https://www.reuters.com/world/us/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
     {
       "title": "Reuters Reuters | Breaking International News & Views",
       "url": "https://www.reuters.com/",
@@ -102,14 +112,6 @@
       ]
     },
     {
-      "title": "Reuters World News | Latest Top Stories | Reuters",
-      "url": "https://www.reuters.com/world/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
       "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
       "url": "https://www.reuters.com/sustainability/",
       "score": -999,
@@ -118,15 +120,7 @@
       ]
     },
     {
-      "title": "Reuters Europe News | Latest Headlines & Stories | Reuters",
-      "url": "https://www.reuters.com/world/europe/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Iran war: what is happening in the Strait of Hormuz?",
+      "title": "Lindsey Graham, pivotal US Republican senator, dies ...",
       "url": "https://www.reuters.com/video/",
       "score": -999,
       "reasons": [
@@ -142,8 +136,24 @@
       ]
     },
     {
+      "title": "Reuters Europe News | Latest Headlines & Stories | Reuters",
+      "url": "https://www.reuters.com/world/europe/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Reuters Latest Soccer & Football News | Premier League, Champions League & European Updates | Reuters",
       "url": "https://www.reuters.com/sports/soccer/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Top News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/top/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -174,22 +184,6 @@
       ]
     },
     {
-      "title": "Health & Medicine News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/health_medicine/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Physics News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/matter_energy/physics/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Artificial Intelligence News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "score": -999,
@@ -206,8 +200,8 @@
       ]
     },
     {
-      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
-      "url": "https://llm-stats.com/llm-updates",
+      "title": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -222,24 +216,8 @@
       ]
     },
     {
-      "title": "AI News & Artificial Intelligence | TechCrunch",
-      "url": "https://techcrunch.com/category/artificial-intelligence/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Technology News",
-      "url": "https://www.cnbc.com/technology/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "OpenAI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
+      "url": "https://llm-stats.com/llm-updates",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -254,6 +232,38 @@
       ]
     },
     {
+      "title": "OpenAI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "AI executives says demand 'almost unlimited' amid stock volatility",
+      "url": "https://www.cnbc.com/2026/07/12/ai-demand-chips-data-centers-stock-volatility.html",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Artificial intelligence | AP News",
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "World News: Top & Breaking World News Today | AP News",
+      "url": "https://apnews.com/world-news",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
       "url": "https://apnews.com/",
       "score": -999,
@@ -262,8 +272,32 @@
       ]
     },
     {
-      "title": "World News: Top & Breaking World News Today | AP News",
-      "url": "https://apnews.com/world-news",
+      "title": "AI News \u2014 Today's Top Stories, Tracked & Ranked | AI Weekly",
+      "url": "https://aiweekly.co/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "100 Best Animal Podcasts to Listen to in 2026",
+      "url": "https://podcast.feedspot.com/animal_podcasts/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Promoting Animal Welfare & Pet Adoption | Best Friends Animal Society",
+      "url": "https://bestfriends.org/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Turpentine Creek Wildlife Refuge | A Non-Profit True Sanctuary for Big Cats",
+      "url": "https://www.turpentinecreek.org/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -278,8 +312,8 @@
       ]
     },
     {
-      "title": "Turpentine Creek Wildlife Refuge | A Non-Profit True Sanctuary for Big Cats",
-      "url": "https://www.turpentinecreek.org/",
+      "title": "The Dodo - For Animal People",
+      "url": "https://www.thedodo.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -291,38 +325,6 @@
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Dogs - latest news, breaking stories and comment - The Independent",
-      "url": "https://www.the-independent.com/topic/dogs",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "14 Wildlife Comebacks That No One Saw Coming - Animals Around The Globe",
-      "url": "https://www.animalsaroundtheglobe.com/14-wildlife-comebacks-that-no-one-saw-coming-7-329906/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Joe Exotic - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Joe_Exotic",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Space & Time News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/space_time/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
       ]
     }
   ]
