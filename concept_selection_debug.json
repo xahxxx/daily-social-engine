@@ -1,6 +1,40 @@
 {
   "selected": [
     {
+      "score": 40,
+      "category": "ai",
+      "source_title": "Live updates: Supreme Court Justices Barrett and Kagan testify before Congress | AP News",
+      "source_url": "https://apnews.com/live/trump-administration-barrett-kagan-iran-updates-07-14-2026",
+      "source_domain": "apnews.com",
+      "source_summary": "The Trump administration has stressed that the U.S. is leading in the AI race, though the claim comes with the caveat that there is no apparent finish line to cross. National Cyber Director Sean Cairncross said the clearinghouse was officially launched on July 2 by the departments of Treasury, Defense and Homeland Security in consultation with the White House. ... Add AP News on Google Add AP News as your preferred source to see more of our stories on Google.",
+      "source_age": "2 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: launched",
+        "fresh result age present",
+        "reputable source boost",
+        "allowed category: ai"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 39,
+      "category": "science_technology",
+      "source_title": "Science - The New York Times",
+      "source_url": "https://www.nytimes.com/section/science",
+      "source_domain": "nytimes.com",
+      "source_summary": "It\u2019s the first time a sugar molecule has been detected in interstellar space. The discovery provides tantalizing new clues into how life may have arisen on Earth.",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: first",
+        "visual/event hook: detected",
+        "fresh result age present",
+        "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
       "score": 39,
       "category": "pets_animals",
       "source_title": "Global Animal Welfare | Humane World for Animals",
@@ -20,15 +54,15 @@
     {
       "score": 39,
       "category": "world_weird",
-      "source_title": "Science - The New York Times",
-      "source_url": "https://www.nytimes.com/section/science",
-      "source_domain": "nytimes.com",
-      "source_summary": "It\u2019s the first time a sugar molecule has been detected in interstellar space. The discovery provides tantalizing new clues into how life may have arisen on Earth. ... As yellow-legged hornets spread through South Carolina\u2019s Lowcountry region, ...",
+      "source_title": "Live Science | Latest science news and articles for those with curious minds",
+      "source_url": "https://www.livescience.com/",
+      "source_domain": "livescience.com",
+      "source_summary": "Researchers have identified the first-ever dinosaur fossil discovered on Antarctica, revealing it belonged to a titanosaur. ... If you&#x27;re looking for weird facts about animals, gross human body facts or just something a bit random, get ready to geek out with these fascinating bits of trivia.",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
-        "visual/event hook: detected",
+        "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: world_weird"
       ],
@@ -41,44 +75,12 @@
       "source_url": "https://www.sciencedaily.com/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
-      "source_age": "8 hours ago",
+      "source_age": "10 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "science_technology",
-      "source_title": "Top Science News -- ScienceDaily",
-      "source_url": "https://www.sciencedaily.com/news/top/science/",
-      "source_domain": "sciencedaily.com",
-      "source_summary": "Researchers found that even mild, realistic sleep loss, similar to what many adults experience, had measurable ... A 200-year-old Physics Experiment Could Help Build Future Computers \u00b7 July 13, 2026 \u0097 Scientists at Nanyang Technological University in Singapore have discovered a surprisingly simple way to create exotic light structures called optical skyrmions using a 200-year-old optical effect known as the Poisson spot.",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "space",
-      "source_title": "Space & Time News -- ScienceDaily",
-      "source_url": "https://www.sciencedaily.com/news/space_time/",
-      "source_domain": "sciencedaily.com",
-      "source_summary": "Astronomers Found Two Rare Super Puff Planets Lighter Than Cotton Candy \u00b7 NASA\u2019s Lucy Finds a Wobbling Peanut-Shaped Asteroid With Signs of Ancient Water \u00b7 James Webb Uncovers Exotic Salt Clouds on a Mysterious Pink World \u00b7 Scientists Expected ...",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: rare",
-        "fresh result age present",
-        "allowed category: space"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -109,11 +111,11 @@
       ]
     },
     {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
+      "title": "Tech Weekly: Big Tech v EU, solar-powered EVs",
+      "url": "https://www.reuters.com/video/business/",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
       ]
     },
     {
@@ -133,16 +135,24 @@
       ]
     },
     {
-      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
-      "url": "https://www.reuters.com/sustainability/",
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Reuters Latest Soccer & Football News | Premier League, Champions League & European Updates | Reuters",
-      "url": "https://www.reuters.com/sports/soccer/",
+      "title": "Reuters Podcast | Reuters",
+      "url": "https://www.reuters.com/podcasts/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Latest science news, discoveries and analysis",
+      "url": "https://www.nature.com/news",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -157,16 +167,16 @@
       ]
     },
     {
-      "title": "Latest science news, discoveries and analysis",
-      "url": "https://www.nature.com/news",
+      "title": "Health & Medicine News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/health_medicine/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Health & Medicine News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/health_medicine/",
+      "title": "Science News: Breaking News on Scientific Advances, Global Warming, Vaccines, Artificial Intelligence & More | NBC News",
+      "url": "https://www.nbcnews.com/science",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -181,24 +191,8 @@
       ]
     },
     {
-      "title": "Latest News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
       "title": "OpenAI - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/OpenAI",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AI News & Artificial Intelligence | TechCrunch",
-      "url": "https://techcrunch.com/category/artificial-intelligence/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -229,80 +223,40 @@
       ]
     },
     {
-      "title": "Technology - Bloomberg",
-      "url": "https://www.bloomberg.com/technology",
+      "title": "DeepSeek prepares for IPO as AI giant eyes landmark debut in China",
+      "url": "https://cryptobriefing.com/deepseek-ipo-china-ai-landmark/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Ai4 2026",
-      "url": "https://ai4.io/",
+      "title": "AI Hub \u2014 The best of AI, today",
+      "url": "https://aihub.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Artificial intelligence | AP News",
-      "url": "https://apnews.com/hub/artificial-intelligence",
+      "title": "AI (artificial intelligence) | The Guardian",
+      "url": "https://www.theguardian.com/technology/artificialintelligenceai",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Trump says US is \u2018reinstating\u2019 blockade on Iran in Strait of Hormuz | AP News",
-      "url": "https://apnews.com/live/trump-administration-iran-updates-07-13-2026",
+      "title": "Artificial Intelligence (AI) | Latest news and analysis from The Economist",
+      "url": "https://www.economist.com/topics/artificial-intelligence",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
       "title": "AI - Bloomberg",
       "url": "https://www.bloomberg.com/ai",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Wildlife | The Guardian",
-      "url": "https://www.theguardian.com/environment/wildlife",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Inside Thailand\u2019s animal rescue network saving strays \u2013 photo essay | Thailand | The Guardian",
-      "url": "https://www.theguardian.com/artanddesign/2026/jul/13/thailand-animal-rescue-foundation-photo-essay",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Promoting Animal Welfare & Pet Adoption | Best Friends Animal Society",
-      "url": "https://bestfriends.org/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Animals | The Guardian",
-      "url": "https://www.theguardian.com/world/animals",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "13 Survivors Animals That Lived Through the Impossible - Animals Around The Globe",
-      "url": "https://www.animalsaroundtheglobe.com/13-survivors-animals-that-lived-through-the-impossible-7-329905/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
@@ -317,8 +271,56 @@
       ]
     },
     {
-      "title": "People for the Ethical Treatment of Animals (PETA)",
-      "url": "https://www.peta.org/",
+      "title": "Animals | The Guardian",
+      "url": "https://www.theguardian.com/world/animals",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Wildlife | The Guardian",
+      "url": "https://www.theguardian.com/environment/wildlife",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Promoting Animal Welfare & Pet Adoption | Best Friends Animal Society",
+      "url": "https://bestfriends.org/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Inside Thailand\u2019s animal rescue network saving strays \u2013 photo essay | Thailand | The Guardian",
+      "url": "https://www.theguardian.com/artanddesign/2026/jul/13/thailand-animal-rescue-foundation-photo-essay",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "13 Survivors Animals That Lived Through the Impossible - Animals Around The Globe",
+      "url": "https://www.animalsaroundtheglobe.com/13-survivors-animals-that-lived-through-the-impossible-7-329905/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Catster: Cat Health, Care Guides, & Shop by Veterinarians & Experts",
+      "url": "https://www.catster.com/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Orphaned Sandhill Crane Colt Finds New Mom and Dad in Heartwarming Rescue Story - Parade Pets",
+      "url": "https://paradepets.com/pet-news/orphaned-sandhill-crane-colt-finds-new-mom-dad",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
