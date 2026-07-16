@@ -2,50 +2,16 @@
   "selected": [
     {
       "score": 39,
-      "category": "pets_animals",
-      "source_title": "Rare civet cat released into habitat after rescue in Dera Ghazi Khan - Pakistan - DAWN.COM",
-      "source_url": "https://www.dawn.com/news/2015252/rare-civet-cat-released-into-habitat-after-rescue-in-dera-ghazi-khan",
-      "source_domain": "dawn.com",
-      "source_summary": "DERA GHAZI KHAN: A rare Indian civet cat was successfully rescued and released back into its natural habitat in the Kot Chutta tehsil area of Basti Khawaja following a coordinated operation by the wildlife department.",
-      "source_age": "2 days ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: rare",
-        "visual/event hook: rescued",
-        "fresh result age present",
-        "allowed category: pets_animals"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 39,
-      "category": "space",
-      "source_title": "Space News - Space, Astronomy, Space Exploration",
-      "source_url": "https://phys.org/space-news/",
-      "source_domain": "phys.org",
-      "source_summary": "Scientists have detected evidence of landslides on Pluto for the first time. A paper published in the journal Icarus reports that images taken by the New Horizons spacecraft during a flyby revealed six large landslides in ...",
-      "source_age": "9 hours ago",
+      "category": "world_weird",
+      "source_title": "Astronomers Noticed a Mysterious Spot Appearing in Telescope Images. It Turned Out to Be the Faintest Exoplanet Ever Imaged From Earth",
+      "source_url": "https://www.smithsonianmag.com/smart-news/astronomers-noticed-a-mysterious-spot-appearing-in-telescope-images-it-turned-out-to-be-the-faintest-exoplanet-ever-imaged-from-earth-180989133/",
+      "source_domain": "smithsonianmag.com",
+      "source_summary": "The newly discovered world, named Beta Pictoris d, is around 100 times dimmer than its neighbor Beta Pictoris b, which was the first planet to be discovered around its host star. Today, both groups published their findings about the strange ...",
+      "source_age": "19 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
-        "visual/event hook: detected",
-        "fresh result age present",
-        "allowed category: space"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 39,
-      "category": "world_weird",
-      "source_title": "Faint new planet is revealed around a young star after a decade in hiding - ABC News",
-      "source_url": "https://abcnews.com/Technology/wireStory/faint-new-planet-revealed-young-star-after-decade-134776523",
-      "source_domain": "abcnews.com",
-      "source_summary": "(AP) \u2014 Astronomers have discovered a faint, elusive planet orbiting a young star after more than a decade of cosmic hide-and-seek. In an unusual twist, two groups working independently detected the cold gas giant a few days apart late last ...",
-      "source_age": "10 hours ago",
-      "why_selected": [
-        "passes event gate",
         "visual/event hook: discovered",
-        "visual/event hook: detected",
         "fresh result age present",
         "allowed category: world_weird"
       ],
@@ -54,15 +20,15 @@
     {
       "score": 39,
       "category": "world_weird",
-      "source_title": "A Sweet Surprise: Scientists Find Sugar Deep in Our Galaxy - The New York Times",
-      "source_url": "https://www.nytimes.com/2026/07/13/science/space/sugar-milky-way.html",
-      "source_domain": "nytimes.com",
-      "source_summary": "It\u2019s the first time a sugar molecule has been detected in interstellar space. The discovery provides tantalizing new clues into how life may have arisen on Earth.",
+      "source_title": "Live Science | Latest science news and articles for those with curious minds",
+      "source_url": "https://www.livescience.com/",
+      "source_domain": "livescience.com",
+      "source_summary": "A striking new monkey species, Colobus congoensis, was discovered deep in the Congo rainforest and has been scientifically described for the first time.",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
-        "visual/event hook: detected",
+        "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: world_weird"
       ],
@@ -75,12 +41,44 @@
       "source_url": "https://www.sciencedaily.com/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
-      "source_age": "9 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "science_technology",
+      "source_title": "Phys.org - News and Articles on Science and Technology",
+      "source_url": "https://phys.org/",
+      "source_domain": "phys.org",
+      "source_summary": "Researchers at Uppsala University have discovered a completely new fungal species, which they named after the king of Sweden. The species has been given the Latin name Semicentenialea rex, which means the king&#x27;s 50th anniversary.",
+      "source_age": "20 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: discovered",
+        "fresh result age present",
+        "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "space",
+      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
+      "source_url": "https://www.space.com/",
+      "source_domain": "space.com",
+      "source_summary": "SpaceX launched Starlink satellites on a pair of Falcon 9 rockets eight hours apart from opposite coasts on July 13-14, 2026. The second launch was the 600th use of a flight-proven booster. Launches &amp; Spacecraft ... NASA astronaut Anil Menon and two cosmonauts launched toward the International ...",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: launched",
+        "fresh result age present",
+        "allowed category: space"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -95,8 +93,24 @@
       ]
     },
     {
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
       "title": "Reuters Business News | Today's International Headlines | Reuters",
       "url": "https://www.reuters.com/business/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters Cybersecurity | Latest Cyber Security News | Reuters",
+      "url": "https://www.reuters.com/technology/cybersecurity/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -111,6 +125,14 @@
       ]
     },
     {
+      "title": "EU seals deal with Ukraine for drone production",
+      "url": "https://www.reuters.com/video/world-news/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
       "url": "https://www.reuters.com/sustainability/",
       "score": -999,
@@ -119,32 +141,8 @@
       ]
     },
     {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Reuters Latest Legal News | Today's Breaking Headlines | Reuters",
-      "url": "https://www.reuters.com/legal/",
-      "score": -999,
-      "reasons": [
-        "publisher treated as story subject"
-      ]
-    },
-    {
-      "title": "Strong bank earnings mask consumer loan woes, market ...",
-      "url": "https://www.reuters.com/video/business/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters Gas News | Today's Latest Stories | Reuters",
-      "url": "https://www.reuters.com/business/energy/gas/",
+      "title": "Crypto Weekly: Trump's crypto profits, Lindsey Graham tribute",
+      "url": "https://www.reuters.com/video/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -153,6 +151,14 @@
     {
       "title": "Latest science news, discoveries and analysis",
       "url": "https://www.nature.com/news",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Science - The New York Times",
+      "url": "https://www.nytimes.com/section/science",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -175,48 +181,8 @@
       ]
     },
     {
-      "title": "Top News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/top/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "Phys.org - News and Articles on Science and Technology",
-      "url": "https://phys.org/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Live Science | Latest science news and articles for those with curious minds",
-      "url": "https://www.livescience.com/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "The Information",
-      "url": "https://www.theinformation.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "AI News & Artificial Intelligence | TechCrunch",
-      "url": "https://techcrunch.com/category/artificial-intelligence/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
-      "url": "https://llm-stats.com/llm-updates",
+      "title": "In a sweet discovery, astronomers find sugar lurking in the space between stars",
+      "url": "https://www.nbcnews.com/science/space/sweet-discovery-astronomers-find-sugar-lurking-space-stars-rcna587452",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -231,19 +197,51 @@
       ]
     },
     {
-      "title": "Reuters China News | Today's Breaking Stories | Reuters",
-      "url": "https://reuters.com/world/china/regulatory-action-chips-ai-is-coming-commerce-official-says-2026-07-14",
+      "title": "AI News Today July 15 2026: 15 Biggest Stories",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-15-2026",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "AI News Today July 14 2026: 15 Biggest Stories",
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-14-2026",
+      "title": "Top Tech News Today, July 15, 2026: Apple, ASML, IBM, Anthropic, Meta, Nvidia, OpenAI, Stripe, PayPal & More - Tech Startups",
+      "url": "https://techstartups.com/2026/07/15/top-tech-news-today-july-15-2026-apple-asml-ibm-anthropic-meta-nvidia-openai-stripe-paypal-more/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI | TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "OpenAI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Latest AI and Tech Breakthroughs: Reuters Artificial Intelligence Updates - World Today News",
+      "url": "https://www.world-today-news.com/latest-ai-and-tech-breakthroughs-reuters-artificial-intelligence-updates/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -255,6 +253,22 @@
       ]
     },
     {
+      "title": "Reuters Tech News | Today's Latest Technology News | Reuters",
+      "url": "https://www.reuters.com/technology/us-launch-ai-cybersecurity-coordination-group-white-house-says-2026-07-14/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "AI News \u2014 Today's Top Stories, Tracked & Ranked | AI Weekly",
+      "url": "https://aiweekly.co/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
       "title": "AI - Bloomberg",
       "url": "https://www.bloomberg.com/ai",
       "score": -999,
@@ -263,35 +277,11 @@
       ]
     },
     {
-      "title": "AI & Technology Stock News News Live Feed | Stock Titan",
-      "url": "https://www.stocktitan.net/news/ai.html",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Animals - BBC News",
-      "url": "https://www.bbc.com/news/topics/clm1wxp533pt",
+      "title": "Technology - Bloomberg",
+      "url": "https://www.bloomberg.com/technology",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Animals | AP News",
-      "url": "https://apnews.com/hub/animals",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "Animals News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/animals/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
       ]
     },
     {
@@ -303,11 +293,11 @@
       ]
     },
     {
-      "title": "People for the Ethical Treatment of Animals (PETA)",
-      "url": "https://www.peta.org/",
+      "title": "Nature News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
@@ -319,8 +309,16 @@
       ]
     },
     {
-      "title": "Animal husbandry - RimWorld Wiki",
-      "url": "https://rimworldwiki.com/wiki/Animal_husbandry",
+      "title": "Heartwarming Animal Rescue That Will Restore Your Faith in Humanity part 19 - YouTube",
+      "url": "https://www.youtube.com/shorts/JRu9n79ako8",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Secret World wildlife rescue - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Secret_World_wildlife_rescue",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
