@@ -7,23 +7,6 @@
       "source_url": "https://www.smithsonianmag.com/smart-news/astronomers-noticed-a-mysterious-spot-appearing-in-telescope-images-it-turned-out-to-be-the-faintest-exoplanet-ever-imaged-from-earth-180989133/",
       "source_domain": "smithsonianmag.com",
       "source_summary": "The newly discovered world, named Beta Pictoris d, is around 100 times dimmer than its neighbor Beta Pictoris b, which was the first planet to be discovered around its host star. Today, both groups published their findings about the strange ...",
-      "source_age": "19 hours ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: first",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: world_weird"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 39,
-      "category": "world_weird",
-      "source_title": "Live Science | Latest science news and articles for those with curious minds",
-      "source_url": "https://www.livescience.com/",
-      "source_domain": "livescience.com",
-      "source_summary": "A striking new monkey species, Colobus congoensis, was discovered deep in the Congo rainforest and has been scientifically described for the first time.",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
@@ -57,7 +40,7 @@
       "source_url": "https://phys.org/",
       "source_domain": "phys.org",
       "source_summary": "Researchers at Uppsala University have discovered a completely new fungal species, which they named after the king of Sweden. The species has been given the Latin name Semicentenialea rex, which means the king&#x27;s 50th anniversary.",
-      "source_age": "20 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -73,10 +56,26 @@
       "source_url": "https://www.space.com/",
       "source_domain": "space.com",
       "source_summary": "SpaceX launched Starlink satellites on a pair of Falcon 9 rockets eight hours apart from opposite coasts on July 13-14, 2026. The second launch was the 600th use of a flight-proven booster. Launches &amp; Spacecraft ... NASA astronaut Anil Menon and two cosmonauts launched toward the International ...",
-      "source_age": "1 day ago",
+      "source_age": "14 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: launched",
+        "fresh result age present",
+        "allowed category: space"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "space",
+      "source_title": "Latest space news, headlines, analysis - CBS News",
+      "source_url": "https://www.cbsnews.com/space/",
+      "source_domain": "cbsnews.com",
+      "source_summary": "The &quot;Pink Planet,&quot; formally known as GJ504b, was discovered in 2013 and is technically not a planet but rather a &quot;planetary-mass companion.&quot; ... NASA&#x27;s Jared Isaacman says the crew was selected solely based on their experience, expertise and ...",
+      "source_age": "7 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: space"
       ],
@@ -90,14 +89,6 @@
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
       ]
     },
     {
@@ -117,16 +108,8 @@
       ]
     },
     {
-      "title": "Reuters World News | Latest Top Stories | Reuters",
-      "url": "https://www.reuters.com/world/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "EU seals deal with Ukraine for drone production",
-      "url": "https://www.reuters.com/video/world-news/",
+      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
+      "url": "https://www.reuters.com/world/us/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -135,6 +118,22 @@
     {
       "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
       "url": "https://www.reuters.com/sustainability/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "EU seals deal with Ukraine for drone production",
+      "url": "https://www.reuters.com/video/world-news/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -157,22 +156,6 @@
       ]
     },
     {
-      "title": "Science - The New York Times",
-      "url": "https://www.nytimes.com/section/science",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Breaking News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/breaking/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Latest News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/",
       "score": -999,
@@ -181,19 +164,27 @@
       ]
     },
     {
-      "title": "In a sweet discovery, astronomers find sugar lurking in the space between stars",
-      "url": "https://www.nbcnews.com/science/space/sweet-discovery-astronomers-find-sugar-lurking-space-stars-rcna587452",
+      "title": "Science - The New York Times",
+      "url": "https://www.nytimes.com/section/science",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
+      "title": "Live Science | Latest science news and articles for those with curious minds",
+      "url": "https://www.livescience.com/",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "In a sweet discovery, astronomers find sugar lurking in the space between stars",
+      "url": "https://www.nbcnews.com/science/space/sweet-discovery-astronomers-find-sugar-lurking-space-stars-rcna587452",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -221,8 +212,8 @@
       ]
     },
     {
-      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI | TechCrunch",
-      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "title": "The Information",
+      "url": "https://www.theinformation.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -237,16 +228,24 @@
       ]
     },
     {
-      "title": "Latest AI and Tech Breakthroughs: Reuters Artificial Intelligence Updates - World Today News",
-      "url": "https://www.world-today-news.com/latest-ai-and-tech-breakthroughs-reuters-artificial-intelligence-updates/",
+      "title": "Artificial Intelligence News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
       ]
     },
     {
-      "title": "Artificial Intelligence News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
+      "url": "https://llm-stats.com/llm-updates",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Technology: Latest Tech News Articles Today | AP News",
+      "url": "https://apnews.com/technology",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -261,32 +260,24 @@
       ]
     },
     {
-      "title": "AI News \u2014 Today's Top Stories, Tracked & Ranked | AI Weekly",
-      "url": "https://aiweekly.co/",
+      "title": "Latest AI and Tech Breakthroughs: Reuters Artificial Intelligence Updates - World Today News",
+      "url": "https://www.world-today-news.com/latest-ai-and-tech-breakthroughs-reuters-artificial-intelligence-updates/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "AI - Bloomberg",
-      "url": "https://www.bloomberg.com/ai",
+      "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
+      "url": "https://apnews.com/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Technology - Bloomberg",
-      "url": "https://www.bloomberg.com/technology",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Wildlife | The Guardian",
-      "url": "https://www.theguardian.com/environment/wildlife",
+      "title": "Animals | The Guardian",
+      "url": "https://www.theguardian.com/world/animals",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
@@ -301,11 +292,19 @@
       ]
     },
     {
-      "title": "Animals | The Guardian",
-      "url": "https://www.theguardian.com/world/animals",
+      "title": "Wildlife | The Guardian",
+      "url": "https://www.theguardian.com/environment/wildlife",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Secret World wildlife rescue - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Secret_World_wildlife_rescue",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -317,8 +316,8 @@
       ]
     },
     {
-      "title": "Secret World wildlife rescue - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Secret_World_wildlife_rescue",
+      "title": "Animals - News, views, pictures, video - Daily Record",
+      "url": "https://www.dailyrecord.co.uk/all-about/animals",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
