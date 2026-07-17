@@ -1,12 +1,29 @@
 {
   "selected": [
     {
+      "score": 40,
+      "category": "science_technology",
+      "source_title": "Astronomers find evidence of sugar in interstellar space | AP News",
+      "source_url": "https://apnews.com/article/erythrulose-interstellar-medium-sugar-357144f4d69449b29dff17271ccd0dcd",
+      "source_domain": "apnews.com",
+      "source_summary": "Astronomers have detected a type of sugar in space that\u2019s also found in raspberries. The sugar, called erythrulose, lurks in interstellar space, or the space between stars.",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: detected",
+        "fresh result age present",
+        "reputable source boost",
+        "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
       "score": 39,
       "category": "world_weird",
-      "source_title": "Astronomers Noticed a Mysterious Spot Appearing in Telescope Images. It Turned Out to Be the Faintest Exoplanet Ever Imaged From Earth",
-      "source_url": "https://www.smithsonianmag.com/smart-news/astronomers-noticed-a-mysterious-spot-appearing-in-telescope-images-it-turned-out-to-be-the-faintest-exoplanet-ever-imaged-from-earth-180989133/",
-      "source_domain": "smithsonianmag.com",
-      "source_summary": "The newly discovered world, named Beta Pictoris d, is around 100 times dimmer than its neighbor Beta Pictoris b, which was the first planet to be discovered around its host star. Today, both groups published their findings about the strange ...",
+      "source_title": "Atmosphere discovered on Earth-like planet beyond our Solar System for first time - ABC News",
+      "source_url": "https://www.abc.net.au/news/science/2026-07-17/atmosphere-earth-like-planet-habitable/106916842",
+      "source_domain": "abc.net.au",
+      "source_summary": "Astronomers say they are one step closer to finding a habitable, Earth-like planet beyond our Solar System with the discovery of an atmosphere on a rocky planet.",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
@@ -14,6 +31,40 @@
         "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: world_weird"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 39,
+      "category": "world_weird",
+      "source_title": "Hidden Planet Discovered Twice in One Week",
+      "source_url": "https://www.newser.com/story/392927/newly-found-planet-is-the-dimmest-ever-seen.html",
+      "source_domain": "newser.com",
+      "source_summary": "Astronomers have discovered a faint, elusive planet orbiting a young star after more than a decade of cosmic hide-and-seek. In an unusual twist, two groups working independently detected the cold gas giant a few days apart late last year using ...",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: discovered",
+        "visual/event hook: detected",
+        "fresh result age present",
+        "allowed category: world_weird"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 39,
+      "category": "cryptocurrency",
+      "source_title": "$10T Morgan Stanley's E*TRADE Completes Rollout of Spot Bitcoin, Ethereum, Solana Trading",
+      "source_url": "https://coingape.com/morgan-stanleys-etrade-completes-rollout-of-spot-bitcoin-ethereum-solana-trading/",
+      "source_domain": "coingape.com",
+      "source_summary": "This move deepens Morgan Stanley\u2019s push into the crypto space. As CoinGape reported, Morgan Stanley Ethereum and Solana ETFs are nearing launch after the bank filed amended S-1 filings. The bank became the first to offer a crypto ETF after it launched its Bitcoin ETF earlier this year.",
+      "source_age": "19 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: first",
+        "visual/event hook: launched",
+        "fresh result age present",
+        "allowed category: cryptocurrency"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     },
@@ -32,57 +83,17 @@
         "allowed category: science_technology"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "science_technology",
-      "source_title": "Phys.org - News and Articles on Science and Technology",
-      "source_url": "https://phys.org/",
-      "source_domain": "phys.org",
-      "source_summary": "Researchers at Uppsala University have discovered a completely new fungal species, which they named after the king of Sweden. The species has been given the Latin name Semicentenialea rex, which means the king&#x27;s 50th anniversary.",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "space",
-      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
-      "source_url": "https://www.space.com/",
-      "source_domain": "space.com",
-      "source_summary": "SpaceX launched Starlink satellites on a pair of Falcon 9 rockets eight hours apart from opposite coasts on July 13-14, 2026. The second launch was the 600th use of a flight-proven booster. Launches &amp; Spacecraft ... NASA astronaut Anil Menon and two cosmonauts launched toward the International ...",
-      "source_age": "14 hours ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: launched",
-        "fresh result age present",
-        "allowed category: space"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "space",
-      "source_title": "Latest space news, headlines, analysis - CBS News",
-      "source_url": "https://www.cbsnews.com/space/",
-      "source_domain": "cbsnews.com",
-      "source_summary": "The &quot;Pink Planet,&quot; formally known as GJ504b, was discovered in 2013 and is technically not a planet but rather a &quot;planetary-mass companion.&quot; ... NASA&#x27;s Jared Isaacman says the crew was selected solely based on their experience, expertise and ...",
-      "source_age": "7 hours ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: space"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
   ],
   "rejected_sample": [
+    {
+      "title": "Reuters Tech News | Today's Latest Technology News | Reuters",
+      "url": "https://www.reuters.com/technology/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
     {
       "title": "Reuters AI News | Latest Headlines and Developments | Reuters",
       "url": "https://www.reuters.com/technology/artificial-intelligence/",
@@ -108,8 +119,24 @@
       ]
     },
     {
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
       "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
       "url": "https://www.reuters.com/world/us/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "What is going on with Ukraine's government?",
+      "url": "https://www.reuters.com/video/world-news/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -124,91 +151,35 @@
       ]
     },
     {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
+      "title": "Top News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/top/",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "title too thin"
       ]
     },
     {
-      "title": "EU seals deal with Ukraine for drone production",
-      "url": "https://www.reuters.com/video/world-news/",
+      "title": "Science - The New York Times International",
+      "url": "https://www.nytimes.com/international/section/science",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Crypto Weekly: Trump's crypto profits, Lindsey Graham tribute",
-      "url": "https://www.reuters.com/video/",
+      "title": "NASA",
+      "url": "https://www.nasa.gov/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
-      "title": "Latest science news, discoveries and analysis",
-      "url": "https://www.nature.com/news",
+      "title": "Nature News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Latest News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Science - The New York Times",
-      "url": "https://www.nytimes.com/section/science",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Live Science | Latest science news and articles for those with curious minds",
-      "url": "https://www.livescience.com/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "In a sweet discovery, astronomers find sugar lurking in the space between stars",
-      "url": "https://www.nbcnews.com/science/space/sweet-discovery-astronomers-find-sugar-lurking-space-stars-rcna587452",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AI News Today July 15 2026: 15 Biggest Stories",
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-15-2026",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Top Tech News Today, July 15, 2026: Apple, ASML, IBM, Anthropic, Meta, Nvidia, OpenAI, Stripe, PayPal & More - Tech Startups",
-      "url": "https://techstartups.com/2026/07/15/top-tech-news-today-july-15-2026-apple-asml-ibm-anthropic-meta-nvidia-openai-stripe-paypal-more/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AI News & Artificial Intelligence | TechCrunch",
-      "url": "https://techcrunch.com/category/artificial-intelligence/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
@@ -228,8 +199,8 @@
       ]
     },
     {
-      "title": "Artificial Intelligence News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "title": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -244,6 +215,14 @@
       ]
     },
     {
+      "title": "Artificial Intelligence News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Technology: Latest Tech News Articles Today | AP News",
       "url": "https://apnews.com/technology",
       "score": -999,
@@ -252,16 +231,16 @@
       ]
     },
     {
-      "title": "Reuters Tech News | Today's Latest Technology News | Reuters",
-      "url": "https://www.reuters.com/technology/us-launch-ai-cybersecurity-coordination-group-white-house-says-2026-07-14/",
+      "title": "AI News \u2014 Today's Top Stories, Tracked & Ranked | AI Weekly",
+      "url": "https://aiweekly.co/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Latest AI and Tech Breakthroughs: Reuters Artificial Intelligence Updates - World Today News",
-      "url": "https://www.world-today-news.com/latest-ai-and-tech-breakthroughs-reuters-artificial-intelligence-updates/",
+      "title": "Reuters World News | Latest Top Stories | Reuters",
+      "url": "https://www.reuters.com/world/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
@@ -276,6 +255,38 @@
       ]
     },
     {
+      "title": "Cat leads its owner to a parrot in a cage - DAILY NEWS",
+      "url": "https://habertv.org/cat-leads-its-owner-to-a-parrot-in-a-cage/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Sheep in the mud as help arrives - DAILY NEWS",
+      "url": "https://habertv.org/sheep-in-the-mud-as-help-arrives/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Promoting Animal Welfare & Pet Adoption | Best Friends Animal Society",
+      "url": "https://bestfriends.org/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "International Animal Rescue",
+      "url": "https://www.internationalanimalrescue.org/",
+      "score": -999,
+      "reasons": [
+        "title too thin"
+      ]
+    },
+    {
       "title": "Animals | The Guardian",
       "url": "https://www.theguardian.com/world/animals",
       "score": -999,
@@ -284,40 +295,32 @@
       ]
     },
     {
-      "title": "Nature News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
       "title": "Wildlife | The Guardian",
       "url": "https://www.theguardian.com/environment/wildlife",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Secret World wildlife rescue - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Secret_World_wildlife_rescue",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Heartwarming Animal Rescue That Will Restore Your Faith in Humanity part 19 - YouTube",
-      "url": "https://www.youtube.com/shorts/JRu9n79ako8",
+      "title": "Animal sanctuary - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Animal_sanctuary",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "title too thin"
       ]
     },
     {
-      "title": "Animals - News, views, pictures, video - Daily Record",
-      "url": "https://www.dailyrecord.co.uk/all-about/animals",
+      "title": "Human\u2013wildlife conflict - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Human%E2%80%93wildlife_conflict",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "SpaceNews: The space industry's source",
+      "url": "https://spacenews.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
