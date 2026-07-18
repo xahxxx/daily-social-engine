@@ -7,7 +7,7 @@
       "source_url": "https://sciencedaily.com/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
-      "source_age": "1 hour ago",
+      "source_age": "10 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -23,7 +23,7 @@
       "source_url": "https://www.sciencealert.com/",
       "source_domain": "sciencealert.com",
       "source_summary": "Entirely New Monkey Species Discovered in The Congo Rainforest, And It Doesn&#x27;t Look Impressed Nature1 day ago",
-      "source_age": "1 day ago",
+      "source_age": "2 days ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -39,7 +39,7 @@
       "source_url": "https://www.sciencedaily.com/news/top/science/",
       "source_domain": "sciencedaily.com",
       "source_summary": "After analyzing three decades of research, scientists found that animals ... Astronomers Just Found Four Hidden White Dwarf Stars Near Earth \u00b7 July 15, 2026 \u0097 Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions.",
-      "source_age": "1 day ago",
+      "source_age": "2 days ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -55,7 +55,7 @@
       "source_url": "https://www.sciencedaily.com/news/health_medicine/",
       "source_domain": "sciencedaily.com",
       "source_summary": "July 15, 2026 \u0097 Researchers have discovered that a microscopic skeleton inside neurons does much more than hold cells together. It acts as a gatekeeper that controls what brain cells absorb and when they absorb it.",
-      "source_age": "1 day ago",
+      "source_age": "10 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -66,17 +66,17 @@
     },
     {
       "score": 35,
-      "category": "science_technology",
-      "source_title": "Phys.org - News and Articles on Science and Technology",
-      "source_url": "https://phys.org/",
-      "source_domain": "phys.org",
-      "source_summary": "An international research team led by Dr. Frank Bosmans (Vrije Universiteit Brussel) has discovered a major genetic cause of hyperhidrosis (chronic and excessive sweating). The study, published in Science Advances, provides ...",
-      "source_age": "13 hours ago",
+      "category": "ai",
+      "source_title": "Why the first GPU financiers are turning to inference chips in a $400 million deal | TechCrunch",
+      "source_url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
+      "source_domain": "techcrunch.com",
+      "source_summary": "General Compute, an AI inference cloud startup, has landed a $400 million loan from Upper90, a tech investment firm.",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: discovered",
+        "visual/event hook: first",
         "fresh result age present",
-        "allowed category: science_technology"
+        "allowed category: ai"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -107,11 +107,11 @@
       ]
     },
     {
-      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
-      "url": "https://www.reuters.com/world/us/",
+      "title": "Reuters World News | Latest Top Stories | Reuters",
+      "url": "https://www.reuters.com/world/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -123,16 +123,8 @@
       ]
     },
     {
-      "title": "Shein secures nod from Hong Kong listing committee for ...",
+      "title": "Reuters Video",
       "url": "https://www.reuters.com/video/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
-      "url": "https://www.reuters.com/sustainability/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -147,11 +139,19 @@
       ]
     },
     {
-      "title": "Technology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/matter_energy/technology/",
+      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
+      "url": "https://www.reuters.com/sustainability/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Latest News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -160,6 +160,14 @@
       "score": -999,
       "reasons": [
         "title too thin"
+      ]
+    },
+    {
+      "title": "Science - The New York Times",
+      "url": "https://www.nytimes.com/section/science",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -179,43 +187,27 @@
       ]
     },
     {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
+      "title": "Artificial Intelligence News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Artificial intelligence: Latest News and Updates | South China Morning Post",
+      "url": "https://www.scmp.com/topics/artificial-intelligence",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "The Information",
-      "url": "https://www.theinformation.com/",
+      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
+      "url": "https://www.artificialintelligence-news.com/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
-      "url": "https://llm-stats.com/ai-news",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "China\u2019s Xi Jinping launches new AI alliance: What is it? | Technology News | Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Artificial Intelligence News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -227,32 +219,16 @@
       ]
     },
     {
-      "title": "Reuters China News | Today's Breaking Stories | Reuters",
-      "url": "https://reuters.com/world/china/chinas-moonshot-unveils-worlds-largest-open-ai-model-closing-us-rivals-2026-07-17",
+      "title": "Companies laying off staff this year include Meta, Amazon, and Groupon \u2014 see the list",
+      "url": "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Meta in Talks to Lease Computing Power to Anthropic in Potential $10 Billion Deal - The New York Times",
-      "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters Asia News | Latest Top Stories | Reuters",
-      "url": "https://www.reuters.com/world/asia-pacific/chinas-xi-promotes-chinas-commitment-ai-access-speech-shanghai-conference-2026-07-17/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Heart of Our Hometowns: Eyes in the sky save missing 16-year-old dog from freezing night in Botetourt County",
-      "url": "https://www.wdbj7.com/2026/07/17/heart-our-hometowns-eyes-sky-save-missing-16-year-old-dog-freezing-night-botetourt-county/",
+      "title": "Artificial Intelligence - The New York Times",
+      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -275,24 +251,32 @@
       ]
     },
     {
-      "title": "Family of boy, three, thrown into crocodile pit by disabled man reveal distressing extent of his injuries | Daily Mail Online",
-      "url": "https://www.dailymail.com/news/article-15982613/Boy-three-thrown-crocodile-pit-disabled-man-left-enduring-health-issues-ordeal.html",
+      "title": "Heart of Our Hometowns: Eyes in the sky save missing 16-year-old dog from freezing night in Botetourt County",
+      "url": "https://www.wdbj7.com/2026/07/17/heart-our-hometowns-eyes-sky-save-missing-16-year-old-dog-freezing-night-botetourt-county/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "\u2018Grieving\u2019 elephant that chased vehicles for 3 years after herd killed captured | Hyderabad News - The Indian Express",
-      "url": "https://indianexpress.com/article/cities/hyderabad/grieving-elephant-chased-vehicles-3-years-speeding-truck-killed-herd-10790838/",
+      "title": "Oddly-Shaped Raccoon Believed to Have a Spine Deformity Becomes Seattle\u2019s Newest Viral Star",
+      "url": "https://people.com/seattle-short-spine-raccoon-jimothy-goes-viral-after-5-million-views-12021835",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Wild & Wacky Offbeat and Weird News of Animals",
-      "url": "https://economictimes.indiatimes.com/news/environment/wild-wacky?from=mdr",
+      "title": "Nature News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
+      "score": -999,
+      "reasons": [
+        "title too thin"
+      ]
+    },
+    {
+      "title": "Upstract",
+      "url": "https://upstract.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -320,6 +304,22 @@
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Space News - Latest Space and Astronomy News | Space",
+      "url": "https://www.space.com/news",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "SpaceNews: The space industry's source",
+      "url": "https://spacenews.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     }
   ]
