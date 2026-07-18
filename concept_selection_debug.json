@@ -1,63 +1,28 @@
 {
   "selected": [
     {
-      "score": 39,
-      "category": "pets_animals",
-      "source_title": "You Can Experience Wild Cat Feeding At This Family-Friendly Massachusetts Sanctuary",
-      "source_url": "https://takingthekids.com/you-can-experience-wild-cat-feeding-at-this-family-friendly-massachusetts-sanctuary/",
-      "source_domain": "takingthekids.com",
-      "source_summary": "At one unusual Massachusetts sanctuary, families can watch powerful animals react the moment food arrives and even take part in the experience under expert supervision. The visit feels exciting without becoming overwhelming. Kids can learn how rescued animals are cared for, while adults get a rare look at the daily routines that keep them healthy and active.",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: rare",
-        "visual/event hook: rescued",
-        "fresh result age present",
-        "allowed category: pets_animals"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 39,
-      "category": "world_weird",
-      "source_title": "Hidden Planet Discovered Twice in One Week",
-      "source_url": "https://www.newser.com/story/392927/newly-found-planet-is-the-dimmest-ever-seen.html",
-      "source_domain": "newser.com",
-      "source_summary": "Astronomers have discovered a faint, elusive planet orbiting a young star after more than a decade of cosmic hide-and-seek. In an unusual twist, two groups working independently detected the cold gas giant a few days apart late last year using ...",
-      "source_age": "1 day ago",
+      "score": 35,
+      "category": "science_technology",
+      "source_title": "ScienceDaily: Your source for the latest research news",
+      "source_url": "https://sciencedaily.com/",
+      "source_domain": "sciencedaily.com",
+      "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
+      "source_age": "1 hour ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
-        "visual/event hook: detected",
         "fresh result age present",
-        "allowed category: world_weird"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 39,
-      "category": "cryptocurrency",
-      "source_title": "$10T Morgan Stanley's E*TRADE Completes Rollout of Spot Bitcoin, Ethereum, Solana Trading",
-      "source_url": "https://coingape.com/morgan-stanleys-etrade-completes-rollout-of-spot-bitcoin-ethereum-solana-trading/",
-      "source_domain": "coingape.com",
-      "source_summary": "As CoinGape reported, Morgan Stanley Ethereum and Solana ETFs are nearing launch after the bank filed amended S-1 filings. The bank became the first to offer a crypto ETF after it launched its Bitcoin ETF earlier this year.",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: first",
-        "visual/event hook: launched",
-        "fresh result age present",
-        "allowed category: cryptocurrency"
+        "allowed category: science_technology"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     },
     {
       "score": 35,
       "category": "science_technology",
-      "source_title": "ScienceDaily: Your source for the latest research news",
-      "source_url": "https://www.sciencedaily.com/",
-      "source_domain": "sciencedaily.com",
-      "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
+      "source_title": "ScienceAlert : The Best in Science News And Amazing Breakthroughs",
+      "source_url": "https://www.sciencealert.com/",
+      "source_domain": "sciencealert.com",
+      "source_summary": "Entirely New Monkey Species Discovered in The Congo Rainforest, And It Doesn&#x27;t Look Impressed Nature1 day ago",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
@@ -74,7 +39,39 @@
       "source_url": "https://www.sciencedaily.com/news/top/science/",
       "source_domain": "sciencedaily.com",
       "source_summary": "After analyzing three decades of research, scientists found that animals ... Astronomers Just Found Four Hidden White Dwarf Stars Near Earth \u00b7 July 15, 2026 \u0097 Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions.",
-      "source_age": "15 hours ago",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: discovered",
+        "fresh result age present",
+        "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "science_technology",
+      "source_title": "Health & Medicine News -- ScienceDaily",
+      "source_url": "https://www.sciencedaily.com/news/health_medicine/",
+      "source_domain": "sciencedaily.com",
+      "source_summary": "July 15, 2026 \u0097 Researchers have discovered that a microscopic skeleton inside neurons does much more than hold cells together. It acts as a gatekeeper that controls what brain cells absorb and when they absorb it.",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: discovered",
+        "fresh result age present",
+        "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "science_technology",
+      "source_title": "Phys.org - News and Articles on Science and Technology",
+      "source_url": "https://phys.org/",
+      "source_domain": "phys.org",
+      "source_summary": "An international research team led by Dr. Frank Bosmans (Vrije Universiteit Brussel) has discovered a major genetic cause of hyperhidrosis (chronic and excessive sweating). The study, published in Science Advances, provides ...",
+      "source_age": "13 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -102,16 +99,16 @@
       ]
     },
     {
-      "title": "Technology",
-      "url": "https://www.reuters.com/video/technology/",
+      "title": "Reuters Business News | Today's International Headlines | Reuters",
+      "url": "https://www.reuters.com/business/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Reuters Business News | Today's International Headlines | Reuters",
-      "url": "https://www.reuters.com/business/",
+      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
+      "url": "https://www.reuters.com/world/us/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -126,24 +123,32 @@
       ]
     },
     {
-      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
-      "url": "https://www.reuters.com/world/us/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters Cybersecurity | Latest Cyber Security News | Reuters",
-      "url": "https://www.reuters.com/technology/cybersecurity/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Crypto Weekly: Trump's crypto profits, Lindsey Graham tribute",
+      "title": "Shein secures nod from Hong Kong listing committee for ...",
       "url": "https://www.reuters.com/video/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
+      "url": "https://www.reuters.com/sustainability/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters Latest Legal News | Today's Breaking Headlines | Reuters",
+      "url": "https://www.reuters.com/legal/",
+      "score": -999,
+      "reasons": [
+        "publisher treated as story subject"
+      ]
+    },
+    {
+      "title": "Technology News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/matter_energy/technology/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -158,32 +163,8 @@
       ]
     },
     {
-      "title": "Physicists made a black hole out of light to test Stephen Hawking's elusive radiation theory | Live Science",
-      "url": "https://www.livescience.com/physics-mathematics/quantum-physics/smaller-than-the-tiniest-scale-in-nature-physicists-made-a-black-hole-out-of-light-and-used-it-to-test-stephen-hawkings-elusive-radiation-theory",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "NASA",
-      "url": "https://www.nasa.gov/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "Nature News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "The Information",
-      "url": "https://www.theinformation.com/",
+      "title": "Biology News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -206,16 +187,24 @@
       ]
     },
     {
-      "title": "OpenAI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "title": "The Information",
+      "url": "https://www.theinformation.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "China's Moonshot unveils world's largest open AI model, closing in on US rivals",
-      "url": "https://reuters.com/world/china/chinas-moonshot-unveils-worlds-largest-open-ai-model-closing-us-rivals-2026-07-17",
+      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
+      "url": "https://llm-stats.com/ai-news",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "China\u2019s Xi Jinping launches new AI alliance: What is it? | Technology News | Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/7/17/chinas-xi-jinping-launches-new-ai-alliance-what-is-it",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -230,8 +219,24 @@
       ]
     },
     {
-      "title": "Technology: Latest Tech News Articles Today | AP News",
-      "url": "https://apnews.com/technology",
+      "title": "AI News \u2014 Today's Top Stories, Tracked & Ranked | AI Weekly",
+      "url": "https://aiweekly.co/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Reuters China News | Today's Breaking Stories | Reuters",
+      "url": "https://reuters.com/world/china/chinas-moonshot-unveils-worlds-largest-open-ai-model-closing-us-rivals-2026-07-17",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Meta in Talks to Lease Computing Power to Anthropic in Potential $10 Billion Deal - The New York Times",
+      "url": "https://www.nytimes.com/2026/07/17/technology/meta-anthropic-ai-computing-power.html",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -246,11 +251,11 @@
       ]
     },
     {
-      "title": "International Animal Rescue",
-      "url": "https://www.internationalanimalrescue.org/",
+      "title": "Heart of Our Hometowns: Eyes in the sky save missing 16-year-old dog from freezing night in Botetourt County",
+      "url": "https://www.wdbj7.com/2026/07/17/heart-our-hometowns-eyes-sky-save-missing-16-year-old-dog-freezing-night-botetourt-county/",
       "score": -999,
       "reasons": [
-        "title too thin"
+        "no concrete event verb/action"
       ]
     },
     {
@@ -262,14 +267,6 @@
       ]
     },
     {
-      "title": "Oddly-Shaped Raccoon Believed to Have a Spine Deformity Becomes Seattle\u2019s Newest Viral Star",
-      "url": "https://people.com/seattle-short-spine-raccoon-jimothy-goes-viral-after-5-million-views-12021835",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Wildlife | The Guardian",
       "url": "https://www.theguardian.com/environment/wildlife",
       "score": -999,
@@ -278,16 +275,32 @@
       ]
     },
     {
-      "title": "Animal sanctuary - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Animal_sanctuary",
+      "title": "Family of boy, three, thrown into crocodile pit by disabled man reveal distressing extent of his injuries | Daily Mail Online",
+      "url": "https://www.dailymail.com/news/article-15982613/Boy-three-thrown-crocodile-pit-disabled-man-left-enduring-health-issues-ordeal.html",
       "score": -999,
       "reasons": [
-        "title too thin"
+        "no concrete event verb/action"
       ]
     },
     {
-      "title": "Wildfire smoke in Wisconsin, impact on wildlife and pets | FOX6 Milwaukee",
-      "url": "https://www.fox6now.com/news/wildfire-smoke-wisconsin-impact-wildlife-pets",
+      "title": "\u2018Grieving\u2019 elephant that chased vehicles for 3 years after herd killed captured | Hyderabad News - The Indian Express",
+      "url": "https://indianexpress.com/article/cities/hyderabad/grieving-elephant-chased-vehicles-3-years-speeding-truck-killed-herd-10790838/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Wild & Wacky Offbeat and Weird News of Animals",
+      "url": "https://economictimes.indiatimes.com/news/environment/wild-wacky?from=mdr",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Animal Research News Roundup: July 17, 2026 \u2013 Rise for Animals",
+      "url": "https://riseforanimals.org/news/news-jul-17-2026/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -304,22 +317,6 @@
     {
       "title": "Space.com: NASA, Space Exploration and Astronomy News",
       "url": "https://www.space.com/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "SpaceX news - Today\u2019s latest updates - CBS News",
-      "url": "https://www.cbsnews.com/tag/spacex/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "SpaceNews: The space industry's source",
-      "url": "https://spacenews.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
