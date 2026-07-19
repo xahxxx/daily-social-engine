@@ -1,13 +1,30 @@
 {
   "selected": [
     {
+      "score": 39,
+      "category": "cryptocurrency",
+      "source_title": "Next Crypto to Explode: Pepeto Takes the Spotlight From Solana (SOL)",
+      "source_url": "https://www.openpr.com/news/4580770/next-crypto-to-explode-pepeto-takes-the-spotlight-from-solana",
+      "source_domain": "openpr.com",
+      "source_summary": "The softer CPI report from last week pushed the ethereum price from $1,780 back toward $1,900, and the broader market exhaled with it. Sentiment is rebuilding after weeks ... The bitcoin price prediction debate shifted this week. T. Rowe Price launched TKNZ, the first actively managed multi-token ...",
+      "source_age": "7 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: first",
+        "visual/event hook: launched",
+        "fresh result age present",
+        "allowed category: cryptocurrency"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
       "score": 35,
       "category": "science_technology",
       "source_title": "ScienceDaily: Your source for the latest research news",
       "source_url": "https://sciencedaily.com/",
       "source_domain": "sciencedaily.com",
       "source_summary": "Researchers extended their lifetime by nearly 100 times, reaching up to 18 microseconds, and discovered that the main limitation is not a law of physics but the purity of the material itself.",
-      "source_age": "10 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -19,27 +36,11 @@
     {
       "score": 35,
       "category": "science_technology",
-      "source_title": "ScienceAlert : The Best in Science News And Amazing Breakthroughs",
-      "source_url": "https://www.sciencealert.com/",
-      "source_domain": "sciencealert.com",
-      "source_summary": "Entirely New Monkey Species Discovered in The Congo Rainforest, And It Doesn&#x27;t Look Impressed Nature1 day ago",
-      "source_age": "2 days ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "science_technology",
-      "source_title": "Top Science News -- ScienceDaily",
-      "source_url": "https://www.sciencedaily.com/news/top/science/",
-      "source_domain": "sciencedaily.com",
-      "source_summary": "After analyzing three decades of research, scientists found that animals ... Astronomers Just Found Four Hidden White Dwarf Stars Near Earth \u00b7 July 15, 2026 \u0097 Four nearby white dwarf stars have been discovered hiding in plain sight beside brighter red dwarf companions.",
-      "source_age": "2 days ago",
+      "source_title": "Phys.org - News and Articles on Science and Technology",
+      "source_url": "https://phys.org/",
+      "source_domain": "phys.org",
+      "source_summary": "... Researchers at Washington State University have discovered a molecular &quot;winter lock&quot; that keeps animals in a less active winter state until favorable conditions return, a discovery that could improve pest control and lead ...",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -55,7 +56,7 @@
       "source_url": "https://www.sciencedaily.com/news/health_medicine/",
       "source_domain": "sciencedaily.com",
       "source_summary": "July 15, 2026 \u0097 Researchers have discovered that a microscopic skeleton inside neurons does much more than hold cells together. It acts as a gatekeeper that controls what brain cells absorb and when they absorb it.",
-      "source_age": "10 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -71,7 +72,7 @@
       "source_url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
       "source_domain": "techcrunch.com",
       "source_summary": "General Compute, an AI inference cloud startup, has landed a $400 million loan from Upper90, a tech investment firm.",
-      "source_age": "1 day ago",
+      "source_age": "2 days ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -99,19 +100,19 @@
       ]
     },
     {
-      "title": "Reuters Business News | Today's International Headlines | Reuters",
-      "url": "https://www.reuters.com/business/",
+      "title": "Technology",
+      "url": "https://www.reuters.com/video/technology/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Reuters World News | Latest Top Stories | Reuters",
-      "url": "https://www.reuters.com/world/",
+      "title": "Reuters Business News | Today's International Headlines | Reuters",
+      "url": "https://www.reuters.com/business/",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
       ]
     },
     {
@@ -123,24 +124,40 @@
       ]
     },
     {
-      "title": "Reuters Video",
-      "url": "https://www.reuters.com/video/",
+      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
+      "url": "https://www.reuters.com/world/us/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Reuters Latest Legal News | Today's Breaking Headlines | Reuters",
-      "url": "https://www.reuters.com/legal/",
+      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
+      "url": "https://www.reuters.com/sustainability/",
       "score": -999,
       "reasons": [
-        "publisher treated as story subject"
+        "no concrete event verb/action"
       ]
     },
     {
-      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
-      "url": "https://www.reuters.com/sustainability/",
+      "title": "Reuters Middle East News | Today's Latest Stories | Reuters",
+      "url": "https://www.reuters.com/world/middle-east/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Top Science News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/top/science/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Science - The New York Times",
+      "url": "https://www.nytimes.com/section/science",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -155,32 +172,32 @@
       ]
     },
     {
-      "title": "Top News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/top/",
+      "title": "Nature News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
       "score": -999,
       "reasons": [
         "title too thin"
       ]
     },
     {
-      "title": "Science - The New York Times",
-      "url": "https://www.nytimes.com/section/science",
+      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
+      "url": "https://www.artificialintelligence-news.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
+      "url": "https://llm-stats.com/ai-news",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Biology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AI News & Artificial Intelligence | TechCrunch",
-      "url": "https://techcrunch.com/category/artificial-intelligence/",
+      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
+      "url": "https://llm-stats.com/llm-updates",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -195,43 +212,27 @@
       ]
     },
     {
-      "title": "Artificial intelligence: Latest News and Updates | South China Morning Post",
-      "url": "https://www.scmp.com/topics/artificial-intelligence",
+      "title": "AP Technology SummaryBrief at 8:22 p.m. EDT | Business | hastingstribune.com",
+      "url": "https://www.hastingstribune.com/ap/business/ap-technology-summarybrief-at-8-22-p-m-edt/article_f842e275-1cf4-5640-8bc0-7df2d44625df.html",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "publisher treated as story subject"
       ]
     },
     {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "AI News \u2014 Today's Top Stories, Tracked & Ranked | AI Weekly",
-      "url": "https://aiweekly.co/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Companies laying off staff this year include Meta, Amazon, and Groupon \u2014 see the list",
-      "url": "https://www.businessinsider.com/recent-company-layoffs-laying-off-workers-2026",
+      "title": "Press Releases | AP News",
+      "url": "https://apnews.com/press-releases",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Artificial Intelligence - The New York Times",
-      "url": "https://www.nytimes.com/spotlight/artificial-intelligence",
+      "title": "OpenAI - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
@@ -243,56 +244,40 @@
       ]
     },
     {
-      "title": "Wildlife | The Guardian",
-      "url": "https://www.theguardian.com/environment/wildlife",
+      "title": "Welcome to the 20th Century! | Shoe: Untied",
+      "url": "https://shoeuntied.wordpress.com/2026/07/18/welcome-to-the-20th-century-assclown/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Heart of Our Hometowns: Eyes in the sky save missing 16-year-old dog from freezing night in Botetourt County",
-      "url": "https://www.wdbj7.com/2026/07/17/heart-our-hometowns-eyes-sky-save-missing-16-year-old-dog-freezing-night-botetourt-county/",
+      "title": "When Dine and Dash Went Horribly Wrong | Shoe: Untied",
+      "url": "https://shoeuntied.wordpress.com/2026/07/18/when-dine-and-dash-went-horribly-wrong/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Oddly-Shaped Raccoon Believed to Have a Spine Deformity Becomes Seattle\u2019s Newest Viral Star",
-      "url": "https://people.com/seattle-short-spine-raccoon-jimothy-goes-viral-after-5-million-views-12021835",
+      "title": "British Crew Leads Irish Dragon Nationals After Six Races at Royal Irish Yacht Club",
+      "url": "https://afloat.ie/sail/sailing-classes/dragons/item/72235-british-crew-leads-irish-dragon-nationals-after-six-races-at-royal-irish-yacht-club",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Nature News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "Upstract",
-      "url": "https://upstract.com/",
+      "title": "TIMELINE CLEANSE: Texas paddleboarders saved a waterlogged raccoon and it's the most wholesome thing on the internet today | Not the Bee",
+      "url": "https://notthebee.com/article/timeline-clease-texas-paddleboarders-saved-a-waterlogged-raccoon-and-its-the-most-wholesome-thing-on-the-internet-today",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Animal Research News Roundup: July 17, 2026 \u2013 Rise for Animals",
-      "url": "https://riseforanimals.org/news/news-jul-17-2026/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Human\u2013wildlife conflict - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Human%E2%80%93wildlife_conflict",
+      "title": "\u092e\u094c\u0924 \u0915\u0947 \u092e\u0941\u0902\u0939 \u092e\u0947\u0902 \u092b\u0902\u0938\u0947 \u0939\u093f\u0930\u0923 \u0915\u094b \u092e\u093f\u0932\u093e \u0928\u092f\u093e \u091c\u0940\u0935\u0928, \u0936\u0916\u094d\u0938 \u0928\u0947 \u0915\u0940\u091a\u0921\u093c \u092e\u0947\u0902 \u0909\u0924\u0930 \u0915\u093f\u092f\u093e \u0930\u0947\u0938\u094d\u0915\u094d\u092f\u0942, \u0932\u094b\u0917\u094b\u0902 \u0928\u0947 \u0915\u0940 \u091c\u092e\u0915\u0930 \u0924\u093e\u0930\u0940\u092b! - News18 \u0939\u093f\u0902\u0926\u0940",
+      "url": "https://hindi.news18.com/news/ajab-gajab/viral-man-saves-baby-antelope-trapped-in-deep-mud-in-african-savanna-rescue-video-goes-viral-10670689.html",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -307,11 +292,11 @@
       ]
     },
     {
-      "title": "Space News - Latest Space and Astronomy News | Space",
-      "url": "https://www.space.com/news",
+      "title": "Astronomy News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/space_time/astronomy/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
@@ -320,6 +305,22 @@
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Space News: Latest on Space Exploration, Discoveries and Innovation | NBC News",
+      "url": "https://www.nbcnews.com/science/space",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Space News - Latest Space and Astronomy News | Space",
+      "url": "https://www.space.com/news",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     }
   ]
