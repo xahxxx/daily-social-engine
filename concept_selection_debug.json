@@ -1,48 +1,17 @@
 {
   "selected": [
     {
-      "score": 35,
-      "category": "science_technology",
-      "source_title": "ScienceDaily: Your source for the latest research news",
-      "source_url": "https://www.sciencedaily.com/",
-      "source_domain": "sciencedaily.com",
-      "source_summary": "Researchers discovered that factors such as where a person lives, whether they are married, their income level, language, age, and even which transplant center they use can dramatically affect ...",
-      "source_age": "8 hours ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "science_technology",
-      "source_title": "This electric field trick boosted heat flow by nearly 300% | ScienceDaily",
-      "source_url": "https://www.sciencedaily.com/releases/2026/07/260709160651.htm",
-      "source_domain": "sciencedaily.com",
-      "source_summary": "Researchers discovered that electricity can dramatically reshape how heat flows through certain ceramic materials, increasing heat conduction by almost threefold in a preferred direction.",
-      "source_age": "1 hour ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
+      "score": 39,
       "category": "world_weird",
-      "source_title": "A Quebecer noticed a strange circular pit on Google Maps while planning a trip; scientists have now confirmed it is a 390-million-year-old meteorite impact crater - The Times of India",
-      "source_url": "https://timesofindia.indiatimes.com/science/a-quebecer-noticed-a-strange-circular-pit-on-google-maps-while-planning-a-trip-scientists-have-now-confirmed-it-is-a-390-million-year-old-meteorite-impact-crater/articleshow/132511804.cms",
-      "source_domain": "timesofindia.indiatimes.com",
-      "source_summary": "He\u2019s no stranger to enthusiastic emails about \u201ccraters\u201d that turn out to be quarries, lakes, or natural depressions, as per The Canadian Press.So when he first heard about Lapointe\u2019s find via his French colleagues, he was skeptical. Many supposed discoveries don\u2019t survive a closer look.But this case stood out. The pit\u2019s circular topography looked intriguing, and preliminary analysis of rock samples suggested something unusual.",
-      "source_age": "5 hours ago",
+      "source_title": "Nature : ScienceAlert - The Best in Science News And Amazing Breakthroughs",
+      "source_url": "https://www.sciencealert.com/nature",
+      "source_domain": "sciencealert.com",
+      "source_summary": "Record-Breaking Concentrations of Gold Discovered in The Seafloor Nature5 days ago",
+      "source_age": "2 days ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: first",
+        "visual/event hook: record",
+        "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: world_weird"
       ],
@@ -50,32 +19,65 @@
     },
     {
       "score": 35,
-      "category": "cryptocurrency",
-      "source_title": "Solana (SOL) Price USD Today, News, Charts, Market Cap | Coinbase",
-      "source_url": "https://www.coinbase.com/price/solana",
-      "source_domain": "coinbase.com",
-      "source_summary": "On Wednesday, a new kind of crypto ETF built around Solana ... ETF is the &quot;first-ever staked crypto ETF in the U.S.,\u201d meaning that 50% of the SOL it holds will be staked and earning rewards. ( Staking is part of the \u201cproof of stake\u201d mechanism that Solana, Ethereum, and some other ...",
-      "source_age": "8 hours ago",
+      "category": "science_technology",
+      "source_title": "ScienceDaily: Your source for the latest research news",
+      "source_url": "https://www.sciencedaily.com/",
+      "source_domain": "sciencedaily.com",
+      "source_summary": "Researchers discovered that factors such as where a person lives, whether they are married, their income level, language, age, and even which transplant center they use can dramatically affect ...",
+      "source_age": "16 hours ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: first",
+        "visual/event hook: discovered",
         "fresh result age present",
-        "allowed category: cryptocurrency"
+        "allowed category: science_technology"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     },
     {
-      "score": 31,
-      "category": "cryptocurrency",
-      "source_title": "Crypto News: Bitcoin, Ethereum & XRP News | crypto.news",
-      "source_url": "https://crypto.news/",
-      "source_domain": "crypto.news",
-      "source_summary": "Will Robinhood Chain flip Solana? The math says not close. ... Feature Read more - Hoskinson wants Bitcoin\u2019s money on Cardano. Here\u2019s the plan. Hoskinson wants Bitcoin\u2019s money on Cardano. Here\u2019s the plan. ... Feature Read more - SWIFT just built its answer to stablecoins. It runs on bank money, not crypto. SWIFT just built its answer to stablecoins. It runs on bank money, not crypto. ... Partner Content Read more - Following Ripple\u2019s European regulatory approval, EX DeFi enabled XRP investors to earn $15,000 daily",
-      "source_age": "15 hours ago",
+      "score": 35,
+      "category": "science_technology",
+      "source_title": "Phys.org - News and Articles on Science and Technology",
+      "source_url": "https://phys.org/",
+      "source_domain": "phys.org",
+      "source_summary": "... Researchers at Washington State University have discovered a molecular &quot;winter lock&quot; that keeps animals in a less active winter state until favorable conditions return, a discovery that could improve pest control and lead ...",
+      "source_age": "10 hours ago",
       "why_selected": [
         "passes event gate",
+        "visual/event hook: discovered",
         "fresh result age present",
-        "allowed category: cryptocurrency"
+        "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "pets_animals",
+      "source_title": "The pet I'll never forget | The Guardian",
+      "source_url": "https://www.theguardian.com/lifeandstyle/series/the-pet-i-ll-never-forget",
+      "source_domain": "theguardian.com",
+      "source_summary": "Why would anyone kick a bird? Penny was delightful company from the moment I rescued her from some bullies in a pub",
+      "source_age": "6 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: rescued",
+        "fresh result age present",
+        "allowed category: pets_animals"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "pets_animals",
+      "source_title": "Leopard Enters Liquor Shop in Rajasthan's Tonk, Attacks Man; Video Goes Viral",
+      "source_url": "https://newsable.asianetnews.com/india/rajasthan-leopard-attack-video-viral-leopard-enters-liquor-shop-attacks-salesman-he-locks-animal-inside-articleshow-3h8unf9",
+      "source_domain": "newsable.asianetnews.com",
+      "source_summary": "A leopard entered a liquor shop in Rajasthan&#x27;s Tonk district, attacked three people and was later locked inside the shop by a quick-thinking salesman before being rescued. The dramatic incident triggered panic among locals and drew a large crowd.",
+      "source_age": "8 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: rescued",
+        "fresh result age present",
+        "allowed category: pets_animals"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -90,6 +92,14 @@
       ]
     },
     {
+      "title": "Reuters AI News | Latest Headlines and Developments | Reuters",
+      "url": "https://www.reuters.com/technology/artificial-intelligence/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Reuters Business News | Today's International Headlines | Reuters",
       "url": "https://www.reuters.com/business/",
       "score": -999,
@@ -98,19 +108,27 @@
       ]
     },
     {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
+      "title": "Reuters World News | Latest Top Stories | Reuters",
+      "url": "https://www.reuters.com/world/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
-      "url": "https://www.reuters.com/world/us/",
+      "title": "Reuters Latest Legal News | Today's Breaking Headlines | Reuters",
+      "url": "https://www.reuters.com/legal/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "publisher treated as story subject"
+      ]
+    },
+    {
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -130,16 +148,8 @@
       ]
     },
     {
-      "title": "Reuters Middle East News | Today's Latest Stories | Reuters",
-      "url": "https://www.reuters.com/world/middle-east/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters Russia News | Latest Headlines & Stories | Reuters",
-      "url": "https://www.reuters.com/world/russia/",
+      "title": "Top Science News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/top/science/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -154,24 +164,24 @@
       ]
     },
     {
-      "title": "Top Science News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/top/science/",
+      "title": "Latest News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Live Science | Latest science news and articles for those with curious minds",
+      "url": "https://www.livescience.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Technology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/matter_energy/technology/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "Live Science | Latest science news and articles for those with curious minds",
-      "url": "https://www.livescience.com/",
+      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -186,8 +196,16 @@
       ]
     },
     {
-      "title": "Biology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
+      "title": "Anthropic\u2019s Claude Fable 5 access plans change from July 20: Here\u2019s what\u2019s new | Technology News - The Indian Express",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-fable-5-plans-change-july-20-whats-new-10793390/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "The Information",
+      "url": "https://www.theinformation.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -202,14 +220,6 @@
       ]
     },
     {
-      "title": "Artificial Intelligence News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
       "url": "https://llm-stats.com/llm-updates",
       "score": -999,
@@ -218,43 +228,27 @@
       ]
     },
     {
-      "title": "AI News Today, July 20 \u2014 Top AI Stories & Live Updates | AI Weekly",
-      "url": "https://aiweekly.co/ai-news-today",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Daily: Meta leases $10B of compute to Anthropic",
-      "url": "https://chipbriefing.substack.com/p/daily-meta-leases-10b-of-compute",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
-      "url": "https://llm-stats.com/ai-news",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AP Technology SummaryBrief at 6:17 a.m. EDT | West Virginia Business News | wvnews.com",
-      "url": "https://www.wvnews.com/business/ap-technology-summarybrief-at-6-17-a-m-edt/article_ce804ad5-4495-5f6a-bc46-c6c29d4f8425.html",
-      "score": -999,
-      "reasons": [
-        "publisher treated as story subject"
-      ]
-    },
-    {
-      "title": "Reuters World News | Latest Top Stories | Reuters",
-      "url": "https://www.reuters.com/world/",
+      "title": "China's Moonshot AI halts new subscriptions after surging demand | AP News",
+      "url": "https://apnews.com/article/kimi-k3-china-ai-model-us-4c66a2e0f557ce79d3cc2d769c9a6226",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Chinese AI model rivals ChatGPT, jolting Silicon Valley - Los Angeles Times",
+      "url": "https://www.latimes.com/business/story/2026-07-20/chinese-ai-model-rivals-chatgpt-jolting-silicon-valley",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Artificial Intelligence News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -266,8 +260,32 @@
       ]
     },
     {
-      "title": "AI - Bloomberg",
-      "url": "https://www.bloomberg.com/ai",
+      "title": "AI News \u2014 Today's Top Stories, Tracked & Ranked | AI Weekly",
+      "url": "https://aiweekly.co/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Rescued Big Bear bald eagle Jackie is 'stable,' wildlife nonprofit says",
+      "url": "https://www.latimes.com/california/story/2026-07-19/jackie-shadow-big-bear-eagles-adult-rescued",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Wildlife | The Guardian",
+      "url": "https://www.theguardian.com/environment/wildlife",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "12 Times Animals Saved Human Lives in Incredible Ways - Animals Around The Globe",
+      "url": "https://www.animalsaroundtheglobe.com/12-times-animals-saved-human-lives-in-incredible-ways-9-304663/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -282,14 +300,6 @@
       ]
     },
     {
-      "title": "Wildlife | The Guardian",
-      "url": "https://www.theguardian.com/environment/wildlife",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Nature News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
       "score": -999,
@@ -298,24 +308,16 @@
       ]
     },
     {
+      "title": "Biology News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
+      "score": -999,
+      "reasons": [
+        "title too thin"
+      ]
+    },
+    {
       "title": "Crocodile strolls into Kota hostel mess, cooks flee in panic - India Today",
       "url": "https://www.indiatoday.in/trending-news/story/crocodile-strolls-into-kota-hostel-mess-cooks-flee-in-panic-2951193-2026-07-19",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Massive 12-Foot Python Calmly Crosses KBR National Park in Hyderabad, Video Goes Viral | Asianet Newsable",
-      "url": "https://newsable.asianetnews.com/gallery/india/giant-python-spotted-at-hyderabad-kbr-national-park-snake-viral-video-thrills-social-media-x5m5ska",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "'Humanity Still Exists': Family Rescues Stray Dog and Newborn Puppies During Heavy Rain, Video Wins Hearts (WATCH)",
-      "url": "https://newsable.asianetnews.com/india/watch-viral-video-humanity-still-exists-family-rescues-stray-dog-newborn-puppies-heavy-rain-articleshow-2e20bxg",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
