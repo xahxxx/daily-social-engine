@@ -7,7 +7,7 @@
       "source_url": "https://paper.news18.com/viral/watch-leopard-charges-into-wine-shop-in-rajasthan-injures-salesman-before-being-locked-inside-10224470.html",
       "source_domain": "paper.news18.com",
       "source_summary": "&#x27;People Took Lathi Blows For You&#x27;: Viral Video Shows Vijeta Dahiya Being Confronted After Protest Row \u00b7 \u2018Made In China?\u2019: Singaporean Tourist\u2019s Reply To Mumbai Man\u2019s Unusual Question Leaves Internet Amused \u00b7 Earlier, the leopard had attacked forest volunteer Rakesh near bushes where it was first spotted, before injuring Fateh Lal Koli outside the liquor shop and then entering the outlet, reports suggest. A rescue team from Jaipur reached the spot around 2 pm and safely rescued the animal after a five-hour operation.",
-      "source_age": "9 hours ago",
+      "source_age": "18 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -19,18 +19,18 @@
     },
     {
       "score": 39,
-      "category": "world_weird",
-      "source_title": "Nature : ScienceAlert - The Best in Science News And Amazing Breakthroughs",
-      "source_url": "https://www.sciencealert.com/nature",
-      "source_domain": "sciencealert.com",
-      "source_summary": "Record-Breaking Concentrations of Gold Discovered in The Seafloor Nature5 days ago",
-      "source_age": "1 day ago",
+      "category": "space",
+      "source_title": "Space News - Latest Space and Astronomy News | Space",
+      "source_url": "https://www.space.com/news",
+      "source_domain": "space.com",
+      "source_summary": "SpaceX launched Northrop Grumman&#x27;s ... ... Using the James Webb Space Telescope, astronomers have discovered the secrets of early galaxies that pumped the infant cosmos full of dust, but by studying a much closer and modern galaxy....",
+      "source_age": "2 days ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: record",
         "visual/event hook: discovered",
+        "visual/event hook: launched",
         "fresh result age present",
-        "allowed category: world_weird"
+        "allowed category: space"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     },
@@ -41,7 +41,7 @@
       "source_url": "https://www.sciencedaily.com/news/health_medicine/",
       "source_domain": "sciencedaily.com",
       "source_summary": "July 20, 2026 \u0097 Scientists have discovered a hidden warning sign of skin damage that appears before collagen fibers visibly thin, break, or lose their connections. Using advanced light-based techniques, the team found that collagen\u2019s carefully organized molecular ... Alzheimer\u2019s Breakthrough: Scientists Restore Two Hours of Sleep Without Clearing Brain Plaques \u00b7 July 20, 2026 \u0097 Researchers have uncovered a surprising culprit behind sleep loss in Alzheimer\u2019s disease: the brain\u2019s own immune cells.",
-      "source_age": "1 hour ago",
+      "source_age": "10 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -68,17 +68,17 @@
     },
     {
       "score": 35,
-      "category": "pets_animals",
-      "source_title": "Leopard Enters Liquor Shop in Rajasthan's Tonk, Attacks Man; Video Goes Viral",
-      "source_url": "https://newsable.asianetnews.com/india/rajasthan-leopard-attack-video-viral-leopard-enters-liquor-shop-attacks-salesman-he-locks-animal-inside-articleshow-3h8unf9",
-      "source_domain": "newsable.asianetnews.com",
-      "source_summary": "A leopard entered a liquor shop in Rajasthan&#x27;s Tonk district, attacked three people and was later locked inside the shop by a quick-thinking salesman before being rescued. The dramatic incident triggered panic among locals and drew a large crowd.",
-      "source_age": "1 day ago",
+      "category": "space",
+      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
+      "source_url": "https://www.space.com/",
+      "source_domain": "space.com",
+      "source_summary": "Robert Z. Pearlman Published 21 ... California on Tuesday (July 21), a day after aborting its first liftoff attempt. Scientists may have found the 1st twin star system where both stars exploded Imagine if Star Wars&#x27; Tatooine twin suns went supernova....",
+      "source_age": "9 hours ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: rescued",
+        "visual/event hook: first",
         "fresh result age present",
-        "allowed category: pets_animals"
+        "allowed category: space"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -133,19 +133,19 @@
       ]
     },
     {
-      "title": "Reuters Energy News | Top Energy Headlines | Reuters",
-      "url": "https://www.reuters.com/business/energy/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Reuters Latest Legal News | Today's Breaking Headlines | Reuters",
       "url": "https://www.reuters.com/legal/",
       "score": -999,
       "reasons": [
         "publisher treated as story subject"
+      ]
+    },
+    {
+      "title": "Global Market Headlines | Breaking Stock Market News | Reuters",
+      "url": "https://www.reuters.com/markets/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -157,16 +157,16 @@
       ]
     },
     {
-      "title": "Top Science News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/top/science/",
+      "title": "Latest science news, discoveries and analysis",
+      "url": "https://www.nature.com/news",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Latest science news, discoveries and analysis",
-      "url": "https://www.nature.com/news",
+      "title": "Top Science News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/top/science/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -189,24 +189,24 @@
       ]
     },
     {
-      "title": "Breaking News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/breaking/",
+      "title": "Phys.org - News and Articles on Science and Technology",
+      "url": "https://phys.org/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Biology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
+      "title": "Sci.News: Breaking Science News",
+      "url": "https://www.sci.news/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
-      "title": "The Information",
-      "url": "https://www.theinformation.com/",
+      "title": "This Former Intel CEO Wants to Jumpstart Moore\u2019s Law With Light | WIRED",
+      "url": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -221,19 +221,19 @@
       ]
     },
     {
-      "title": "Anthropic\u2019s Claude Fable 5 access plans change from July 20: Here\u2019s what\u2019s new | Technology News - The Indian Express",
-      "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-fable-5-plans-change-july-20-whats-new-10793390/",
+      "title": "The Information",
+      "url": "https://www.theinformation.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
-      "url": "https://llm-stats.com/ai-news",
+      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
+      "url": "https://llm-stats.com/llm-updates",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
       ]
     },
     {
@@ -245,24 +245,16 @@
       ]
     },
     {
-      "title": "China's new AI model halts new subscriptions as demand swamps capacity - ABC News",
-      "url": "https://abcnews.com/Technology/wireStory/chinas-new-ai-model-halts-new-subscriptions-demand-134909820",
+      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
+      "url": "https://llm-stats.com/ai-news",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Chinese AI models gaining ground in the United States: the reason is the price - News247Plus",
-      "url": "https://www.news247plus.com/news/technology/chinese-ai-models-gaining-ground-in-the-united-states-the-reason-is-the-price-54986",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AI stocks gather more strength, even as Brent oil\u2019s price tops $90 - myMotherLode.com",
-      "url": "https://mymotherlode.com/news/national/11004773/wall-street-points-toward-gains-as-ai-focused-companies-recover-some-of-last-weeks-losses.html",
+      "title": "Artificial Intelligence News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -273,12 +265,12 @@
       "url": "https://apnews.com/",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
       ]
     },
     {
-      "title": "Meet Jimothy, the unusually round Seattle raccoon capturing hearts worldwide | CBC News",
-      "url": "https://www.cbc.ca/news/world/jimothy-raccoon-seattle-9.7276241",
+      "title": "OpenAI News | OpenAI",
+      "url": "https://openai.com/news/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -293,8 +285,8 @@
       ]
     },
     {
-      "title": "Animals | The Guardian",
-      "url": "https://www.theguardian.com/world/animals",
+      "title": "12 Heartwarming Animal Tales from Around the World That Renew Faith in Wildlife - Animals Around The Globe",
+      "url": "https://www.animalsaroundtheglobe.com/12-heartwarming-animal-tales-from-around-the-world-that-renew-faith-in-wildlife-1-389487/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -309,16 +301,24 @@
       ]
     },
     {
-      "title": "Tiggywinkles - World Leading Wildlife Hospital - World leading wildlife hospital",
-      "url": "https://sttiggywinkles.org.uk/",
+      "title": "Biology News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
       "title": "Raccoon | TikTok",
       "url": "https://www.tiktok.com/discover/raccoon",
+      "score": -999,
+      "reasons": [
+        "title too thin"
+      ]
+    },
+    {
+      "title": "Nature News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
       "score": -999,
       "reasons": [
         "title too thin"
