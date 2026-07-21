@@ -2,12 +2,29 @@
   "selected": [
     {
       "score": 39,
+      "category": "pets_animals",
+      "source_title": "Watch: Leopard Charges Into Wine Shop In Rajasthan, Injures Salesman Before Being Locked Inside | Viral News - News18",
+      "source_url": "https://paper.news18.com/viral/watch-leopard-charges-into-wine-shop-in-rajasthan-injures-salesman-before-being-locked-inside-10224470.html",
+      "source_domain": "paper.news18.com",
+      "source_summary": "&#x27;People Took Lathi Blows For You&#x27;: Viral Video Shows Vijeta Dahiya Being Confronted After Protest Row \u00b7 \u2018Made In China?\u2019: Singaporean Tourist\u2019s Reply To Mumbai Man\u2019s Unusual Question Leaves Internet Amused \u00b7 Earlier, the leopard had attacked forest volunteer Rakesh near bushes where it was first spotted, before injuring Fateh Lal Koli outside the liquor shop and then entering the outlet, reports suggest. A rescue team from Jaipur reached the spot around 2 pm and safely rescued the animal after a five-hour operation.",
+      "source_age": "9 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: first",
+        "visual/event hook: rescued",
+        "fresh result age present",
+        "allowed category: pets_animals"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 39,
       "category": "world_weird",
       "source_title": "Nature : ScienceAlert - The Best in Science News And Amazing Breakthroughs",
       "source_url": "https://www.sciencealert.com/nature",
       "source_domain": "sciencealert.com",
       "source_summary": "Record-Breaking Concentrations of Gold Discovered in The Seafloor Nature5 days ago",
-      "source_age": "2 days ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: record",
@@ -20,27 +37,11 @@
     {
       "score": 35,
       "category": "science_technology",
-      "source_title": "ScienceDaily: Your source for the latest research news",
-      "source_url": "https://www.sciencedaily.com/",
+      "source_title": "Health & Medicine News -- ScienceDaily",
+      "source_url": "https://www.sciencedaily.com/news/health_medicine/",
       "source_domain": "sciencedaily.com",
-      "source_summary": "Researchers discovered that factors such as where a person lives, whether they are married, their income level, language, age, and even which transplant center they use can dramatically affect ...",
-      "source_age": "16 hours ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: discovered",
-        "fresh result age present",
-        "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "science_technology",
-      "source_title": "Phys.org - News and Articles on Science and Technology",
-      "source_url": "https://phys.org/",
-      "source_domain": "phys.org",
-      "source_summary": "... Researchers at Washington State University have discovered a molecular &quot;winter lock&quot; that keeps animals in a less active winter state until favorable conditions return, a discovery that could improve pest control and lead ...",
-      "source_age": "10 hours ago",
+      "source_summary": "July 20, 2026 \u0097 Scientists have discovered a hidden warning sign of skin damage that appears before collagen fibers visibly thin, break, or lose their connections. Using advanced light-based techniques, the team found that collagen\u2019s carefully organized molecular ... Alzheimer\u2019s Breakthrough: Scientists Restore Two Hours of Sleep Without Clearing Brain Plaques \u00b7 July 20, 2026 \u0097 Researchers have uncovered a surprising culprit behind sleep loss in Alzheimer\u2019s disease: the brain\u2019s own immune cells.",
+      "source_age": "1 hour ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -56,7 +57,7 @@
       "source_url": "https://www.theguardian.com/lifeandstyle/series/the-pet-i-ll-never-forget",
       "source_domain": "theguardian.com",
       "source_summary": "Why would anyone kick a bird? Penny was delightful company from the moment I rescued her from some bullies in a pub",
-      "source_age": "6 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: rescued",
@@ -72,7 +73,7 @@
       "source_url": "https://newsable.asianetnews.com/india/rajasthan-leopard-attack-video-viral-leopard-enters-liquor-shop-attacks-salesman-he-locks-animal-inside-articleshow-3h8unf9",
       "source_domain": "newsable.asianetnews.com",
       "source_summary": "A leopard entered a liquor shop in Rajasthan&#x27;s Tonk district, attacked three people and was later locked inside the shop by a quick-thinking salesman before being rescued. The dramatic incident triggered panic among locals and drew a large crowd.",
-      "source_age": "8 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: rescued",
@@ -116,14 +117,6 @@
       ]
     },
     {
-      "title": "Reuters Latest Legal News | Today's Breaking Headlines | Reuters",
-      "url": "https://www.reuters.com/legal/",
-      "score": -999,
-      "reasons": [
-        "publisher treated as story subject"
-      ]
-    },
-    {
       "title": "Reuters Reuters | Breaking International News & Views",
       "url": "https://www.reuters.com/",
       "score": -999,
@@ -148,6 +141,22 @@
       ]
     },
     {
+      "title": "Reuters Latest Legal News | Today's Breaking Headlines | Reuters",
+      "url": "https://www.reuters.com/legal/",
+      "score": -999,
+      "reasons": [
+        "publisher treated as story subject"
+      ]
+    },
+    {
+      "title": "ScienceDaily: Your source for the latest research news",
+      "url": "https://www.sciencedaily.com/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Top Science News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/news/top/science/",
       "score": -999,
@@ -164,27 +173,19 @@
       ]
     },
     {
-      "title": "Latest News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Live Science | Latest science news and articles for those with curious minds",
-      "url": "https://www.livescience.com/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
       "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Latest News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -196,8 +197,8 @@
       ]
     },
     {
-      "title": "Anthropic\u2019s Claude Fable 5 access plans change from July 20: Here\u2019s what\u2019s new | Technology News - The Indian Express",
-      "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-fable-5-plans-change-july-20-whats-new-10793390/",
+      "title": "Biology News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -220,11 +221,19 @@
       ]
     },
     {
-      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
-      "url": "https://llm-stats.com/llm-updates",
+      "title": "Anthropic\u2019s Claude Fable 5 access plans change from July 20: Here\u2019s what\u2019s new | Technology News - The Indian Express",
+      "url": "https://indianexpress.com/article/technology/artificial-intelligence/anthropic-fable-5-plans-change-july-20-whats-new-10793390/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
+      "url": "https://llm-stats.com/ai-news",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -236,56 +245,48 @@
       ]
     },
     {
-      "title": "Chinese AI model rivals ChatGPT, jolting Silicon Valley - Los Angeles Times",
-      "url": "https://www.latimes.com/business/story/2026-07-20/chinese-ai-model-rivals-chatgpt-jolting-silicon-valley",
+      "title": "China's new AI model halts new subscriptions as demand swamps capacity - ABC News",
+      "url": "https://abcnews.com/Technology/wireStory/chinas-new-ai-model-halts-new-subscriptions-demand-134909820",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Artificial Intelligence News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
+      "title": "Chinese AI models gaining ground in the United States: the reason is the price - News247Plus",
+      "url": "https://www.news247plus.com/news/technology/chinese-ai-models-gaining-ground-in-the-united-states-the-reason-is-the-price-54986",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "OpenAI - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "title": "AI stocks gather more strength, even as Brent oil\u2019s price tops $90 - myMotherLode.com",
+      "url": "https://mymotherlode.com/news/national/11004773/wall-street-points-toward-gains-as-ai-focused-companies-recover-some-of-last-weeks-losses.html",
       "score": -999,
       "reasons": [
-        "title too thin"
+        "no concrete event verb/action"
       ]
     },
     {
-      "title": "AI News \u2014 Today's Top Stories, Tracked & Ranked | AI Weekly",
-      "url": "https://aiweekly.co/",
+      "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
+      "url": "https://apnews.com/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Rescued Big Bear bald eagle Jackie is 'stable,' wildlife nonprofit says",
-      "url": "https://www.latimes.com/california/story/2026-07-19/jackie-shadow-big-bear-eagles-adult-rescued",
+      "title": "Meet Jimothy, the unusually round Seattle raccoon capturing hearts worldwide | CBC News",
+      "url": "https://www.cbc.ca/news/world/jimothy-raccoon-seattle-9.7276241",
       "score": -999,
       "reasons": [
-        "promotional/evergreen/service page"
+        "no concrete event verb/action"
       ]
     },
     {
       "title": "Wildlife | The Guardian",
       "url": "https://www.theguardian.com/environment/wildlife",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "12 Times Animals Saved Human Lives in Incredible Ways - Animals Around The Globe",
-      "url": "https://www.animalsaroundtheglobe.com/12-times-animals-saved-human-lives-in-incredible-ways-9-304663/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -300,27 +301,27 @@
       ]
     },
     {
-      "title": "Nature News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "Biology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "Crocodile strolls into Kota hostel mess, cooks flee in panic - India Today",
-      "url": "https://www.indiatoday.in/trending-news/story/crocodile-strolls-into-kota-hostel-mess-cooks-flee-in-panic-2951193-2026-07-19",
+      "title": "12 Times Animals Saved Human Lives in Incredible Ways - Animals Around The Globe",
+      "url": "https://www.animalsaroundtheglobe.com/12-times-animals-saved-human-lives-in-incredible-ways-9-304663/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Tiggywinkles - World Leading Wildlife Hospital - World leading wildlife hospital",
+      "url": "https://sttiggywinkles.org.uk/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Raccoon | TikTok",
+      "url": "https://www.tiktok.com/discover/raccoon",
+      "score": -999,
+      "reasons": [
+        "title too thin"
       ]
     }
   ]
