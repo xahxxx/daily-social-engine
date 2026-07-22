@@ -7,7 +7,7 @@
       "source_url": "https://paper.news18.com/viral/watch-leopard-charges-into-wine-shop-in-rajasthan-injures-salesman-before-being-locked-inside-10224470.html",
       "source_domain": "paper.news18.com",
       "source_summary": "&#x27;People Took Lathi Blows For You&#x27;: Viral Video Shows Vijeta Dahiya Being Confronted After Protest Row \u00b7 \u2018Made In China?\u2019: Singaporean Tourist\u2019s Reply To Mumbai Man\u2019s Unusual Question Leaves Internet Amused \u00b7 Earlier, the leopard had attacked forest volunteer Rakesh near bushes where it was first spotted, before injuring Fateh Lal Koli outside the liquor shop and then entering the outlet, reports suggest. A rescue team from Jaipur reached the spot around 2 pm and safely rescued the animal after a five-hour operation.",
-      "source_age": "18 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -24,7 +24,24 @@
       "source_url": "https://www.space.com/news",
       "source_domain": "space.com",
       "source_summary": "SpaceX launched Northrop Grumman&#x27;s ... ... Using the James Webb Space Telescope, astronomers have discovered the secrets of early galaxies that pumped the infant cosmos full of dust, but by studying a much closer and modern galaxy....",
-      "source_age": "2 days ago",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: discovered",
+        "visual/event hook: launched",
+        "fresh result age present",
+        "allowed category: space"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 39,
+      "category": "space",
+      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
+      "source_url": "https://www.space.com/",
+      "source_domain": "space.com",
+      "source_summary": "SpaceX launched Northrop Grumman&#x27;s trailblazing MRV-MEP satellite-servicing mission to Earth orbit today (July 21). ... Using the James Webb Space Telescope, astronomers have discovered the secrets of early galaxies that pumped the infant cosmos full of dust, but by studying a much closer and modern galaxy...",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -41,7 +58,7 @@
       "source_url": "https://www.sciencedaily.com/news/health_medicine/",
       "source_domain": "sciencedaily.com",
       "source_summary": "July 20, 2026 \u0097 Scientists have discovered a hidden warning sign of skin damage that appears before collagen fibers visibly thin, break, or lose their connections. Using advanced light-based techniques, the team found that collagen\u2019s carefully organized molecular ... Alzheimer\u2019s Breakthrough: Scientists Restore Two Hours of Sleep Without Clearing Brain Plaques \u00b7 July 20, 2026 \u0097 Researchers have uncovered a surprising culprit behind sleep loss in Alzheimer\u2019s disease: the brain\u2019s own immune cells.",
-      "source_age": "10 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
@@ -52,33 +69,17 @@
     },
     {
       "score": 35,
-      "category": "pets_animals",
-      "source_title": "The pet I'll never forget | The Guardian",
-      "source_url": "https://www.theguardian.com/lifeandstyle/series/the-pet-i-ll-never-forget",
-      "source_domain": "theguardian.com",
-      "source_summary": "Why would anyone kick a bird? Penny was delightful company from the moment I rescued her from some bullies in a pub",
+      "category": "ai",
+      "source_title": "Making AI Work: Moonshot is creating new winners and losers in the AI trade, ETEnterpriseai",
+      "source_url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/moonshot-is-creating-new-winners-and-losers-in-the-ai-trade/132535741",
+      "source_domain": "enterpriseai.economictimes.indiatimes.com",
+      "source_summary": "The Chinese startup unveiled Kimi K3 on Friday, a model that it says delivers performance that rivals top-tier offerings from OpenAI and Anthropic PBC at a fraction of the cost. ... The debut challenges the view that US curbs on advanced chip ...",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: rescued",
+        "visual/event hook: unveiled",
         "fresh result age present",
-        "allowed category: pets_animals"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "space",
-      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
-      "source_url": "https://www.space.com/",
-      "source_domain": "space.com",
-      "source_summary": "Robert Z. Pearlman Published 21 ... California on Tuesday (July 21), a day after aborting its first liftoff attempt. Scientists may have found the 1st twin star system where both stars exploded Imagine if Star Wars&#x27; Tatooine twin suns went supernova....",
-      "source_age": "9 hours ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: first",
-        "fresh result age present",
-        "allowed category: space"
+        "allowed category: ai"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -109,22 +110,6 @@
       ]
     },
     {
-      "title": "Reuters World News | Latest Top Stories | Reuters",
-      "url": "https://www.reuters.com/world/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
       "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
       "url": "https://www.reuters.com/sustainability/",
       "score": -999,
@@ -133,19 +118,35 @@
       ]
     },
     {
-      "title": "Reuters Latest Legal News | Today's Breaking Headlines | Reuters",
-      "url": "https://www.reuters.com/legal/",
+      "title": "Reuters World News | Latest Top Stories | Reuters",
+      "url": "https://www.reuters.com/world/",
       "score": -999,
       "reasons": [
-        "publisher treated as story subject"
+        "promotional/evergreen/service page"
       ]
     },
     {
-      "title": "Global Market Headlines | Breaking Stock Market News | Reuters",
-      "url": "https://www.reuters.com/markets/",
+      "title": "Reuters OpenAI News | Today's Latest Stories | Reuters",
+      "url": "https://www.reuters.com/technology/openai/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters Energy News | Top Energy Headlines | Reuters",
+      "url": "https://www.reuters.com/business/energy/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "\u30ed\u30a4\u30bf\u30fc | \u7d4c\u6e08\u3001\u682a\u4fa1\u3001\u30d3\u30b8\u30cd\u30b9\u3001\u56fd\u969b\u3001\u653f\u6cbb\u30cb\u30e5\u30fc\u30b9",
+      "url": "https://www.reuters.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -165,27 +166,11 @@
       ]
     },
     {
-      "title": "Top Science News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/top/science/",
+      "title": "New Scientist | Science news, articles, and features",
+      "url": "https://www.newscientist.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Scientists make quantum time flow backward in stunning physics breakthrough | ScienceDaily",
-      "url": "https://www.sciencedaily.com/releases/2026/06/260625014802.htm",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Latest News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
       ]
     },
     {
@@ -197,16 +182,16 @@
       ]
     },
     {
-      "title": "Sci.News: Breaking Science News",
-      "url": "https://www.sci.news/",
+      "title": "Science & Environment",
+      "url": "https://www.bbc.com/news/science_and_environment",
       "score": -999,
       "reasons": [
         "title too thin"
       ]
     },
     {
-      "title": "This Former Intel CEO Wants to Jumpstart Moore\u2019s Law With Light | WIRED",
-      "url": "https://www.wired.com/story/pat-gelsinger-moores-law-light-chips/",
+      "title": "The Information",
+      "url": "https://www.theinformation.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -221,35 +206,27 @@
       ]
     },
     {
-      "title": "The Information",
-      "url": "https://www.theinformation.com/",
+      "title": "AI News & Artificial Intelligence | TechCrunch",
+      "url": "https://techcrunch.com/category/artificial-intelligence/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "AI Updates Today (July 2026) \u2013 Latest AI Model Releases",
-      "url": "https://llm-stats.com/llm-updates",
+      "title": "Artificial intelligence: Latest News and Updates | South China Morning Post",
+      "url": "https://www.scmp.com/topics/artificial-intelligence",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Artificial intelligence | AP News",
+      "url": "https://apnews.com/hub/artificial-intelligence",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "China's Moonshot AI halts new subscriptions after surging demand | AP News",
-      "url": "https://apnews.com/article/kimi-k3-china-ai-model-us-4c66a2e0f557ce79d3cc2d769c9a6226",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
-      "url": "https://llm-stats.com/ai-news",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
       ]
     },
     {
@@ -261,16 +238,16 @@
       ]
     },
     {
-      "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
-      "url": "https://apnews.com/",
+      "title": "Alphabet Inc | Reuters",
+      "url": "https://www.reuters.com/company/alphabet-inc/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "OpenAI News | OpenAI",
-      "url": "https://openai.com/news/",
+      "title": "AI - Bloomberg",
+      "url": "https://www.bloomberg.com/ai",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -293,35 +270,59 @@
       ]
     },
     {
-      "title": "12 Times Animals Saved Human Lives in Incredible Ways - Animals Around The Globe",
-      "url": "https://www.animalsaroundtheglobe.com/12-times-animals-saved-human-lives-in-incredible-ways-9-304663/",
+      "title": "Animals | The Guardian",
+      "url": "https://www.theguardian.com/world/animals",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Biology News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/biology/",
+      "title": "Incredible moment boy, 12, risks dangerous climb to rescue puppy stranded on apartment ledge | Daily Mail Online",
+      "url": "https://www.dailymail.com/news/article-15989611/boy-puppy-rescue-apartment-central-coast-spiderman.html",
       "score": -999,
       "reasons": [
-        "title too thin"
+        "no concrete event verb/action"
       ]
     },
     {
-      "title": "Raccoon | TikTok",
-      "url": "https://www.tiktok.com/discover/raccoon",
+      "title": "In Venezuela\u2019s Rubble, a Search for the Family Pets - The New York Times",
+      "url": "https://www.nytimes.com/2026/07/20/world/americas/venezuela-earthquakes-volunteer-pets.html",
       "score": -999,
       "reasons": [
-        "title too thin"
+        "no concrete event verb/action"
       ]
     },
     {
-      "title": "Nature News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/plants_animals/nature/",
+      "title": "Homepage \u2022 Wildlife Conservation Network",
+      "url": "https://wildnet.org/",
       "score": -999,
       "reasons": [
-        "title too thin"
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "SpaceNews: The space industry's source",
+      "url": "https://spacenews.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Space | CNN",
+      "url": "https://www.cnn.com/science/space",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Space & Time News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/space_time/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     }
   ]
