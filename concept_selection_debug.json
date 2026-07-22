@@ -2,23 +2,6 @@
   "selected": [
     {
       "score": 39,
-      "category": "pets_animals",
-      "source_title": "Watch: Leopard Charges Into Wine Shop In Rajasthan, Injures Salesman Before Being Locked Inside | Viral News - News18",
-      "source_url": "https://paper.news18.com/viral/watch-leopard-charges-into-wine-shop-in-rajasthan-injures-salesman-before-being-locked-inside-10224470.html",
-      "source_domain": "paper.news18.com",
-      "source_summary": "&#x27;People Took Lathi Blows For You&#x27;: Viral Video Shows Vijeta Dahiya Being Confronted After Protest Row \u00b7 \u2018Made In China?\u2019: Singaporean Tourist\u2019s Reply To Mumbai Man\u2019s Unusual Question Leaves Internet Amused \u00b7 Earlier, the leopard had attacked forest volunteer Rakesh near bushes where it was first spotted, before injuring Fateh Lal Koli outside the liquor shop and then entering the outlet, reports suggest. A rescue team from Jaipur reached the spot around 2 pm and safely rescued the animal after a five-hour operation.",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: first",
-        "visual/event hook: rescued",
-        "fresh result age present",
-        "allowed category: pets_animals"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 39,
       "category": "space",
       "source_title": "Space News - Latest Space and Astronomy News | Space",
       "source_url": "https://www.space.com/news",
@@ -36,18 +19,50 @@
     },
     {
       "score": 39,
-      "category": "space",
-      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
-      "source_url": "https://www.space.com/",
-      "source_domain": "space.com",
-      "source_summary": "SpaceX launched Northrop Grumman&#x27;s trailblazing MRV-MEP satellite-servicing mission to Earth orbit today (July 21). ... Using the James Webb Space Telescope, astronomers have discovered the secrets of early galaxies that pumped the infant cosmos full of dust, but by studying a much closer and modern galaxy...",
+      "category": "world_weird",
+      "source_title": "15 Unsolved Mysteries Without Any Plausible Explanations | eBaum's World",
+      "source_url": "https://www.ebaumsworld.com/pictures/15-unsolved-mysteries-without-any-plausible-explanations/87760929/",
+      "source_domain": "ebaumsworld.com",
+      "source_summary": "8 survivors were rescued. Whilst this discovery is disturbing, the mystery for me is that the original taxi driver, still hasn\u2019t been found.\u201d \u00b7 \u201cBasically a dead man who was found in Australia in the 1940s, in his trousers there was a scrap of paper reading \u2018Tamam Shud\u2019 meaning ...",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
-        "visual/event hook: discovered",
-        "visual/event hook: launched",
+        "visual/event hook: rescued",
+        "visual/event hook: mystery",
         "fresh result age present",
-        "allowed category: space"
+        "allowed category: world_weird"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 36,
+      "category": "ai",
+      "source_title": "OpenAI and Anthropic limit latest ChatGPT products to Trump-approved customers amid review | AP News",
+      "source_url": "https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa",
+      "source_domain": "apnews.com",
+      "source_summary": "Add AP News on Google Add AP News as your preferred source to see more of our stories on Google. Share ... ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump\u2019s administration, the latest in an unprecedented government vetting of AI products for cybersecurity risks. Its chief rival, Anthropic, announced hours later that the Trump administration has approved a limited release of its strongest cybersecurity model, two weeks after the U.S.",
+      "source_age": "18 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "fresh result age present",
+        "reputable source boost",
+        "allowed category: ai"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "science_technology",
+      "source_title": "Astronomers Confirm First Pair of Sibling Supernovae Hidden in Jellyfish Nebula",
+      "source_url": "https://www.techtimes.com/articles/321246/20260722/astronomers-confirm-first-pair-sibling-supernovae-hidden-jellyfish-nebula.htm",
+      "source_domain": "techtimes.com",
+      "source_summary": "A Stanford-led team announced July 21 in Nature Communications what researchers are calling the first confirmed evidence of a binary star system in which both companions exploded as supernovae, with their overlapping remnants hiding in plain ...",
+      "source_age": "12 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: first",
+        "fresh result age present",
+        "allowed category: science_technology"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     },
@@ -64,22 +79,6 @@
         "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "ai",
-      "source_title": "Making AI Work: Moonshot is creating new winners and losers in the AI trade, ETEnterpriseai",
-      "source_url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/moonshot-is-creating-new-winners-and-losers-in-the-ai-trade/132535741",
-      "source_domain": "enterpriseai.economictimes.indiatimes.com",
-      "source_summary": "The Chinese startup unveiled Kimi K3 on Friday, a model that it says delivers performance that rivals top-tier offerings from OpenAI and Anthropic PBC at a fraction of the cost. ... The debut challenges the view that US curbs on advanced chip ...",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: unveiled",
-        "fresh result age present",
-        "allowed category: ai"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -110,19 +109,11 @@
       ]
     },
     {
-      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
-      "url": "https://www.reuters.com/sustainability/",
+      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
+      "url": "https://www.reuters.com/world/us/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters World News | Latest Top Stories | Reuters",
-      "url": "https://www.reuters.com/world/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
       ]
     },
     {
@@ -134,19 +125,27 @@
       ]
     },
     {
-      "title": "Reuters Energy News | Top Energy Headlines | Reuters",
-      "url": "https://www.reuters.com/business/energy/",
+      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
+      "url": "https://www.reuters.com/sustainability/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "\u30ed\u30a4\u30bf\u30fc | \u7d4c\u6e08\u3001\u682a\u4fa1\u3001\u30d3\u30b8\u30cd\u30b9\u3001\u56fd\u969b\u3001\u653f\u6cbb\u30cb\u30e5\u30fc\u30b9",
+      "title": "Reuters Reuters | Breaking International News & Views",
       "url": "https://www.reuters.com/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "India's youth protests persist after clashes",
+      "url": "https://www.reuters.com/video/world-news/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -158,8 +157,8 @@
       ]
     },
     {
-      "title": "Latest science news, discoveries and analysis",
-      "url": "https://www.nature.com/news",
+      "title": "Powering America's Genesis Mission: Microsoft's commitment to scientific discovery - The Official Microsoft Blog",
+      "url": "https://blogs.microsoft.com/blog/2026/07/22/powering-americas-genesis-mission-microsofts-commitment-to-scientific-discovery/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -182,30 +181,6 @@
       ]
     },
     {
-      "title": "Science & Environment",
-      "url": "https://www.bbc.com/news/science_and_environment",
-      "score": -999,
-      "reasons": [
-        "title too thin"
-      ]
-    },
-    {
-      "title": "The Information",
-      "url": "https://www.theinformation.com/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
       "title": "AI News & Artificial Intelligence | TechCrunch",
       "url": "https://techcrunch.com/category/artificial-intelligence/",
       "score": -999,
@@ -214,16 +189,8 @@
       ]
     },
     {
-      "title": "Artificial intelligence: Latest News and Updates | South China Morning Post",
-      "url": "https://www.scmp.com/topics/artificial-intelligence",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Artificial intelligence | AP News",
-      "url": "https://apnews.com/hub/artificial-intelligence",
+      "title": "The Information",
+      "url": "https://www.theinformation.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -238,6 +205,22 @@
       ]
     },
     {
+      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
+      "url": "https://www.artificialintelligence-news.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "Artificial intelligence | AP News",
+      "url": "https://apnews.com/hub/artificial-intelligence",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Alphabet Inc | Reuters",
       "url": "https://www.reuters.com/company/alphabet-inc/",
       "score": -999,
@@ -246,8 +229,8 @@
       ]
     },
     {
-      "title": "AI - Bloomberg",
-      "url": "https://www.bloomberg.com/ai",
+      "title": "Reuters China News | Today's Breaking Stories | Reuters",
+      "url": "https://www.reuters.com/world/china/us-china-hold-ai-talks-september-sources-say-2026-07-21/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -278,8 +261,8 @@
       ]
     },
     {
-      "title": "Incredible moment boy, 12, risks dangerous climb to rescue puppy stranded on apartment ledge | Daily Mail Online",
-      "url": "https://www.dailymail.com/news/article-15989611/boy-puppy-rescue-apartment-central-coast-spiderman.html",
+      "title": "Tiggywinkles - World Leading Wildlife Hospital - World leading wildlife hospital",
+      "url": "https://sttiggywinkles.org.uk/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -294,6 +277,30 @@
       ]
     },
     {
+      "title": "Incredible moment boy, 12, risks dangerous climb to rescue puppy stranded on apartment ledge | Daily Mail Online",
+      "url": "https://www.dailymail.com/news/article-15989611/boy-puppy-rescue-apartment-central-coast-spiderman.html",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Tiger King - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tiger_King",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Raccoon Jimothy goes viral: Meet the oddly shaped viral Seattle raccoon with a spine deformity who has captured millions of hearts and become the internet's newest wildlife sensation - The Economic Times",
+      "url": "https://economictimes.indiatimes.com/news/new-updates/raccoon-jimothy-goes-viral-meet-the-oddly-shaped-viral-seattle-raccoon-with-a-spine-deformity-who-has-captured-millions-of-hearts-and-become-the-internets-newest-wildlife-sensation/articleshow/132556367.cms?from=mdr",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "Homepage \u2022 Wildlife Conservation Network",
       "url": "https://wildnet.org/",
       "score": -999,
@@ -302,27 +309,19 @@
       ]
     },
     {
+      "title": "Texas wildlife rescue says flood is worse than last year: 'We've lost all of our enclosures'",
+      "url": "https://www.thecooldown.com/outdoors/texas-wildlife-rescue-flood-disaster/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
       "title": "SpaceNews: The space industry's source",
       "url": "https://spacenews.com/",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Space | CNN",
-      "url": "https://www.cnn.com/science/space",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Space & Time News -- ScienceDaily",
-      "url": "https://www.sciencedaily.com/news/space_time/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
       ]
     }
   ]
