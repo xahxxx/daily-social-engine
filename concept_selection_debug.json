@@ -1,47 +1,13 @@
 {
   "selected": [
     {
-      "score": 39,
-      "category": "space",
-      "source_title": "Space News - Latest Space and Astronomy News | Space",
-      "source_url": "https://www.space.com/news",
-      "source_domain": "space.com",
-      "source_summary": "SpaceX launched Northrop Grumman&#x27;s ... ... Using the James Webb Space Telescope, astronomers have discovered the secrets of early galaxies that pumped the infant cosmos full of dust, but by studying a much closer and modern galaxy....",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: discovered",
-        "visual/event hook: launched",
-        "fresh result age present",
-        "allowed category: space"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 39,
-      "category": "world_weird",
-      "source_title": "15 Unsolved Mysteries Without Any Plausible Explanations | eBaum's World",
-      "source_url": "https://www.ebaumsworld.com/pictures/15-unsolved-mysteries-without-any-plausible-explanations/87760929/",
-      "source_domain": "ebaumsworld.com",
-      "source_summary": "8 survivors were rescued. Whilst this discovery is disturbing, the mystery for me is that the original taxi driver, still hasn\u2019t been found.\u201d \u00b7 \u201cBasically a dead man who was found in Australia in the 1940s, in his trousers there was a scrap of paper reading \u2018Tamam Shud\u2019 meaning ...",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: rescued",
-        "visual/event hook: mystery",
-        "fresh result age present",
-        "allowed category: world_weird"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
       "score": 36,
       "category": "ai",
       "source_title": "OpenAI and Anthropic limit latest ChatGPT products to Trump-approved customers amid review | AP News",
       "source_url": "https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa",
       "source_domain": "apnews.com",
       "source_summary": "Add AP News on Google Add AP News as your preferred source to see more of our stories on Google. Share ... ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump\u2019s administration, the latest in an unprecedented government vetting of AI products for cybersecurity risks. Its chief rival, Anthropic, announced hours later that the Trump administration has approved a limited release of its strongest cybersecurity model, two weeks after the U.S.",
-      "source_age": "18 hours ago",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "fresh result age present",
@@ -53,11 +19,27 @@
     {
       "score": 35,
       "category": "science_technology",
-      "source_title": "Astronomers Confirm First Pair of Sibling Supernovae Hidden in Jellyfish Nebula",
-      "source_url": "https://www.techtimes.com/articles/321246/20260722/astronomers-confirm-first-pair-sibling-supernovae-hidden-jellyfish-nebula.htm",
-      "source_domain": "techtimes.com",
-      "source_summary": "A Stanford-led team announced July 21 in Nature Communications what researchers are calling the first confirmed evidence of a binary star system in which both companions exploded as supernovae, with their overlapping remnants hiding in plain ...",
-      "source_age": "12 hours ago",
+      "source_title": "Top Science News -- ScienceDaily",
+      "source_url": "https://www.sciencedaily.com/news/top/science/",
+      "source_domain": "sciencedaily.com",
+      "source_summary": "July 22, 2026 \u0097 Researchers discovered a proton-assisted mechanism that greatly improves how triplet energy moves between quantum dots and nearby molecules.",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: discovered",
+        "fresh result age present",
+        "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "science_technology",
+      "source_title": "Secretary of Energy Chris Wright Announces First Genesis Mission Projects Selected to Accelerate AI-Driven Scientific Discovery | Department of Energy",
+      "source_url": "https://www.energy.gov/articles/secretary-energy-chris-wright-announces-first-genesis-mission-projects-selected-accelerate",
+      "source_domain": "energy.gov",
+      "source_summary": "Nearly 300 projects selected from ... breakthroughs in energy, discovery science, and national security. ... WASHINGTON\u2014The U.S. Department of Energy (DOE) today announced the first projects selected under the Genesis Mission Request for Applications (RFA) as part of President Trump\u2019s historic Genesis Mission. The national portfolio of research teams will ...",
+      "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: first",
@@ -69,16 +51,32 @@
     {
       "score": 35,
       "category": "science_technology",
-      "source_title": "Health & Medicine News -- ScienceDaily",
-      "source_url": "https://www.sciencedaily.com/news/health_medicine/",
-      "source_domain": "sciencedaily.com",
-      "source_summary": "July 20, 2026 \u0097 Scientists have discovered a hidden warning sign of skin damage that appears before collagen fibers visibly thin, break, or lose their connections. Using advanced light-based techniques, the team found that collagen\u2019s carefully organized molecular ... Alzheimer\u2019s Breakthrough: Scientists Restore Two Hours of Sleep Without Clearing Brain Plaques \u00b7 July 20, 2026 \u0097 Researchers have uncovered a surprising culprit behind sleep loss in Alzheimer\u2019s disease: the brain\u2019s own immune cells.",
+      "source_title": "UNB team's discovery could make cancer drug production more efficient | Telegraph-Journal",
+      "source_url": "https://tj.news/fredericton-west/unb-teams-discovery-could-make-cancer-drug-production-more-efficient",
+      "source_domain": "tj.news",
+      "source_summary": "A researcher at the University of New Brunswick says his team has discovered a new plant protein that can be used to synthesize a precursor for a widely used cancer drug much more efficiently, potentially also making the drug less expensive.",
       "source_age": "1 day ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
         "fresh result age present",
         "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 35,
+      "category": "ai",
+      "source_title": "New Open Weight AI Models from China Renew Calls for Regulation - HPCwire",
+      "source_url": "https://www.hpcwire.com/2026/07/21/new-open-weight-ai-models-from-china-renew-calls-for-regulation/",
+      "source_domain": "hpcwire.com",
+      "source_summary": "Kimi K3, which Moonshot AI released on July 16, features 2.8 trillion parameters, native visual understanding, and a 1M-token context window. The company says it is the world\u2019s first open-source model in the 3-trillion-parameter class, and ...",
+      "source_age": "1 day ago",
+      "why_selected": [
+        "passes event gate",
+        "visual/event hook: first",
+        "fresh result age present",
+        "allowed category: ai"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -109,6 +107,14 @@
       ]
     },
     {
+      "title": "Reuters Reuters | Breaking International News & Views",
+      "url": "https://www.reuters.com/",
+      "score": -999,
+      "reasons": [
+        "publisher treated as story subject"
+      ]
+    },
+    {
       "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
       "url": "https://www.reuters.com/world/us/",
       "score": -999,
@@ -125,19 +131,11 @@
       ]
     },
     {
-      "title": "Reuters Sustainable Business News | Latest Eco Headlines | Reuters",
-      "url": "https://www.reuters.com/sustainability/",
+      "title": "Reuters | Reuters",
+      "url": "https://www.reuters.com/authors/reuters/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Reuters Reuters | Breaking International News & Views",
-      "url": "https://www.reuters.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
       ]
     },
     {
@@ -157,24 +155,24 @@
       ]
     },
     {
-      "title": "Powering America's Genesis Mission: Microsoft's commitment to scientific discovery - The Official Microsoft Blog",
-      "url": "https://blogs.microsoft.com/blog/2026/07/22/powering-americas-genesis-mission-microsofts-commitment-to-scientific-discovery/",
+      "title": "Latest science news, discoveries and analysis",
+      "url": "https://www.nature.com/news",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "New Scientist | Science news, articles, and features",
-      "url": "https://www.newscientist.com/",
+      "title": "Breaking News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/breaking/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Phys.org - News and Articles on Science and Technology",
-      "url": "https://phys.org/",
+      "title": "Live Science | Latest science news and articles for those with curious minds",
+      "url": "https://www.livescience.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -189,11 +187,27 @@
       ]
     },
     {
+      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
+      "url": "https://www.artificialintelligence-news.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
       "title": "The Information",
       "url": "https://www.theinformation.com/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Semafor Technology",
+      "url": "https://www.semafor.com/vertical/tech",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -205,11 +219,19 @@
       ]
     },
     {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
+      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
+      "url": "https://llm-stats.com/ai-news",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "OpenAI's rogue AI models stir debate on safety guardrails for the technology | AP News",
+      "url": "https://apnews.com/article/openai-hugging-face-hacking-ai-model-708cb598bc1e33cef560e7196adb2afa",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
       ]
     },
     {
@@ -221,16 +243,16 @@
       ]
     },
     {
-      "title": "Alphabet Inc | Reuters",
-      "url": "https://www.reuters.com/company/alphabet-inc/",
+      "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
+      "url": "https://apnews.com/",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "publisher treated as story subject"
       ]
     },
     {
-      "title": "Reuters China News | Today's Breaking Stories | Reuters",
-      "url": "https://www.reuters.com/world/china/us-china-hold-ai-talks-september-sources-say-2026-07-21/",
+      "title": "Google's Q2 earnings beat Wall Street's expectations on AI boom | AP News",
+      "url": "https://apnews.com/article/google-results-revenue-profit-ai-alphabet-f914606d842d4c6848019083d667fc3a",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -245,11 +267,11 @@
       ]
     },
     {
-      "title": "12 Heartwarming Animal Tales from Around the World That Renew Faith in Wildlife - Animals Around The Globe",
-      "url": "https://www.animalsaroundtheglobe.com/12-heartwarming-animal-tales-from-around-the-world-that-renew-faith-in-wildlife-1-389487/",
+      "title": "Animals | AP News",
+      "url": "https://apnews.com/hub/animals",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
@@ -261,24 +283,16 @@
       ]
     },
     {
-      "title": "Tiggywinkles - World Leading Wildlife Hospital - World leading wildlife hospital",
-      "url": "https://sttiggywinkles.org.uk/",
+      "title": "Pets - BBC News",
+      "url": "https://www.bbc.com/news/topics/c51grdzv08yt",
       "score": -999,
       "reasons": [
-        "no concrete event verb/action"
+        "title too thin"
       ]
     },
     {
-      "title": "In Venezuela\u2019s Rubble, a Search for the Family Pets - The New York Times",
-      "url": "https://www.nytimes.com/2026/07/20/world/americas/venezuela-earthquakes-volunteer-pets.html",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Incredible moment boy, 12, risks dangerous climb to rescue puppy stranded on apartment ledge | Daily Mail Online",
-      "url": "https://www.dailymail.com/news/article-15989611/boy-puppy-rescue-apartment-central-coast-spiderman.html",
+      "title": "Unique and Trending Stories and Headlines | Toronto Sun",
+      "url": "https://torontosun.com/category/news/weird/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -293,35 +307,19 @@
       ]
     },
     {
-      "title": "Raccoon Jimothy goes viral: Meet the oddly shaped viral Seattle raccoon with a spine deformity who has captured millions of hearts and become the internet's newest wildlife sensation - The Economic Times",
-      "url": "https://economictimes.indiatimes.com/news/new-updates/raccoon-jimothy-goes-viral-meet-the-oddly-shaped-viral-seattle-raccoon-with-a-spine-deformity-who-has-captured-millions-of-hearts-and-become-the-internets-newest-wildlife-sensation/articleshow/132556367.cms?from=mdr",
+      "title": "Poaching - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Poaching",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
       ]
     },
     {
-      "title": "Homepage \u2022 Wildlife Conservation Network",
-      "url": "https://wildnet.org/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "Texas wildlife rescue says flood is worse than last year: 'We've lost all of our enclosures'",
-      "url": "https://www.thecooldown.com/outdoors/texas-wildlife-rescue-flood-disaster/",
+      "title": "Giant bear perched atop utility pole dies before rescuers can reach it - The Daily Bo Snerdley",
+      "url": "https://thedailybs.com/2026/07/23/giant-bear-perched-atop-utility-pole-dies-before-rescuers-can-reach-it/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "SpaceNews: The space industry's source",
-      "url": "https://spacenews.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
       ]
     }
   ]
