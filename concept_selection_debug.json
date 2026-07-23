@@ -2,12 +2,28 @@
   "selected": [
     {
       "score": 36,
+      "category": "science_technology",
+      "source_title": "US accuses China's Moonshot of stealing from Anthropic's Fable for latest AI model | Reuters",
+      "source_url": "https://www.reuters.com/world/us/trump-reports-more-than-14-billion-income-crypto-ventures-2026-06-30/",
+      "source_domain": "reuters.com",
+      "source_summary": "China&#x27;s Moonshot AI stole from Anthropic&#x27;s most sophisticated AI large language model, Fable, to help create its latest \u200bK3 release and has acquired advanced Nvidia AI chips, top Trump administration tech official Michael Kratsios said on ...",
+      "source_age": "4 hours ago",
+      "why_selected": [
+        "passes event gate",
+        "fresh result age present",
+        "reputable source boost",
+        "allowed category: science_technology"
+      ],
+      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
+    },
+    {
+      "score": 36,
       "category": "ai",
       "source_title": "OpenAI and Anthropic limit latest ChatGPT products to Trump-approved customers amid review | AP News",
       "source_url": "https://apnews.com/article/trump-ai-openai-gpt56-sol-cybersecurity-mythos-065d5398baac7f16c8265c2cb8ba2baa",
       "source_domain": "apnews.com",
       "source_summary": "Add AP News on Google Add AP News as your preferred source to see more of our stories on Google. Share ... ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump\u2019s administration, the latest in an unprecedented government vetting of AI products for cybersecurity risks. Its chief rival, Anthropic, announced hours later that the Trump administration has approved a limited release of its strongest cybersecurity model, two weeks after the U.S.",
-      "source_age": "1 day ago",
+      "source_age": "2 days ago",
       "why_selected": [
         "passes event gate",
         "fresh result age present",
@@ -50,33 +66,17 @@
     },
     {
       "score": 35,
-      "category": "science_technology",
-      "source_title": "UNB team's discovery could make cancer drug production more efficient | Telegraph-Journal",
-      "source_url": "https://tj.news/fredericton-west/unb-teams-discovery-could-make-cancer-drug-production-more-efficient",
-      "source_domain": "tj.news",
-      "source_summary": "A researcher at the University of New Brunswick says his team has discovered a new plant protein that can be used to synthesize a precursor for a widely used cancer drug much more efficiently, potentially also making the drug less expensive.",
-      "source_age": "1 day ago",
+      "category": "space",
+      "source_title": "Space.com: NASA, Space Exploration and Astronomy News",
+      "source_url": "https://www.space.com/",
+      "source_domain": "space.com",
+      "source_summary": "... Reference See what moon phase it is tonight and find out when you can see the rest of the moon phases for 2026. Reference ... Astronomers discovered that a near-Earth asteroid is actually a comet that could help scientists identify more hidden comets and improve planetary defense.",
+      "source_age": "13 hours ago",
       "why_selected": [
         "passes event gate",
         "visual/event hook: discovered",
         "fresh result age present",
-        "allowed category: science_technology"
-      ],
-      "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
-    },
-    {
-      "score": 35,
-      "category": "ai",
-      "source_title": "New Open Weight AI Models from China Renew Calls for Regulation - HPCwire",
-      "source_url": "https://www.hpcwire.com/2026/07/21/new-open-weight-ai-models-from-china-renew-calls-for-regulation/",
-      "source_domain": "hpcwire.com",
-      "source_summary": "Kimi K3, which Moonshot AI released on July 16, features 2.8 trillion parameters, native visual understanding, and a 1M-token context window. The company says it is the world\u2019s first open-source model in the 3-trillion-parameter class, and ...",
-      "source_age": "1 day ago",
-      "why_selected": [
-        "passes event gate",
-        "visual/event hook: first",
-        "fresh result age present",
-        "allowed category: ai"
+        "allowed category: space"
       ],
       "news_event_gate": "PASSED: specific recent event/action detected; not promotional evergreen content"
     }
@@ -99,14 +99,6 @@
       ]
     },
     {
-      "title": "Reuters Business News | Today's International Headlines | Reuters",
-      "url": "https://www.reuters.com/business/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Reuters Reuters | Breaking International News & Views",
       "url": "https://www.reuters.com/",
       "score": -999,
@@ -115,11 +107,19 @@
       ]
     },
     {
-      "title": "Reuters Latest U.S. News | Top headlines from the USA | Reuters",
-      "url": "https://www.reuters.com/world/us/",
+      "title": "Reuters Business News | Today's International Headlines | Reuters",
+      "url": "https://www.reuters.com/business/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Reuters World News | Latest Top Stories | Reuters",
+      "url": "https://www.reuters.com/world/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
       ]
     },
     {
@@ -139,14 +139,6 @@
       ]
     },
     {
-      "title": "India's youth protests persist after clashes",
-      "url": "https://www.reuters.com/video/world-news/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "ScienceDaily: Your source for the latest research news",
       "url": "https://www.sciencedaily.com/",
       "score": -999,
@@ -155,8 +147,8 @@
       ]
     },
     {
-      "title": "Latest science news, discoveries and analysis",
-      "url": "https://www.nature.com/news",
+      "title": "Top News -- ScienceDaily",
+      "url": "https://www.sciencedaily.com/news/top/",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -165,6 +157,14 @@
     {
       "title": "Breaking News -- ScienceDaily",
       "url": "https://www.sciencedaily.com/breaking/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Latest science news, discoveries and analysis",
+      "url": "https://www.nature.com/news",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -187,14 +187,6 @@
       ]
     },
     {
-      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
-      "url": "https://www.artificialintelligence-news.com/",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
       "title": "The Information",
       "url": "https://www.theinformation.com/",
       "score": -999,
@@ -203,8 +195,24 @@
       ]
     },
     {
-      "title": "Semafor Technology",
-      "url": "https://www.semafor.com/vertical/tech",
+      "title": "Newsroom \\ Anthropic",
+      "url": "https://www.anthropic.com/news",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
+      "url": "https://www.artificialintelligence-news.com/",
+      "score": -999,
+      "reasons": [
+        "promotional/evergreen/service page"
+      ]
+    },
+    {
+      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
+      "url": "https://llm-stats.com/ai-news",
       "score": -999,
       "reasons": [
         "promotional/evergreen/service page"
@@ -219,40 +227,8 @@
       ]
     },
     {
-      "title": "LLM News Today (July 2026) \u2013 AI Model Releases",
-      "url": "https://llm-stats.com/ai-news",
-      "score": -999,
-      "reasons": [
-        "promotional/evergreen/service page"
-      ]
-    },
-    {
-      "title": "OpenAI's rogue AI models stir debate on safety guardrails for the technology | AP News",
-      "url": "https://apnews.com/article/openai-hugging-face-hacking-ai-model-708cb598bc1e33cef560e7196adb2afa",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Artificial intelligence | AP News",
       "url": "https://apnews.com/hub/artificial-intelligence",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Associated Press News: Breaking News, Latest Headlines and Videos | AP News",
-      "url": "https://apnews.com/",
-      "score": -999,
-      "reasons": [
-        "publisher treated as story subject"
-      ]
-    },
-    {
-      "title": "Google's Q2 earnings beat Wall Street's expectations on AI boom | AP News",
-      "url": "https://apnews.com/article/google-results-revenue-profit-ai-alphabet-f914606d842d4c6848019083d667fc3a",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -275,8 +251,32 @@
       ]
     },
     {
-      "title": "Animals | The Guardian",
-      "url": "https://www.theguardian.com/world/animals",
+      "title": "How Animal Sanctuaries Help Protect Endangered Species - Lions Tigers and Bears",
+      "url": "https://lionstigersandbears.org/animal-sanctuaries-protect-endangered-species/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Internet Stunned as Bizarre Video Shows Bear Perched Atop Utility Pole in New Mexico: \u2018How Did the Bear Manage to Get Up There?\u2019 | The Nerd Stash",
+      "url": "https://thenerdstash.com/internet-stunned-as-bizarre-video-shows-bear-perched-atop-utility-pole-in-new-mexico-how-did-the-bear-manage-to-get-up-there/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Wildlife - BBC News",
+      "url": "https://www.bbc.com/news/topics/ce2gz91g2jmt",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Moment terrified bear clings to top of 35ft telephone pole before suffering gruesome fate | Daily Mail Online",
+      "url": "https://www.dailymail.com/sciencetech/article-15999623/bear-electrocuted-telephone-pole-new-mexico.html",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
@@ -291,32 +291,32 @@
       ]
     },
     {
-      "title": "Unique and Trending Stories and Headlines | Toronto Sun",
-      "url": "https://torontosun.com/category/news/weird/",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Tiger King - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Tiger_King",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
-      "title": "Poaching - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Poaching",
-      "score": -999,
-      "reasons": [
-        "no concrete event verb/action"
-      ]
-    },
-    {
       "title": "Giant bear perched atop utility pole dies before rescuers can reach it - The Daily Bo Snerdley",
       "url": "https://thedailybs.com/2026/07/23/giant-bear-perched-atop-utility-pole-dies-before-rescuers-can-reach-it/",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "New Mexico bear climbs utility pole, dies in viral video incident | Fox News",
+      "url": "https://www.foxnews.com/us/bear-caught-camera-perched-atop-new-mexico-utility-pole-before-reportedly-suffering-fatal-electrocution",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Man Barely Escapes With His Life After Leopard Walks Into A Liquor Store",
+      "url": "https://www.yahoo.com/news/world/articles/man-barely-escapes-life-leopard-234000223.html",
+      "score": -999,
+      "reasons": [
+        "no concrete event verb/action"
+      ]
+    },
+    {
+      "title": "Bear climbs power pole, dies from electrocution | Watch",
+      "url": "https://www.ynetnews.com/environment/article/b1tnvs1sml",
       "score": -999,
       "reasons": [
         "no concrete event verb/action"
